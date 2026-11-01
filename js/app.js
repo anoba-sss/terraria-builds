@@ -479,7 +479,8 @@
       el('div', { class: 'alt-row' }, alts.flatMap((a, ai) => [
         ai > 0 ? el('span', { class: 'alt-sep', text: 'или' }) : null,
         itemButton(a.name, cleanNote(a.note), EDIT ? () => removeAlt(stage, cat, ei, ai) : null, a)
-      ]))
+      ])),
+      EDIT ? altAdder(stage, cat, ei) : null
     ]));
     if (!entries.length) cards.push(el('p', { class: 'empty', text: T('empty', TEXT_DEFAULTS.empty) }));
     if (EDIT) cards.push(addEntryForm(stage, cat));
@@ -570,6 +571,36 @@
     if (!alts.length) stage.cats[cat].splice(ei, 1);
     markDirty();
     renderAll();
+  }
+  // кнопка «+ или»: добавляет альтернативу к уже существующей строке билда
+  function altAdder(stage, cat, ei) {
+    const box = el('div', { class: 'alt-adder' });
+    const close = () => box.replaceChildren(el('button', { class: 'ed-btn', type: 'button', text: '+ или', onclick: open }));
+    function open() {
+      const name = el('input', { class: 'ed-input', type: 'text', list: 'item-names', placeholder: 'Название предмета (вариант «или»)' });
+      const note = el('input', { class: 'ed-input', type: 'text', placeholder: 'Примечание (необязательно)' });
+      const save = () => {
+        const n = name.value.trim();
+        if (!n) { toast('Введи название предмета'); return; }
+        addAlt(stage, cat, ei, n, note.value.trim() || null);
+      };
+      name.addEventListener('keydown', (e) => { if (e.key === 'Enter') save(); });
+      box.replaceChildren(el('div', { class: 'alt-form' }, [
+        name, note,
+        el('button', { class: 'ed-btn primary', type: 'button', text: 'Добавить «или»', onclick: save }),
+        el('button', { class: 'ed-btn', type: 'button', text: 'Отмена', onclick: close })
+      ]));
+      name.focus();
+    }
+    close();
+    return box;
+  }
+  function addAlt(stage, cat, ei, name, note) {
+    ensureItem(name);
+    stage.cats[cat][ei].push({ name, note });
+    markDirty();
+    renderAll();
+    toast(`«${name}» добавлен как вариант «или»`);
   }
   function addEntry(stage, cat, name, note) {
     ensureItem(name);

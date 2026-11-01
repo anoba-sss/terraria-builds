@@ -409,3 +409,7 @@ body.designer-open { padding-right: 400px; }
   body.designer-open { padding-right: 0; padding-bottom: 62vh; }
   .designer-open .toast { right: 16px; bottom: calc(62vh + 12px); }
 }
+
+.alt-adder { margin-top: 8px; }
+.alt-form { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.alt-form .ed-input { flex: 1 1 180px; min-width: 0; }
