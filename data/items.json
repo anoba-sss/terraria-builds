@@ -4,22 +4,6 @@
   "wiki": "https://terraria.wiki.gg/wiki/Adamantite_armor",
   "pieces": [
    {
-    "ru": "Адамантитовый головной убор",
-    "en": "Adamantite Headgear",
-    "recipes": [
-     {
-      "station": "",
-      "ingredients": [
-       {
-        "en": "Adamantite Bar",
-        "count": 12,
-        "ru": "Адамантитовый слиток"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "ru": "Адамантитовый шлем",
     "en": "Adamantite Helmet",
     "recipes": [
@@ -31,23 +15,8 @@
         "count": 12,
         "ru": "Адамантитовый слиток"
        }
-      ]
-     }
-    ]
-   },
-   {
-    "ru": "Адамантитовая маска",
-    "en": "Adamantite Mask",
-    "recipes": [
-     {
-      "station": "",
-      "ingredients": [
-       {
-        "en": "Adamantite Bar",
-        "count": 12,
-        "ru": "Адамантитовый слиток"
-       }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -80,7 +49,8 @@
         "count": 18,
         "ru": "Адамантитовый слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    }
@@ -411,7 +381,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Beetle_armor",
   "pieces": [
    {
-    "ru": "Шлем жука",
+    "ru": "Жучий шлем",
     "en": "Beetle Helmet",
     "recipes": [
      {
@@ -420,7 +390,7 @@
        {
         "en": "Beetle Husk",
         "count": 4,
-        "ru": "Панцирь жука"
+        "ru": "Жучий панцирь"
        },
        {
         "en": "Turtle Helmet",
@@ -433,28 +403,7 @@
     ]
    },
    {
-    "ru": "Чешуйчатая кольчуга жука",
-    "en": "Beetle Scale Mail",
-    "recipes": [
-     {
-      "station": "",
-      "ingredients": [
-       {
-        "en": "Beetle Husk",
-        "count": 8,
-        "ru": "Панцирь жука"
-       },
-       {
-        "en": "Turtle Scale Mail",
-        "count": 1,
-        "ru": "Черепашья кольчуга"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "ru": "Панцирь жука",
+    "ru": "Жучий нагрудник",
     "en": "Beetle Shell",
     "recipes": [
      {
@@ -463,7 +412,7 @@
        {
         "en": "Beetle Husk",
         "count": 8,
-        "ru": "Панцирь жука"
+        "ru": "черепашьи латы"
        },
        {
         "en": "Turtle Scale Mail",
@@ -475,7 +424,7 @@
     ]
    },
    {
-    "ru": "Поножи жука",
+    "ru": "Жучьи ботинки",
     "en": "Beetle Leggings",
     "recipes": [
      {
@@ -484,12 +433,12 @@
        {
         "en": "Beetle Husk",
         "count": 6,
-        "ru": "Панцирь жука"
+        "ru": "Жучий панцирь"
        },
        {
         "en": "Turtle Leggings",
         "count": 1,
-        "ru": "Черепашьи поножи"
+        "ru": "Черепашьи ботинки"
        }
       ]
      }
@@ -1852,7 +1801,8 @@
         "count": 20,
         "ru": "Золотой слиток"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    },
@@ -1885,7 +1835,8 @@
         "count": 25,
         "ru": "Золотой слиток"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    }
@@ -2556,7 +2507,8 @@
         "count": 10,
         "ru": "Слиток адского камня"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    },
@@ -2589,7 +2541,8 @@
         "count": 15,
         "ru": "Слиток адского камня"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    }
@@ -4953,83 +4906,37 @@
     "en": "Hallowed Mask",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Hallowed Bar",
         "count": 12,
-        "ru": "Освящённый слиток"
+        "ru": "Святой слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
    {
-    "ru": "Святой шлем",
-    "en": "Hallowed Helmet",
-    "recipes": [
-     {
-      "station": "",
-      "ingredients": [
-       {
-        "en": "Hallowed Bar",
-        "count": 12,
-        "ru": "Освящённый слиток"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "ru": "Святой головной убор",
-    "en": "Hallowed Headgear",
-    "recipes": [
-     {
-      "station": "",
-      "ingredients": [
-       {
-        "en": "Hallowed Bar",
-        "count": 12,
-        "ru": "Освящённый слиток"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "ru": "Святой капюшон",
-    "en": "Hallowed Hood",
-    "recipes": [
-     {
-      "station": "",
-      "ingredients": [
-       {
-        "en": "Hallowed Bar",
-        "count": 12,
-        "ru": "Освящённый слиток"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "ru": "Святая кольчуга",
+    "ru": "Святой нагрудник",
     "en": "Hallowed Plate Mail",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Hallowed Bar",
         "count": 24,
-        "ru": "Освящённый слиток"
+        "ru": "Святой слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
    {
-    "ru": "Святые поножи",
+    "ru": "Святые ботинки",
     "en": "Hallowed Greaves",
     "recipes": [
      {
@@ -5038,7 +4945,7 @@
        {
         "en": "Hallowed Bar",
         "count": 18,
-        "ru": "Освящённый слиток"
+        "ru": "Святой слиток"
        }
       ],
       "stationRu": "Мифриловая или орихалковая наковальня"
@@ -5598,46 +5505,15 @@
     "en": "Titanium Mask",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil",
       "ingredients": [
        {
         "en": "Titanium Bar",
         "count": 13,
         "ru": "Титановый слиток"
        }
-      ]
-     }
-    ]
-   },
-   {
-    "ru": "Титановый шлем",
-    "en": "Titanium Helmet",
-    "recipes": [
-     {
-      "station": "",
-      "ingredients": [
-       {
-        "en": "Titanium Bar",
-        "count": 13,
-        "ru": "Титановый слиток"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "ru": "Титановый головной убор",
-    "en": "Titanium Headgear",
-    "recipes": [
-     {
-      "station": "",
-      "ingredients": [
-       {
-        "en": "Titanium Bar",
-        "count": 13,
-        "ru": "Титановый слиток"
-       }
-      ]
+      ],
+      "stationRu": "Орихалковая наковальня"
      }
     ]
    },
@@ -5674,14 +5550,15 @@
     "en": "Titanium Leggings",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil",
       "ingredients": [
        {
         "en": "Titanium Bar",
         "count": 20,
         "ru": "Титановый слиток"
        }
-      ]
+      ],
+      "stationRu": "Орихалковая наковальня"
      }
     ]
    }
@@ -6166,17 +6043,68 @@
    {
     "ru": "Черепаший шлем",
     "en": "Turtle Helmet",
-    "recipes": []
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Хлорофитовый слиток",
+        "en": "Chlorophyte Bar",
+        "count": 12
+       },
+       {
+        "ru": "черепаший панцирь",
+        "en": "Turtle Shell",
+        "count": 1
+       }
+      ]
+     }
+    ]
    },
    {
-    "ru": "Черепашья кольчуга",
+    "ru": "Черепашьи латы",
     "en": "Turtle Scale Mail",
-    "recipes": []
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Хлорофитовый слиток",
+        "en": "Chlorophyte Bar",
+        "count": 24
+       },
+       {
+        "ru": "черепаший панцирь",
+        "en": "Turtle Shell",
+        "count": 1
+       }
+      ]
+     }
+    ]
    },
    {
-    "ru": "Черепашьи поножи",
+    "ru": "Черепашьи ботинки",
     "en": "Turtle Leggings",
-    "recipes": []
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Хлорофитовый слиток",
+        "en": "Chlorophyte Bar",
+        "count": 18
+       },
+       {
+        "ru": "черепаший панцирь",
+        "en": "Turtle Shell",
+        "count": 1
+       }
+      ]
+     }
+    ]
    }
   ],
   "recipes": [],
