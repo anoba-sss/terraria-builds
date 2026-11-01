@@ -631,11 +631,11 @@
     const c = CLASSES[currentClass()];
     const sec = (title, children) => el('section', { class: 'modal-section' }, [el('h3', { text: title }), ...children]);
     const renderRecipe = (r) => el('div', { class: 'recipe' }, [
-      el('div', { class: 'recipe-station', text: `Станция: ${r.station || 'нет'}` }),
+      el('div', { class: 'recipe-station', text: `Станция: ${r.stationRu || r.station || 'нет'}` }),
       el('div', { class: 'ingredients' }, r.ingredients.map(i => el('a', {
         class: 'ingredient', href: wikiUrl(i.en), target: '_blank', rel: 'noopener noreferrer',
-        title: 'Открыть страницу предмета на вики'
-      }, [i.en, el('b', { text: `×${i.count}` })])))
+        title: `${i.en}: открыть страницу на вики`
+      }, [i.ru || i.en, el('b', { text: `×${i.count}` })])))
     ]);
 
     const body = [];
@@ -651,7 +651,7 @@
       body.push(sec('Рецепт', d.recipes.map(renderRecipe))); hasRecipe = true;
     }
     if (d.drops.length) {
-      body.push(sec('Дроп', [el('ul', { class: 'drop-list' }, d.drops.map(x => el('li', {}, [x.source, x.chance ? ` — ${x.chance}` : '']))) ]));
+      body.push(sec('Дроп', [el('ul', { class: 'drop-list' }, d.drops.map(x => el('li', { title: x.source }, [x.ru || x.source, x.chance ? ` — ${x.chance}` : '']))) ]));
     }
     if (d.obtain) body.push(sec('Получение', [el('p', { text: d.obtain })]));
     if (!hasRecipe && !d.drops.length && !d.obtain) {

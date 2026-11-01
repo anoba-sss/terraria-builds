@@ -12,7 +12,8 @@
       "ingredients": [
        {
         "en": "Adamantite Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Адамантитовый слиток"
        }
       ]
      }
@@ -27,7 +28,8 @@
       "ingredients": [
        {
         "en": "Adamantite Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Адамантитовый слиток"
        }
       ]
      }
@@ -42,7 +44,8 @@
       "ingredients": [
        {
         "en": "Adamantite Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Адамантитовый слиток"
        }
       ]
      }
@@ -57,9 +60,11 @@
       "ingredients": [
        {
         "en": "Adamantite Bar",
-        "count": 24
+        "count": 24,
+        "ru": "Адамантитовый слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -72,7 +77,8 @@
       "ingredients": [
        {
         "en": "Adamantite Bar",
-        "count": 18
+        "count": 18,
+        "ru": "Адамантитовый слиток"
        }
       ]
      }
@@ -94,7 +100,8 @@
   "drops": [
    {
     "source": "Diabolist",
-    "chance": "5% (Classic), 9.75% (Expert)"
+    "chance": "5% (классика), 9.75% (эксперт)",
+    "ru": "Дьяволист"
    }
   ],
   "obtain": "",
@@ -111,26 +118,32 @@
     "ingredients": [
      {
       "en": "Platinum Bar",
-      "count": 7
+      "count": 7,
+      "ru": "Платиновый слиток"
      },
      {
       "en": "Diamond",
-      "count": 8
+      "count": 8,
+      "ru": "Алмаз"
      }
-    ]
+    ],
+    "stationRu": "Железная наковальня"
    },
    {
     "station": "Lead Anvil",
     "ingredients": [
      {
       "en": "Platinum Bar",
-      "count": 7
+      "count": 7,
+      "ru": "Платиновый слиток"
      },
      {
       "en": "Diamond",
-      "count": 8
+      "count": 8,
+      "ru": "Алмаз"
      }
-    ]
+    ],
+    "stationRu": "Свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -148,21 +161,26 @@
     "ingredients": [
      {
       "en": "Красная древесина",
-      "count": 8
+      "count": 8,
+      "ru": "Красная древесина"
      },
      {
       "en": "Жало",
-      "count": 12
+      "count": 12,
+      "ru": "Жало"
      },
      {
       "en": "Лоза",
-      "count": 1
+      "count": 1,
+      "ru": "Лоза"
      },
      {
       "en": "Споры джунглей",
-      "count": 9
+      "count": 9,
+      "ru": "Споры джунглей"
      }
-    ]
+    ],
+    "stationRu": "Наковальня"
    }
   ],
   "drops": [],
@@ -180,13 +198,16 @@
     "ingredients": [
      {
       "en": "Obsidian Shield",
-      "count": 1
+      "count": 1,
+      "ru": "Обсидиановый щит"
      },
      {
       "en": "Ankh Charm",
-      "count": 1
+      "count": 1,
+      "ru": "Амулет анха"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -204,9 +225,11 @@
     "ingredients": [
      {
       "en": "Nebula Fragment",
-      "count": 18
+      "count": 18,
+      "ru": "Туманный фрагмент"
      }
-    ]
+    ],
+    "stationRu": "Манипулятор древних"
    }
   ],
   "drops": [],
@@ -222,7 +245,8 @@
   "drops": [
    {
     "source": "Clown (Blood Moon)",
-    "chance": "10%"
+    "chance": "10%",
+    "ru": "Клоун (Кровавая луна)"
    }
   ],
   "obtain": "",
@@ -239,13 +263,16 @@
     "ingredients": [
      {
       "en": "Hellstone Bar",
-      "count": 10
+      "count": 10,
+      "ru": "Слиток адского камня"
      },
      {
       "en": "Handgun",
-      "count": 1
+      "count": 1,
+      "ru": "Пистолет"
      }
-    ]
+    ],
+    "stationRu": "Железная / свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -261,15 +288,18 @@
   "drops": [
    {
     "source": "Skyware Chest (Floating Islands)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Небесный сундук (Парящие острова)"
    },
    {
     "source": "Sky Crate",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Небесный ящик"
    },
    {
     "source": "Azure Crate",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Лазурный ящик"
    }
   ],
   "obtain": "",
@@ -284,19 +314,23 @@
   "drops": [
    {
     "source": "Dark Mage (Old One's Army, tier 1)",
-    "chance": "50% (Classic) / 100% (Expert)"
+    "chance": "50% (классика) / 100% (эксперт)",
+    "ru": "Тёмный маг (Армия Древних, 1 ур.)"
    },
    {
     "source": "Ogre (Old One's Army, tier 2)",
-    "chance": "25% (Classic) / 50% (Expert)"
+    "chance": "25% (классика) / 50% (эксперт)",
+    "ru": "Огр (Армия Древних, 2 ур.)"
    },
    {
     "source": "Dark Mage (Old One's Army, tier 3)",
-    "chance": "12.5% (Classic) / 25% (Expert)"
+    "chance": "12.5% (классика) / 25% (эксперт)",
+    "ru": "Тёмный маг (Армия Древних, 3 ур.)"
    },
    {
     "source": "Ogre (Old One's Army, tier 3)",
-    "chance": "12.5% (Classic) / 25% (Expert)"
+    "chance": "12.5% (классика) / 25% (эксперт)",
+    "ru": "Огр (Армия Древних, 3 ур.)"
    }
   ],
   "obtain": "",
@@ -311,19 +345,23 @@
   "drops": [
    {
     "source": "Gold Chest (Underground)",
-    "chance": "16.67%"
+    "chance": "16.67%",
+    "ru": "Золотой сундук (подземные слои)"
    },
    {
     "source": "Gold Chest (Cavern)",
-    "chance": "13.33%"
+    "chance": "13.33%",
+    "ru": "Золотой сундук (пещеры)"
    },
    {
     "source": "Gold Chest (Lava layer)",
-    "chance": "12.67%"
+    "chance": "12.67%",
+    "ru": "Золотой сундук (слой лавы)"
    },
    {
     "source": "Mimic (pre-Hardmode)",
-    "chance": "16.67%"
+    "chance": "16.67%",
+    "ru": "Мимик (до хардмода)"
    }
   ],
   "obtain": "Находится в сундуках в мире; не крафтится.",
@@ -340,13 +378,16 @@
     "ingredients": [
      {
       "en": "Sailfish Boots",
-      "count": 1
+      "count": 1,
+      "ru": "Ботинки парусника"
      },
      {
       "en": "Frog Leg",
-      "count": 1
+      "count": 1,
+      "ru": "Лягушачьи лапки"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -378,13 +419,16 @@
       "ingredients": [
        {
         "en": "Beetle Husk",
-        "count": 4
+        "count": 4,
+        "ru": "Панцирь жука"
        },
        {
         "en": "Turtle Helmet",
-        "count": 1
+        "count": 1,
+        "ru": "Черепаший шлем"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -397,11 +441,13 @@
       "ingredients": [
        {
         "en": "Beetle Husk",
-        "count": 8
+        "count": 8,
+        "ru": "Панцирь жука"
        },
        {
         "en": "Turtle Scale Mail",
-        "count": 1
+        "count": 1,
+        "ru": "Черепашья кольчуга"
        }
       ]
      }
@@ -416,11 +462,13 @@
       "ingredients": [
        {
         "en": "Beetle Husk",
-        "count": 8
+        "count": 8,
+        "ru": "Панцирь жука"
        },
        {
         "en": "Turtle Scale Mail",
-        "count": 1
+        "count": 1,
+        "ru": "Черепашья кольчуга"
        }
       ]
      }
@@ -435,11 +483,13 @@
       "ingredients": [
        {
         "en": "Beetle Husk",
-        "count": 6
+        "count": 6,
+        "ru": "Панцирь жука"
        },
        {
         "en": "Turtle Leggings",
-        "count": 1
+        "count": 1,
+        "ru": "Черепашьи поножи"
        }
       ]
      }
@@ -467,9 +517,11 @@
       "ingredients": [
        {
         "en": "Jungle Spores",
-        "count": 8
+        "count": 8,
+        "ru": "Споры джунглей"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    },
@@ -482,11 +534,13 @@
       "ingredients": [
        {
         "en": "Jungle Spores",
-        "count": 16
+        "count": 16,
+        "ru": "Споры джунглей"
        },
        {
         "en": "Stinger",
-        "count": 10
+        "count": 10,
+        "ru": "Жало"
        }
       ]
      }
@@ -501,11 +555,13 @@
       "ingredients": [
        {
         "en": "Jungle Spores",
-        "count": 8
+        "count": 8,
+        "ru": "Споры джунглей"
        },
        {
         "en": "Vine",
-        "count": 2
+        "count": 2,
+        "ru": "Лоза"
        }
       ]
      }
@@ -533,11 +589,13 @@
       "ingredients": [
        {
         "en": "Bone",
-        "count": 40
+        "count": 40,
+        "ru": "Кость"
        },
        {
         "en": "Cobweb",
-        "count": 40
+        "count": 40,
+        "ru": "Паутина"
        }
       ]
      }
@@ -552,13 +610,16 @@
       "ingredients": [
        {
         "en": "Bone",
-        "count": 60
+        "count": 60,
+        "ru": "Кость"
        },
        {
         "en": "Cobweb",
-        "count": 50
+        "count": 50,
+        "ru": "Паутина"
        }
-      ]
+      ],
+      "stationRu": "Верстак"
      }
     ]
    },
@@ -571,11 +632,13 @@
       "ingredients": [
        {
         "en": "Bone",
-        "count": 50
+        "count": 50,
+        "ru": "Кость"
        },
        {
         "en": "Cobweb",
-        "count": 45
+        "count": 45,
+        "ru": "Паутина"
        }
       ]
      }
@@ -597,11 +660,13 @@
   "drops": [
    {
     "source": "Plantera (second form)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Плантера (вторая форма)"
    },
    {
     "source": "Treasure Bag (Plantera)",
-    "chance": "50% (Expert)"
+    "chance": "50% (эксперт)",
+    "ru": "Сумка с сокровищами (Плантера)"
    }
   ],
   "obtain": "",
@@ -614,7 +679,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Vampire_Knives",
   "recipes": [],
   "drops": [],
-  "obtain": "Лежит в Багровом сундуке (Crimson Chest) в Подземелье, открывается Багровым ключом после победы над Плантерой",
+  "obtain": "Лежит в багровом сундуке в Подземелье, открывается багровым ключом после победы над Плантерой",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -626,10 +691,11 @@
   "drops": [
    {
     "source": "Water Bolt Mimic",
-    "chance": "2.5% (1/40)"
+    "chance": "2.5% (1/40)",
+    "ru": "Мимик водяного болта"
    }
   ],
-  "obtain": "Лежит в книгах на полках Подземелья (Dungeon shelves)",
+  "obtain": "Лежит в книгах на полках Подземелья",
   "status": "ok",
   "issue": "",
   "hasDrop": true
@@ -641,7 +707,8 @@
   "drops": [
    {
     "source": "Water Bolt Mimic",
-    "chance": "2.5%"
+    "chance": "2.5%",
+    "ru": "Мимик водяного болта"
    }
   ],
   "obtain": "",
@@ -658,21 +725,26 @@
     "ingredients": [
      {
       "en": "Harp",
-      "count": 1
+      "count": 1,
+      "ru": "Арфа"
      },
      {
       "en": "Crystal Shard",
-      "count": 20
+      "count": 20,
+      "ru": "Кристальный осколок"
      },
      {
       "en": "Soul of Night",
-      "count": 8
+      "count": 8,
+      "ru": "Душа ночи"
      },
      {
       "en": "Soul of Sight",
-      "count": 15
+      "count": 15,
+      "ru": "Душа зрения"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая наковальня"
    }
   ],
   "drops": [],
@@ -686,7 +758,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Bewitching_Table",
   "recipes": [],
   "drops": [],
-  "obtain": "Продаётся у Witch Doctor за 10 золота в Хардмоде (при наличии Wizard); также встречается в Подземелье",
+  "obtain": "Продаётся у Шамана за 10 золота в хардмоде (при наличии Волшебника); также встречается в Подземелье",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -700,9 +772,11 @@
     "ingredients": [
      {
       "en": "Nebula Fragment",
-      "count": 18
+      "count": 18,
+      "ru": "Туманный фрагмент"
      }
-    ]
+    ],
+    "stationRu": "Манипулятор древних"
    }
   ],
   "drops": [],
@@ -720,9 +794,11 @@
     "ingredients": [
      {
       "en": "Hellstone Bar",
-      "count": 20
+      "count": 20,
+      "ru": "Слиток адского камня"
      }
-    ]
+    ],
+    "stationRu": "Железная наковальня"
    }
   ],
   "drops": [],
@@ -738,7 +814,8 @@
   "drops": [
    {
     "source": "Corrupt Mimic",
-    "chance": "20%"
+    "chance": "20%",
+    "ru": "Порченый мимик"
    }
   ],
   "obtain": "",
@@ -753,11 +830,13 @@
   "drops": [
    {
     "source": "Betsy",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Бетси"
    },
    {
     "source": "Treasure Bag (Betsy)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Сумка с сокровищами (Бетси)"
    }
   ],
   "obtain": "",
@@ -772,15 +851,18 @@
   "drops": [
    {
     "source": "Corruptor",
-    "chance": "33.33%"
+    "chance": "33.33%",
+    "ru": "Растлитель"
    },
    {
     "source": "Devourer",
-    "chance": "33.33%"
+    "chance": "33.33%",
+    "ru": "Пожиратель"
    },
    {
     "source": "Eater of Souls",
-    "chance": "33.33%"
+    "chance": "33.33%",
+    "ru": "Пожиратель душ"
    }
   ],
   "obtain": "",
@@ -797,42 +879,52 @@
     "ingredients": [
      {
       "en": "Light's Bane",
-      "count": 1
+      "count": 1,
+      "ru": "Погибель света"
      },
      {
       "en": "Muramasa",
-      "count": 1
+      "count": 1,
+      "ru": "Мурамаса"
      },
      {
       "en": "Blade of Grass",
-      "count": 1
+      "count": 1,
+      "ru": "Травяной клинок"
      },
      {
       "en": "Volcano",
-      "count": 1
+      "count": 1,
+      "ru": "Вулкан"
      }
-    ]
+    ],
+    "stationRu": "Демонический алтарь"
    },
    {
     "station": "Crimson Altar",
     "ingredients": [
      {
       "en": "Blood Butcherer",
-      "count": 1
+      "count": 1,
+      "ru": "Кровавый мясник"
      },
      {
       "en": "Muramasa",
-      "count": 1
+      "count": 1,
+      "ru": "Мурамаса"
      },
      {
       "en": "Blade of Grass",
-      "count": 1
+      "count": 1,
+      "ru": "Травяной клинок"
      },
      {
       "en": "Volcano",
-      "count": 1
+      "count": 1,
+      "ru": "Вулкан"
      }
-    ]
+    ],
+    "stationRu": "Багровый алтарь"
    }
   ],
   "drops": [],
@@ -854,7 +946,8 @@
       "ingredients": [
        {
         "en": "Shroomite Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Грибнитовый слиток"
        }
       ]
      }
@@ -869,7 +962,8 @@
       "ingredients": [
        {
         "en": "Shroomite Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Грибнитовый слиток"
        }
       ]
      }
@@ -884,9 +978,11 @@
       "ingredients": [
        {
         "en": "Shroomite Bar",
-        "count": 24
+        "count": 24,
+        "ru": "Грибнитовый слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -899,7 +995,8 @@
       "ingredients": [
        {
         "en": "Shroomite Bar",
-        "count": 18
+        "count": 18,
+        "ru": "Грибнитовый слиток"
        }
       ]
      }
@@ -923,34 +1020,42 @@
     "ingredients": [
      {
       "en": "Nature's Gift",
-      "count": 1
+      "count": 1,
+      "ru": "Дар природы"
      },
      {
       "en": "Mana Potion",
-      "count": 1
+      "count": 1,
+      "ru": "Зелье маны"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    },
    {
     "station": "Iron Anvil or Lead Anvil",
     "ingredients": [
      {
       "en": "Nature's Gift",
-      "count": 1
+      "count": 1,
+      "ru": "Дар природы"
      },
      {
       "en": "Moonglow",
-      "count": 2
+      "count": 2,
+      "ru": "Лунное свечение"
      },
      {
       "en": "Vine",
-      "count": 3
+      "count": 3,
+      "ru": "Лоза"
      },
      {
       "en": "Rich Mahogany",
-      "count": 7
+      "count": 7,
+      "ru": "Красная древесина"
      }
-    ]
+    ],
+    "stationRu": "Железная или свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -966,11 +1071,13 @@
   "drops": [
    {
     "source": "Demon",
-    "chance": "2.86%"
+    "chance": "2.86%",
+    "ru": "Демон"
    },
    {
     "source": "Voodoo Demon",
-    "chance": "2.86%"
+    "chance": "2.86%",
+    "ru": "Демон вуду"
    }
   ],
   "obtain": "",
@@ -987,9 +1094,11 @@
     "ingredients": [
      {
       "en": "Demonite Bar",
-      "count": 8
+      "count": 8,
+      "ru": "Демонитовый слиток"
      }
-    ]
+    ],
+    "stationRu": "Железная или свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -1007,9 +1116,11 @@
     "ingredients": [
      {
       "en": "Hallowed Bar",
-      "count": 12
+      "count": 12,
+      "ru": "Освящённый слиток"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая/орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -1027,13 +1138,15 @@
     "ingredients": [
      {
       "en": "Explosive Trap Rod",
-      "count": 1
+      "count": 1,
+      "ru": "Посох взрывной ловушки"
      }
-    ]
+    ],
+    "stationRu": "Шиммер"
    }
   ],
   "drops": [],
-  "obtain": "Покупается у Таверника за 5 медалей защитников",
+  "obtain": "Покупается у Трактирщика за 5 медалей защитника",
   "status": "ok",
   "issue": "Соответствие предположительное: это первый уровень ауры молний (Lightning Aura Rod).",
   "hasDrop": false
@@ -1043,7 +1156,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Ballista_Rod",
   "recipes": [],
   "drops": [],
-  "obtain": "Покупается у Таверника за 5 Медалей защитника (Defender Medals). Также получается трансмутацией Шиммера из Flameburst Rod.",
+  "obtain": "Покупается у Трактирщика за 5 медалей защитника. Также получается трансмутацией шиммера из посоха огненного взрыва.",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -1061,7 +1174,8 @@
       "ingredients": [
        {
         "en": "Spooky Wood",
-        "count": 200
+        "count": 200,
+        "ru": "Жуткая древесина"
        }
       ]
      }
@@ -1076,9 +1190,11 @@
       "ingredients": [
        {
         "en": "Spooky Wood",
-        "count": 300
+        "count": 300,
+        "ru": "Жуткая древесина"
        }
-      ]
+      ],
+      "stationRu": "Верстак"
      }
     ]
    },
@@ -1091,7 +1207,8 @@
       "ingredients": [
        {
         "en": "Spooky Wood",
-        "count": 250
+        "count": 250,
+        "ru": "Жуткая древесина"
        }
       ]
      }
@@ -1113,11 +1230,13 @@
   "drops": [
    {
     "source": "Wall of Flesh",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Стена плоти"
    },
    {
     "source": "Treasure Bag (Wall of Flesh)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Сумка с сокровищами (Стена плоти)"
    }
   ],
   "obtain": "",
@@ -1134,13 +1253,16 @@
     "ingredients": [
      {
       "en": "Paladin's Shield",
-      "count": 1
+      "count": 1,
+      "ru": "Щит паладина"
      },
      {
       "en": "Frozen Turtle Shell",
-      "count": 1
+      "count": 1,
+      "ru": "Замороженный панцирь черепахи"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -1156,27 +1278,33 @@
   "drops": [
    {
     "source": "Brain Scrambler (Martian Madness)",
-    "chance": "0.13% (1/800)"
+    "chance": "0.13% (1/800)",
+    "ru": "Мозговой смутитель (Марсианское безумие)"
    },
    {
     "source": "Gigazapper (Martian Madness)",
-    "chance": "0.13% (1/800)"
+    "chance": "0.13% (1/800)",
+    "ru": "Гигазаппер (Марсианское безумие)"
    },
    {
     "source": "Gray Grunt (Martian Madness)",
-    "chance": "0.13% (1/800)"
+    "chance": "0.13% (1/800)",
+    "ru": "Серый пехотинец (Марсианское безумие)"
    },
    {
     "source": "Martian Engineer (Martian Madness)",
-    "chance": "0.13% (1/800)"
+    "chance": "0.13% (1/800)",
+    "ru": "Марсианский инженер (Марсианское безумие)"
    },
    {
     "source": "Martian Officer (Martian Madness)",
-    "chance": "0.13% (1/800)"
+    "chance": "0.13% (1/800)",
+    "ru": "Марсианский офицер (Марсианское безумие)"
    },
    {
     "source": "Martian Walker (Martian Madness)",
-    "chance": "0.13% (1/800)"
+    "chance": "0.13% (1/800)",
+    "ru": "Марсианский ходок (Марсианское безумие)"
    }
   ],
   "obtain": "",
@@ -1191,18 +1319,21 @@
   "drops": [
    {
     "source": "Зачарованный меч в камне ( под землёй )",
-    "chance": "96.67%"
+    "chance": "96.67%",
+    "ru": "Зачарованный меч в камне (под землёй)"
    },
    {
     "source": "Титановый ящик",
-    "chance": "6.67%"
+    "chance": "6.67%",
+    "ru": "Титановый ящик"
    },
    {
     "source": "Золотой ящик",
-    "chance": "3.33%"
+    "chance": "3.33%",
+    "ru": "Золотой ящик"
    }
   ],
-  "obtain": "можно найти в структуре \"Святыня зачарованного меча\" , где нужно сломать обьект \"меч в камне\" , либо открывая \"Титановый ящик\" или \"Золотой ящик\"",
+  "obtain": "можно найти в структуре «Святыня зачарованного меча», где нужно сломать объект «меч в камне», либо открывая «Титановый ящик» или «Золотой ящик»",
   "status": "ok",
   "issue": "",
   "hasDrop": true
@@ -1224,7 +1355,8 @@
   "drops": [
    {
     "source": "Empress of Light",
-    "chance": "2% (Classic), 5% (Expert)"
+    "chance": "2% (классика), 5% (эксперт)",
+    "ru": "Императрица света"
    }
   ],
   "obtain": "",
@@ -1241,17 +1373,21 @@
     "ingredients": [
      {
       "en": "Minishark",
-      "count": 1
+      "count": 1,
+      "ru": "Мини-акула"
      },
      {
       "en": "Meteorite Bar",
-      "count": 20
+      "count": 20,
+      "ru": "Метеоритовый слиток"
      },
      {
       "en": "Fallen Star",
-      "count": 5
+      "count": 5,
+      "ru": "Упавшая звезда"
      }
-    ]
+    ],
+    "stationRu": "Железная/свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -1267,14 +1403,16 @@
   "drops": [
    {
     "source": "Небесный ящик",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Небесный ящик"
    },
    {
     "source": "Заоблачный сундук ( на парящих островах)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Заоблачный сундук (на парящих островах)"
    }
   ],
-  "obtain": " меч, который можно найти только на парящих островах в Заоблачном сундуке или при открытии Небесного ящика",
+  "obtain": "Меч, который можно найти только на парящих островах в Заоблачном сундуке или при открытии Небесного ящика",
   "status": "ok",
   "issue": "",
   "hasDrop": true
@@ -1286,11 +1424,13 @@
   "drops": [
    {
     "source": "Empress of Light",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Императрица света"
    },
    {
     "source": "Treasure Bag (Empress of Light)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Сумка с сокровищами (Императрица света)"
    }
   ],
   "obtain": "",
@@ -1307,17 +1447,21 @@
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Armored Cavefish",
-      "count": 1
+      "count": 1,
+      "ru": "Бронированная пещерная рыба"
      },
      {
       "en": "Blinkroot",
-      "count": 1
+      "count": 1,
+      "ru": "Мигающий корень"
      }
-    ]
+    ],
+    "stationRu": "Алхимический стол"
    }
   ],
   "drops": [],
@@ -1335,34 +1479,42 @@
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Daybloom",
-      "count": 1
+      "count": 1,
+      "ru": "Дневной цветок"
      },
      {
       "en": "Iron Ore",
-      "count": 1
+      "count": 1,
+      "ru": "Железная руда"
      }
-    ]
+    ],
+    "stationRu": "Алхимический стол"
    },
    {
     "station": "Alchemy Table",
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Daybloom",
-      "count": 1
+      "count": 1,
+      "ru": "Дневной цветок"
      },
      {
       "en": "Lead Ore",
-      "count": 1
+      "count": 1,
+      "ru": "Свинцовая руда"
      }
-    ]
+    ],
+    "stationRu": "Алхимический стол"
    }
   ],
   "drops": [],
@@ -1380,17 +1532,21 @@
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Daybloom",
-      "count": 1
+      "count": 1,
+      "ru": "Дневной цветок"
      },
      {
       "en": "Lens",
-      "count": 1
+      "count": 1,
+      "ru": "Линза"
      }
-    ]
+    ],
+    "stationRu": "Алхимический стол"
    }
   ],
   "drops": [],
@@ -1408,31 +1564,38 @@
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": null
+      "count": null,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Moonglow",
-      "count": null
+      "count": null,
+      "ru": "Лунное свечение"
      },
      {
       "en": "Deathweed",
-      "count": null
+      "count": null,
+      "ru": "Смертельная трава"
      },
      {
       "en": "Fallen Star",
-      "count": null
+      "count": null,
+      "ru": "Упавшая звезда"
      }
-    ]
+    ],
+    "stationRu": "Алхимический стол (или размещённая банка / алхимическая колба)"
    }
   ],
   "drops": [
    {
     "source": "Shadow Chest (Underworld)",
-    "chance": "9.38% (3/32)"
+    "chance": "9.38% (3/32)",
+    "ru": "Теневой сундук (Подземный мир)"
    },
    {
     "source": "Pots (Underworld)",
-    "chance": ""
+    "chance": "",
+    "ru": "Горшки (Подземный мир)"
    }
   ],
   "obtain": "",
@@ -1449,13 +1612,16 @@
     "ingredients": [
      {
       "en": "Lesser Mana Potion",
-      "count": 2
+      "count": 2,
+      "ru": "Малое зелье маны"
      },
      {
       "en": "Glowing Mushroom",
-      "count": 1
+      "count": 1,
+      "ru": "Светящийся гриб"
      }
-    ]
+    ],
+    "stationRu": "Алхимический стол или размещённая банка"
    }
   ],
   "drops": [],
@@ -1473,17 +1639,21 @@
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Variegated Lardfish",
-      "count": 1
+      "count": 1,
+      "ru": "Пёстрая сальная рыба"
      },
      {
       "en": "Moonglow",
-      "count": 1
+      "count": 1,
+      "ru": "Лунное свечение"
      }
-    ]
+    ],
+    "stationRu": "Алхимический стол"
    }
   ],
   "drops": [],
@@ -1501,51 +1671,63 @@
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Daybloom",
-      "count": 1
+      "count": 1,
+      "ru": "Дневной цветок"
      },
      {
       "en": "Mushroom",
-      "count": 1
+      "count": 1,
+      "ru": "Гриб"
      }
-    ]
+    ],
+    "stationRu": "Алхимический стол"
    },
    {
     "station": "Placed Bottle",
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Daybloom",
-      "count": 1
+      "count": 1,
+      "ru": "Дневной цветок"
      },
      {
       "en": "Mushroom",
-      "count": 1
+      "count": 1,
+      "ru": "Гриб"
      }
-    ]
+    ],
+    "stationRu": "Размещённая банка"
    },
    {
     "station": "Alchemy Flask",
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Daybloom",
-      "count": 1
+      "count": 1,
+      "ru": "Дневной цветок"
      },
      {
       "en": "Mushroom",
-      "count": 1
+      "count": 1,
+      "ru": "Гриб"
      }
-    ]
+    ],
+    "stationRu": "Алхимический флакон"
    }
   ],
   "drops": [],
@@ -1573,39 +1755,48 @@
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": null
+      "count": null,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Blinkroot",
-      "count": null
+      "count": null,
+      "ru": "Мигающий корень"
      },
      {
       "en": "Cactus",
-      "count": null
+      "count": null,
+      "ru": "Кактус"
      }
-    ]
+    ],
+    "stationRu": "Алхимический стол (или размещённая банка / алхимическая колба)"
    }
   ],
   "drops": [
    {
     "source": "Chest",
-    "chance": "11.11%"
+    "chance": "11.11%",
+    "ru": "Сундук"
    },
    {
     "source": "Gold Chest (underground)",
-    "chance": "9.52%"
+    "chance": "9.52%",
+    "ru": "Золотой сундук (подземные слои)"
    },
    {
     "source": "Pearlwood Crate",
-    "chance": "1.43%"
+    "chance": "1.43%",
+    "ru": "Ящик из жемчужного дерева"
    },
    {
     "source": "Wooden Crate",
-    "chance": "1.43%"
+    "chance": "1.43%",
+    "ru": "Деревянный ящик"
    },
    {
     "source": "Slimes (bonus drop, each)",
-    "chance": "0.18%"
+    "chance": "0.18%",
+    "ru": "Слизни (бонусный дроп, каждый)"
    }
   ],
   "obtain": "",
@@ -1622,17 +1813,21 @@
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Double Cod",
-      "count": 1
+      "count": 1,
+      "ru": "Двойная треска"
      },
      {
       "en": "Moonglow",
-      "count": 1
+      "count": 1,
+      "ru": "Лунное свечение"
      }
-    ]
+    ],
+    "stationRu": "Алхимический стол"
    }
   ],
   "drops": [],
@@ -1654,7 +1849,8 @@
       "ingredients": [
        {
         "en": "Золотой слиток",
-        "count": 20
+        "count": 20,
+        "ru": "Золотой слиток"
        }
       ]
      }
@@ -1669,9 +1865,11 @@
       "ingredients": [
        {
         "en": "Золотой слиток",
-        "count": 30
+        "count": 30,
+        "ru": "Золотой слиток"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    },
@@ -1684,7 +1882,8 @@
       "ingredients": [
        {
         "en": "Золотой слиток",
-        "count": 25
+        "count": 25,
+        "ru": "Золотой слиток"
        }
       ]
      }
@@ -1708,23 +1907,28 @@
     "ingredients": [
      {
       "en": "Spell Tome",
-      "count": 1
+      "count": 1,
+      "ru": "Книга заклинаний"
      },
      {
       "en": "Ichor",
-      "count": 20
+      "count": 20,
+      "ru": "Ихор"
      },
      {
       "en": "Soul of Night",
-      "count": 15
+      "count": 15,
+      "ru": "Душа ночи"
      }
-    ]
+    ],
+    "stationRu": "Книжный шкаф"
    }
   ],
   "drops": [
    {
     "source": "Jungle Mimic",
-    "chance": "33%"
+    "chance": "33%",
+    "ru": "Джунглевый мимик"
    }
   ],
   "obtain": "",
@@ -1741,9 +1945,11 @@
     "ingredients": [
      {
       "en": "Gold Bar",
-      "count": 7
+      "count": 7,
+      "ru": "Золотой слиток"
      }
-    ]
+    ],
+    "stationRu": "Железная наковальня"
    }
   ],
   "drops": [],
@@ -1765,7 +1971,8 @@
       "ingredients": [
        {
         "en": "Sturdy Fossil",
-        "count": 15
+        "count": 15,
+        "ru": "Прочная окаменелость"
        }
       ]
      }
@@ -1780,7 +1987,8 @@
       "ingredients": [
        {
         "en": "Sturdy Fossil",
-        "count": 25
+        "count": 25,
+        "ru": "Прочная окаменелость"
        }
       ]
      }
@@ -1795,9 +2003,11 @@
       "ingredients": [
        {
         "en": "Sturdy Fossil",
-        "count": 20
+        "count": 20,
+        "ru": "Прочная окаменелость"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    }
@@ -1819,13 +2029,16 @@
     "ingredients": [
      {
       "en": "Frostspark Boots",
-      "count": 1
+      "count": 1,
+      "ru": "Ботинки морозной искры"
      },
      {
       "en": "Lava Waders",
-      "count": 1
+      "count": 1,
+      "ru": "Лавовые сапоги"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -1843,13 +2056,16 @@
     "ingredients": [
      {
       "en": "Frostspark Boots",
-      "count": 1
+      "count": 1,
+      "ru": "Ботинки морозной искры"
      },
      {
       "en": "Lava Waders",
-      "count": 1
+      "count": 1,
+      "ru": "Лавовые сапоги"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -1867,42 +2083,52 @@
     "ingredients": [
      {
       "en": "Night's Edge",
-      "count": 1
+      "count": 1,
+      "ru": "Ночной клинок"
      },
      {
       "en": "Soul of Fright",
-      "count": 20
+      "count": 20,
+      "ru": "Душа страха"
      },
      {
       "en": "Soul of Might",
-      "count": 20
+      "count": 20,
+      "ru": "Душа мощи"
      },
      {
       "en": "Soul of Sight",
-      "count": 20
+      "count": 20,
+      "ru": "Душа зрения"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая наковальня"
    },
    {
     "station": "Orichalcum Anvil",
     "ingredients": [
      {
       "en": "Night's Edge",
-      "count": 1
+      "count": 1,
+      "ru": "Ночной клинок"
      },
      {
       "en": "Soul of Fright",
-      "count": 20
+      "count": 20,
+      "ru": "Душа страха"
      },
      {
       "en": "Soul of Might",
-      "count": 20
+      "count": 20,
+      "ru": "Душа мощи"
      },
      {
       "en": "Soul of Sight",
-      "count": 20
+      "count": 20,
+      "ru": "Душа зрения"
      }
-    ]
+    ],
+    "stationRu": "Орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -1918,7 +2144,8 @@
   "drops": [
    {
     "source": "Empress of Light",
-    "chance": ""
+    "chance": "",
+    "ru": "Императрица света"
    }
   ],
   "obtain": "",
@@ -1933,7 +2160,8 @@
   "drops": [
    {
     "source": "Goblin Warlock (Goblin Army)",
-    "chance": "16.7% (1/6); 33.3% в Expert Mode"
+    "chance": "16.7% (1/6); 33.3% в эксперт Mode",
+    "ru": "Гоблин-чернокнижник (Армия гоблинов)"
    }
   ],
   "obtain": "",
@@ -1948,11 +2176,13 @@
   "drops": [
    {
     "source": "Skeletron",
-    "chance": "10.5%"
+    "chance": "10.5%",
+    "ru": "Скелетрон"
    },
    {
     "source": "Treasure Bag (Skeletron, Expert)",
-    "chance": "33.33%"
+    "chance": "33.33%",
+    "ru": "Сумка с сокровищами (Скелетрон, режим «Эксперт»)"
    }
   ],
   "obtain": "",
@@ -1967,11 +2197,13 @@
   "drops": [
    {
     "source": "Skeletron",
-    "chance": "10.5%"
+    "chance": "10.5%",
+    "ru": "Скелетрон"
    },
    {
     "source": "Skeletron's Treasure Bag",
-    "chance": "33%"
+    "chance": "33%",
+    "ru": "Сумка с сокровищами Скелетрона"
    }
   ],
   "obtain": "",
@@ -1986,7 +2218,8 @@
   "drops": [
    {
     "source": "Chest (\"I am error\" worlds)",
-    "chance": ""
+    "chance": "",
+    "ru": "Сундук (миры «I am error»)"
    }
   ],
   "obtain": "Продаётся Странствующим торговцем за 5 золота после победы над Глазом Ктулху",
@@ -2003,13 +2236,16 @@
     "ingredients": [
      {
       "en": "Jungle Spores",
-      "count": 6
+      "count": 6,
+      "ru": "Споры джунглей"
      },
      {
       "en": "Stinger",
-      "count": 9
+      "count": 9,
+      "ru": "Жало"
      }
-    ]
+    ],
+    "stationRu": "Железная / свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -2025,7 +2261,8 @@
   "drops": [
    {
     "source": "Reaper (Solar Eclipse)",
-    "chance": "2.5% (1/40); 4.94% в Expert Mode"
+    "chance": "2.5% (1/40); 4.94% в эксперт Mode",
+    "ru": "Жнец (Солнечное затмение)"
    }
   ],
   "obtain": "",
@@ -2042,9 +2279,11 @@
     "ingredients": [
      {
       "en": "Meteorite Bar",
-      "count": 20
+      "count": 20,
+      "ru": "Метеоритовый слиток"
      }
-    ]
+    ],
+    "stationRu": "Железная или свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -2058,7 +2297,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Crystal_Serpent",
   "recipes": [],
   "drops": [],
-  "obtain": "Ловится удочкой в Священных землях (The Hallow) на любой глубине; точный шанс на вики не указан.",
+  "obtain": "Ловится удочкой в Священных землях на любой глубине; точный шанс на вики не указан.",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -2068,7 +2307,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Crystal_Ball",
   "recipes": [],
   "drops": [],
-  "obtain": "Покупается у Wizard за 10 золота",
+  "obtain": "Покупается у Волшебника за 10 золота",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -2092,13 +2331,16 @@
     "ingredients": [
      {
       "en": "Soul of Flight",
-      "count": 20
+      "count": 20,
+      "ru": "Душа полёта"
      },
      {
       "en": "Butterfly Dust",
-      "count": null
+      "count": null,
+      "ru": "Пыльца бабочки"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая или орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -2114,7 +2356,8 @@
   "drops": [
    {
     "source": "Empress of Light",
-    "chance": "6.67% (Expert: 10%)"
+    "chance": "6.67% (эксперт: 10%)",
+    "ru": "Императрица света"
    }
   ],
   "obtain": "",
@@ -2131,13 +2374,16 @@
     "ingredients": [
      {
       "en": "Soul of Flight",
-      "count": 20
+      "count": 20,
+      "ru": "Душа полёта"
      },
      {
       "en": "Broken Bat Wing",
-      "count": 1
+      "count": 1,
+      "ru": "Сломанное крыло летучей мыши"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая наковальня"
    }
   ],
   "drops": [],
@@ -2151,7 +2397,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Steampunk_Wings",
   "recipes": [],
   "drops": [],
-  "obtain": "Продаётся у Стимпанкера (Steampunker) за 3 платины, после победы над Големом",
+  "obtain": "Продаётся у Стимпанкера за 3 платины после победы над Големом",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -2165,13 +2411,16 @@
     "ingredients": [
      {
       "en": "Soul of Flight",
-      "count": 20
+      "count": 20,
+      "ru": "Душа полёта"
      },
      {
       "en": "Pixie Dust",
-      "count": 99
+      "count": 99,
+      "ru": "Пыльца феи"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая / орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -2187,7 +2436,8 @@
   "drops": [
    {
     "source": "Martian Saucer (Martian Madness)",
-    "chance": "16.67% (1/6)"
+    "chance": "16.67% (1/6)",
+    "ru": "Марсианская тарелка (Марсианское безумие)"
    }
   ],
   "obtain": "",
@@ -2202,7 +2452,8 @@
   "drops": [
    {
     "source": "Martian Saucer (Martian Madness event)",
-    "chance": "16.67%"
+    "chance": "16.67%",
+    "ru": "Марсианская тарелка (Марсианское безумие)"
    }
   ],
   "obtain": "",
@@ -2217,11 +2468,13 @@
   "drops": [
    {
     "source": "Wall of Flesh",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Стена плоти"
    },
    {
     "source": "Treasure Bag (Wall of Flesh)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Сумка с сокровищами (Стена плоти)"
    }
   ],
   "obtain": "",
@@ -2236,19 +2489,23 @@
   "drops": [
    {
     "source": "Armored Viking",
-    "chance": "1%"
+    "chance": "1%",
+    "ru": "Бронированный викинг"
    },
    {
     "source": "Ice Elemental",
-    "chance": "1%"
+    "chance": "1%",
+    "ru": "Ледяной элементаль"
    },
    {
     "source": "Ice Tortoise",
-    "chance": "1%"
+    "chance": "1%",
+    "ru": "Ледяная черепаха"
    },
    {
     "source": "Icy Merman",
-    "chance": "1%"
+    "chance": "1%",
+    "ru": "Ледяной водяной"
    }
   ],
   "obtain": "",
@@ -2265,13 +2522,16 @@
     "ingredients": [
      {
       "en": "Soul of Flight",
-      "count": 20
+      "count": 20,
+      "ru": "Душа полёта"
      },
      {
       "en": "Ice Feather",
-      "count": 1
+      "count": 1,
+      "ru": "Ледяное перо"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая наковальня"
    }
   ],
   "drops": [],
@@ -2293,7 +2553,8 @@
       "ingredients": [
        {
         "en": "Hellstone Bar",
-        "count": 10
+        "count": 10,
+        "ru": "Слиток адского камня"
        }
       ]
      }
@@ -2308,9 +2569,11 @@
       "ingredients": [
        {
         "en": "Hellstone Bar",
-        "count": 20
+        "count": 20,
+        "ru": "Слиток адского камня"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    },
@@ -2323,7 +2586,8 @@
       "ingredients": [
        {
         "en": "Hellstone Bar",
-        "count": 15
+        "count": 15,
+        "ru": "Слиток адского камня"
        }
       ]
      }
@@ -2347,9 +2611,11 @@
     "ingredients": [
      {
       "en": "Hellstone Bar",
-      "count": 15
+      "count": 15,
+      "ru": "Слиток адского камня"
      }
-    ]
+    ],
+    "stationRu": "Железная или свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -2365,7 +2631,8 @@
   "drops": [
    {
     "source": "Hallowed Mimic",
-    "chance": "20%"
+    "chance": "20%",
+    "ru": "Священный мимик"
    }
   ],
   "obtain": "",
@@ -2392,39 +2659,48 @@
     "ingredients": [
      {
       "en": "Cloud in a Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Облако в шаре"
      },
      {
       "en": "Lucky Horseshoe",
-      "count": 1
+      "count": 1,
+      "ru": "Счастливая подкова"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    },
    {
     "station": "Tinkerer's Workshop",
     "ingredients": [
      {
       "en": "Fart in a Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Газ в шаре"
      },
      {
       "en": "Lucky Horseshoe",
-      "count": 1
+      "count": 1,
+      "ru": "Счастливая подкова"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    },
    {
     "station": "Tinkerer's Workshop",
     "ingredients": [
      {
       "en": "Sharkron Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Шар-акула"
      },
      {
       "en": "Lucky Horseshoe",
-      "count": 1
+      "count": 1,
+      "ru": "Счастливая подкова"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -2452,26 +2728,32 @@
     "ingredients": [
      {
       "en": "Demonite Bar",
-      "count": 12
+      "count": 12,
+      "ru": "Демонитовый слиток"
      },
      {
       "en": "Topaz",
-      "count": 5
+      "count": 5,
+      "ru": "Топаз"
      }
-    ]
+    ],
+    "stationRu": "Железная или свинцовая наковальня"
    },
    {
     "station": "Iron Anvil or Lead Anvil",
     "ingredients": [
      {
       "en": "Crimtane Bar",
-      "count": 12
+      "count": 12,
+      "ru": "Багротановый слиток"
      },
      {
       "en": "Topaz",
-      "count": 5
+      "count": 5,
+      "ru": "Топаз"
      }
-    ]
+    ],
+    "stationRu": "Железная или свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -2487,7 +2769,8 @@
   "drops": [
    {
     "source": "Skeleton Archer",
-    "chance": "2.5%"
+    "chance": "2.5%",
+    "ru": "Скелет-лучник"
    }
   ],
   "obtain": "",
@@ -2502,11 +2785,13 @@
   "drops": [
    {
     "source": "Gold Chest (Dungeon)",
-    "chance": "14.29%"
+    "chance": "14.29%",
+    "ru": "Золотой сундук (Подземелье)"
    },
    {
     "source": "Golden Lock Box",
-    "chance": "14.29%"
+    "chance": "14.29%",
+    "ru": "Золотой запертый ящик"
    }
   ],
   "obtain": "",
@@ -2537,9 +2822,11 @@
       "ingredients": [
        {
         "en": "Meteorite Bar",
-        "count": 10
+        "count": 10,
+        "ru": "Метеоритовый слиток"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    },
@@ -2552,7 +2839,8 @@
       "ingredients": [
        {
         "en": "Meteorite Bar",
-        "count": 20
+        "count": 20,
+        "ru": "Метеоритовый слиток"
        }
       ]
      }
@@ -2567,7 +2855,8 @@
       "ingredients": [
        {
         "en": "Meteorite Bar",
-        "count": 15
+        "count": 15,
+        "ru": "Метеоритовый слиток"
        }
       ]
      }
@@ -2591,17 +2880,21 @@
     "ingredients": [
      {
       "en": "Meteorite Bar",
-      "count": 20
+      "count": 20,
+      "ru": "Метеоритовый слиток"
      },
      {
       "en": "Pixie Dust",
-      "count": 10
+      "count": 10,
+      "ru": "Пыльца феи"
      },
      {
       "en": "Soul of Light",
-      "count": 10
+      "count": 10,
+      "ru": "Душа света"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая или орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -2625,7 +2918,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Minishark",
   "recipes": [],
   "drops": [],
-  "obtain": "Покупается у Arms Dealer за 35 золота",
+  "obtain": "Покупается у Оружейника за 35 золота",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -2643,7 +2936,8 @@
       "ingredients": [
        {
         "en": "Mythril Bar",
-        "count": 10
+        "count": 10,
+        "ru": "Мифриловый слиток"
        }
       ]
      }
@@ -2658,7 +2952,8 @@
       "ingredients": [
        {
         "en": "Mythril Bar",
-        "count": 10
+        "count": 10,
+        "ru": "Мифриловый слиток"
        }
       ]
      }
@@ -2673,7 +2968,8 @@
       "ingredients": [
        {
         "en": "Mythril Bar",
-        "count": 10
+        "count": 10,
+        "ru": "Мифриловый слиток"
        }
       ]
      }
@@ -2688,9 +2984,11 @@
       "ingredients": [
        {
         "en": "Mythril Bar",
-        "count": 20
+        "count": 20,
+        "ru": "Мифриловый слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -2703,7 +3001,8 @@
       "ingredients": [
        {
         "en": "Mythril Bar",
-        "count": 15
+        "count": 15,
+        "ru": "Мифриловый слиток"
        }
       ]
      }
@@ -2725,7 +3024,8 @@
   "drops": [
    {
     "source": "Brain of Cthulhu (Treasure Bag, Expert Mode)",
-    "chance": "100%"
+    "chance": "100%",
+    "ru": "Мозг Ктулху (сумка с сокровищами, режим «Эксперт»)"
    }
   ],
   "obtain": "",
@@ -2742,17 +3042,21 @@
     "ingredients": [
      {
       "en": "Spectre Boots",
-      "count": 1
+      "count": 1,
+      "ru": "Призрачные ботинки"
      },
      {
       "en": "Anklet of the Wind",
-      "count": 1
+      "count": 1,
+      "ru": "Браслет ветра"
      },
      {
       "en": "Aglet",
-      "count": 1
+      "count": 1,
+      "ru": "Наконечник шнурка"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -2768,7 +3072,8 @@
   "drops": [
    {
     "source": "Paladin (Hardmode Dungeon)",
-    "chance": "6.67%"
+    "chance": "6.67%",
+    "ru": "Паладин (хардмод-Подземелье)"
    }
   ],
   "obtain": "",
@@ -2785,17 +3090,21 @@
     "ingredients": [
      {
       "en": "Soul of Light",
-      "count": 8
+      "count": 8,
+      "ru": "Душа света"
      },
      {
       "en": "Soul of Night",
-      "count": 8
+      "count": 8,
+      "ru": "Душа ночи"
      },
      {
       "en": "Frost Core",
-      "count": 1
+      "count": 1,
+      "ru": "Ледяное ядро"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая или орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -2813,13 +3122,16 @@
     "ingredients": [
      {
       "en": "Paladin's Shield",
-      "count": 1
+      "count": 1,
+      "ru": "Щит паладина"
      },
      {
       "en": "Frozen Turtle Shell",
-      "count": 1
+      "count": 1,
+      "ru": "Замороженный панцирь черепахи"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -2837,13 +3149,16 @@
     "ingredients": [
      {
       "en": "Celestial Stone",
-      "count": null
+      "count": null,
+      "ru": "Небесный камень"
      },
      {
       "en": "Moon Shell",
-      "count": null
+      "count": null,
+      "ru": "Лунная раковина"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -2861,13 +3176,16 @@
     "ingredients": [
      {
       "en": "Celestial Magnet",
-      "count": 1
+      "count": 1,
+      "ru": "Небесный магнит"
      },
      {
       "en": "Avenger Emblem",
-      "count": 1
+      "count": 1,
+      "ru": "Эмблема мстителя"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -2885,13 +3203,16 @@
     "ingredients": [
      {
       "en": "Celestial Magnet",
-      "count": 1
+      "count": 1,
+      "ru": "Небесный магнит"
      },
      {
       "en": "Magic Cuffs",
-      "count": 1
+      "count": 1,
+      "ru": "Магические наручники"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -2907,15 +3228,18 @@
   "drops": [
    {
     "source": "Skyware Chest (Floating Islands)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Небесный сундук (Парящие острова)"
    },
    {
     "source": "Sky Crate",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Небесный ящик"
    },
    {
     "source": "Azure Crate",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Лазурный ящик"
    }
   ],
   "obtain": "",
@@ -2932,34 +3256,42 @@
     "ingredients": [
      {
       "en": "Magic Missile",
-      "count": 1
+      "count": 1,
+      "ru": "Магическая ракета"
      },
      {
       "en": "Light Shard",
-      "count": 2
+      "count": 2,
+      "ru": "Световой осколок"
      },
      {
       "en": "Soul of Light",
-      "count": 16
+      "count": 16,
+      "ru": "Душа света"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая наковальня"
    },
    {
     "station": "Orichalcum Anvil",
     "ingredients": [
      {
       "en": "Magic Missile",
-      "count": 1
+      "count": 1,
+      "ru": "Магическая ракета"
      },
      {
       "en": "Light Shard",
-      "count": 2
+      "count": 2,
+      "ru": "Световой осколок"
      },
      {
       "en": "Soul of Light",
-      "count": 16
+      "count": 16,
+      "ru": "Душа света"
      }
-    ]
+    ],
+    "stationRu": "Орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -2975,11 +3307,13 @@
   "drops": [
    {
     "source": "Empress of Light",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Императрица света"
    },
    {
     "source": "Treasure Bag (Empress of Light)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Сумка с сокровищами (Императрица света)"
    }
   ],
   "obtain": "",
@@ -2992,7 +3326,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Cloud_in_a_Bottle",
   "recipes": [],
   "drops": [],
-  "obtain": "Находится в Золотых сундуках (Gold Chest) и выпадает из Мимиков",
+  "obtain": "Находится в золотых сундуках и выпадает из мимиков",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -3020,34 +3354,42 @@
       "ingredients": [
        {
         "en": "Silk",
-        "count": 10
+        "count": 10,
+        "ru": "Шёлк"
        },
        {
         "en": "Obsidian",
-        "count": 20
+        "count": 20,
+        "ru": "Обсидиан"
        },
        {
         "en": "Tissue Sample",
-        "count": 5
+        "count": 5,
+        "ru": "Образец ткани"
        }
-      ]
+      ],
+      "stationRu": "Адская кузня"
      },
      {
       "station": "Hellforge",
       "ingredients": [
        {
         "en": "Silk",
-        "count": 10
+        "count": 10,
+        "ru": "Шёлк"
        },
        {
         "en": "Obsidian",
-        "count": 20
+        "count": 20,
+        "ru": "Обсидиан"
        },
        {
         "en": "Shadow Scale",
-        "count": 5
+        "count": 5,
+        "ru": "Теневая чешуя"
        }
-      ]
+      ],
+      "stationRu": "Адская кузня"
      }
     ]
    },
@@ -3060,34 +3402,42 @@
       "ingredients": [
        {
         "en": "Silk",
-        "count": 10
+        "count": 10,
+        "ru": "Шёлк"
        },
        {
         "en": "Obsidian",
-        "count": 20
+        "count": 20,
+        "ru": "Обсидиан"
        },
        {
         "en": "Shadow Scale",
-        "count": 10
+        "count": 10,
+        "ru": "Теневая чешуя"
        }
-      ]
+      ],
+      "stationRu": "Адская кузня"
      },
      {
       "station": "Hellforge",
       "ingredients": [
        {
         "en": "Silk",
-        "count": 10
+        "count": 10,
+        "ru": "Шёлк"
        },
        {
         "en": "Obsidian",
-        "count": 20
+        "count": 20,
+        "ru": "Обсидиан"
        },
        {
         "en": "Tissue Sample",
-        "count": 10
+        "count": 10,
+        "ru": "Образец ткани"
        }
-      ]
+      ],
+      "stationRu": "Адская кузня"
      }
     ]
    },
@@ -3100,34 +3450,42 @@
       "ingredients": [
        {
         "en": "Silk",
-        "count": 10
+        "count": 10,
+        "ru": "Шёлк"
        },
        {
         "en": "Obsidian",
-        "count": 20
+        "count": 20,
+        "ru": "Обсидиан"
        },
        {
         "en": "Shadow Scale",
-        "count": 5
+        "count": 5,
+        "ru": "Теневая чешуя"
        }
-      ]
+      ],
+      "stationRu": "Адская кузня"
      },
      {
       "station": "Hellforge",
       "ingredients": [
        {
         "en": "Silk",
-        "count": 10
+        "count": 10,
+        "ru": "Шёлк"
        },
        {
         "en": "Obsidian",
-        "count": 20
+        "count": 20,
+        "ru": "Обсидиан"
        },
        {
         "en": "Tissue Sample",
-        "count": 5
+        "count": 5,
+        "ru": "Образец ткани"
        }
-      ]
+      ],
+      "stationRu": "Адская кузня"
      }
     ]
    }
@@ -3149,13 +3507,16 @@
     "ingredients": [
      {
       "en": "Cobalt Shield",
-      "count": 1
+      "count": 1,
+      "ru": "Кобальтовый щит"
      },
      {
       "en": "Obsidian Skull",
-      "count": 1
+      "count": 1,
+      "ru": "Обсидиановый череп"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -3173,17 +3534,21 @@
     "ingredients": [
      {
       "en": "Any Iron Bar",
-      "count": 20
+      "count": 20,
+      "ru": "Любой железный слиток"
      },
      {
       "en": "Illegal Gun Parts",
-      "count": null
+      "count": null,
+      "ru": "Запрещённые детали оружия"
      },
      {
       "en": "Soul of Fright",
-      "count": 20
+      "count": 20,
+      "ru": "Душа страха"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая или орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -3201,13 +3566,16 @@
     "ingredients": [
      {
       "en": "Magma Stone",
-      "count": 1
+      "count": 1,
+      "ru": "Магмовый камень"
      },
      {
       "en": "Mechanical Glove",
-      "count": 1
+      "count": 1,
+      "ru": "Механическая перчатка"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -3225,9 +3593,11 @@
     "ingredients": [
      {
       "en": "Hellstone Bar",
-      "count": 15
+      "count": 15,
+      "ru": "Слиток адского камня"
      }
-    ]
+    ],
+    "stationRu": "Железная/свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -3243,11 +3613,13 @@
   "drops": [
    {
     "source": "Wall of Flesh",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Стена плоти"
    },
    {
     "source": "Treasure Bag (Wall of Flesh)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Сумка с сокровищами (Стена плоти)"
    }
   ],
   "obtain": "",
@@ -3264,13 +3636,16 @@
     "ingredients": [
      {
       "en": "Hellstone Bar",
-      "count": 10
+      "count": 10,
+      "ru": "Слиток адского камня"
      },
      {
       "en": "Enchanted Boomerang",
-      "count": 1
+      "count": 1,
+      "ru": "Зачарованный бумеранг"
      }
-    ]
+    ],
+    "stationRu": "Железная наковальня"
    }
   ],
   "drops": [],
@@ -3284,7 +3659,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Pygmy_Necklace",
   "recipes": [],
   "drops": [],
-  "obtain": "Покупается у Witch Doctor за 20 золота (ночью; с версии 1.4.1 продаётся на любой стадии игры)",
+  "obtain": "Покупается у Шамана за 20 золота (ночью; с версии 1.4.1 продаётся на любой стадии игры)",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -3298,13 +3673,16 @@
     "ingredients": [
      {
       "en": "Shark Tooth Necklace",
-      "count": 1
+      "count": 1,
+      "ru": "Ожерелье из акульих зубов"
      },
      {
       "en": "Honey Comb",
-      "count": 1
+      "count": 1,
+      "ru": "Медовые соты"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -3320,11 +3698,13 @@
   "drops": [
    {
     "source": "Blood Zombie (Blood Moon)",
-    "chance": "0.67% (Classic), 1.33% (Expert)"
+    "chance": "0.67% (классика), 1.33% (эксперт)",
+    "ru": "Кровавый зомби (Кровавая луна)"
    },
    {
     "source": "Drippler (Blood Moon)",
-    "chance": "0.67% (Classic), 1.33% (Expert)"
+    "chance": "0.67% (классика), 1.33% (эксперт)",
+    "ru": "Капельник (Кровавая луна)"
    }
   ],
   "obtain": "",
@@ -3351,17 +3731,21 @@
     "ingredients": [
      {
       "en": "Shotgun",
-      "count": 1
+      "count": 1,
+      "ru": "Дробовик"
      },
      {
       "en": "Dark Shard",
-      "count": 2
+      "count": 2,
+      "ru": "Тёмный осколок"
      },
      {
       "en": "Soul of Night",
-      "count": 10
+      "count": 10,
+      "ru": "Душа ночи"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая / орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -3379,21 +3763,26 @@
     "ingredients": [
      {
       "en": "Black Lens",
-      "count": 1
+      "count": 1,
+      "ru": "Чёрная линза"
      },
      {
       "en": "Lens",
-      "count": 2
+      "count": 2,
+      "ru": "Линза"
      },
      {
       "en": "Hallowed Bar",
-      "count": 12
+      "count": 12,
+      "ru": "Освящённый слиток"
      },
      {
       "en": "Soul of Sight",
-      "count": 20
+      "count": 20,
+      "ru": "Душа зрения"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая или орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -3411,13 +3800,16 @@
     "ingredients": [
      {
       "en": "Band of Regeneration",
-      "count": 1
+      "count": 1,
+      "ru": "Браслет регенерации"
      },
      {
       "en": "Philosopher's Stone",
-      "count": 1
+      "count": 1,
+      "ru": "Философский камень"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -3471,9 +3863,11 @@
       "ingredients": [
        {
         "en": "Spider Fang",
-        "count": 8
+        "count": 8,
+        "ru": "Паучий клык"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -3486,9 +3880,11 @@
       "ingredients": [
        {
         "en": "Spider Fang",
-        "count": 16
+        "count": 16,
+        "ru": "Паучий клык"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -3501,9 +3897,11 @@
       "ingredients": [
        {
         "en": "Spider Fang",
-        "count": 12
+        "count": 12,
+        "ru": "Паучий клык"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    }
@@ -3535,27 +3933,33 @@
     "ingredients": [
      {
       "en": "Cloud in a Bottle",
-      "count": 1
+      "count": 1,
+      "ru": "Облако в бутылке"
      },
      {
       "en": "Forbidden Fragment",
-      "count": 1
+      "count": 1,
+      "ru": "Запретный фрагмент"
      }
-    ]
+    ],
+    "stationRu": "Хрустальный шар"
    }
   ],
   "drops": [
    {
     "source": "Gold Chest (Pyramid)",
-    "chance": "44.44%"
+    "chance": "44.44%",
+    "ru": "Золотой сундук (пирамида)"
    },
    {
     "source": "Mirage Crate",
-    "chance": "2.86%"
+    "chance": "2.86%",
+    "ru": "Ящик миража"
    },
    {
     "source": "Oasis Crate",
-    "chance": "2.86%"
+    "chance": "2.86%",
+    "ru": "Ящик оазиса"
    }
   ],
   "obtain": "",
@@ -3570,11 +3974,13 @@
   "drops": [
    {
     "source": "Wall of Flesh",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Стена плоти"
    },
    {
     "source": "Wall of Flesh (Treasure Bag)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Сумка с сокровищами (Стена плоти)"
    }
   ],
   "obtain": "",
@@ -3591,13 +3997,16 @@
     "ingredients": [
      {
       "en": "Sailfish Boots",
-      "count": 1
+      "count": 1,
+      "ru": "Ботинки парусника"
      },
      {
       "en": "Frog Leg",
-      "count": 1
+      "count": 1,
+      "ru": "Лягушачьи лапки"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -3619,9 +4028,11 @@
       "ingredients": [
        {
         "en": "Платиновый слиток",
-        "count": 20
+        "count": 20,
+        "ru": "Платиновый слиток"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    },
@@ -3634,9 +4045,11 @@
       "ingredients": [
        {
         "en": "Платиновый слиток",
-        "count": 30
+        "count": 30,
+        "ru": "Платиновый слиток"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    },
@@ -3649,9 +4062,11 @@
       "ingredients": [
        {
         "en": "Платиновый слиток",
-        "count": 25
+        "count": 25,
+        "ru": "Платиновый слиток"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    }
@@ -3673,9 +4088,11 @@
     "ingredients": [
      {
       "en": "Platinum Bar",
-      "count": 7
+      "count": 7,
+      "ru": "Платиновый слиток"
      }
-    ]
+    ],
+    "stationRu": "Железная или свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -3693,13 +4110,16 @@
     "ingredients": [
      {
       "en": "Mana Flower",
-      "count": 1
+      "count": 1,
+      "ru": "Цветок маны"
      },
      {
       "en": "Star Cloak",
-      "count": 1
+      "count": 1,
+      "ru": "Звёздный плащ"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -3735,7 +4155,8 @@
   "drops": [
    {
     "source": "Mimic",
-    "chance": "16.67% (1/6)"
+    "chance": "16.67% (1/6)",
+    "ru": "Мимик"
    }
   ],
   "obtain": "",
@@ -3750,15 +4171,18 @@
   "drops": [
    {
     "source": "Shadow Orb (destroyed in The Corruption)",
-    "chance": "20%"
+    "chance": "20%",
+    "ru": "Теневой шар (уничтожается в Порче)"
    },
    {
     "source": "Corrupt Crate",
-    "chance": "20%"
+    "chance": "20%",
+    "ru": "Порченый ящик"
    },
    {
     "source": "Defiled Crate",
-    "chance": "20%"
+    "chance": "20%",
+    "ru": "Осквернённый ящик"
    }
   ],
   "obtain": "",
@@ -3775,13 +4199,15 @@
     "ingredients": [
      {
       "en": "Flameburst Rod",
-      "count": 1
+      "count": 1,
+      "ru": "Посох огненного взрыва"
      }
-    ]
+    ],
+    "stationRu": "Шиммер"
    }
   ],
   "drops": [],
-  "obtain": "Покупается у Хозяина таверны за 5 Defender Medals.",
+  "obtain": "Покупается у Трактирщика за 5 медалей защитника.",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -3795,9 +4221,11 @@
     "ingredients": [
      {
       "en": "Hellstone Bar",
-      "count": 17
+      "count": 17,
+      "ru": "Слиток адского камня"
      }
-    ]
+    ],
+    "stationRu": "Железная наковальня"
    }
   ],
   "drops": [],
@@ -3813,11 +4241,13 @@
   "drops": [
    {
     "source": "Wandering Eye Fish",
-    "chance": "12.5%"
+    "chance": "12.5%",
+    "ru": "Блуждающая глазная рыба"
    },
    {
     "source": "Zombie Merman",
-    "chance": "12.5%"
+    "chance": "12.5%",
+    "ru": "Зомби-водяной"
    }
   ],
   "obtain": "",
@@ -3832,7 +4262,8 @@
   "drops": [
    {
     "source": "Pumpking (Pumpkin Moon)",
-    "chance": "2.5%-12.5% в зависимости от волны"
+    "chance": "2.5%-12.5% в зависимости от волны",
+    "ru": "Тыквенный король (Тыквенная луна)"
    }
   ],
   "obtain": "",
@@ -3847,11 +4278,13 @@
   "drops": [
    {
     "source": "Icy Merman",
-    "chance": "2%"
+    "chance": "2%",
+    "ru": "Ледяной водяной"
    },
    {
     "source": "Ice Elemental",
-    "chance": "2%"
+    "chance": "2%",
+    "ru": "Ледяной элементаль"
    }
   ],
   "obtain": "",
@@ -3868,9 +4301,11 @@
     "ingredients": [
      {
       "en": "Stardust Fragment",
-      "count": 18
+      "count": 18,
+      "ru": "Фрагмент звёздной пыли"
      }
-    ]
+    ],
+    "stationRu": "Манипулятор древних"
    }
   ],
   "drops": [],
@@ -3886,11 +4321,13 @@
   "drops": [
    {
     "source": "Queen Slime",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Королева слизней"
    },
    {
     "source": "Treasure Bag (Queen Slime)",
-    "chance": "33%"
+    "chance": "33%",
+    "ru": "Сумка с сокровищами (Королева слизней)"
    }
   ],
   "obtain": "",
@@ -3905,7 +4342,8 @@
   "drops": [
    {
     "source": "Dreadnautilus",
-    "chance": "50%"
+    "chance": "50%",
+    "ru": "Дреднаутилус"
    }
   ],
   "obtain": "",
@@ -3920,7 +4358,8 @@
   "drops": [
    {
     "source": "Necromancer (Hardmode Dungeon)",
-    "chance": "5% (1/20); 9.75% в Expert Mode"
+    "chance": "5% (1/20); 9.75% в эксперт Mode",
+    "ru": "Некромант (хардмод-Подземелье)"
    }
   ],
   "obtain": "",
@@ -3933,7 +4372,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Desert_Tiger_Staff",
   "recipes": [],
   "drops": [],
-  "obtain": "Лежит в Сундуке пустыни в Подземелье (100%); сундук открывается Ключом пустыни после победы над Плантерой",
+  "obtain": "Лежит в сундуке пустыни в Подземелье (100%); сундук открывается ключом пустыни после победы над Плантерой",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -3945,11 +4384,13 @@
   "drops": [
    {
     "source": "Duke Fishron",
-    "chance": "14.29%"
+    "chance": "14.29%",
+    "ru": "Герцог Рыбокрыл"
    },
    {
     "source": "Treasure Bag (Duke Fishron)",
-    "chance": "14.29%"
+    "chance": "14.29%",
+    "ru": "Сумка с сокровищами (Герцог Рыбокрыл)"
    }
   ],
   "obtain": "",
@@ -3966,32 +4407,39 @@
     "ingredients": [
      {
       "en": "Flinx Fur",
-      "count": 6
+      "count": 6,
+      "ru": "Шерсть флинкса"
      },
      {
       "en": "Gold Bar",
-      "count": 10
+      "count": 10,
+      "ru": "Золотой слиток"
      }
-    ]
+    ],
+    "stationRu": "Верстак"
    },
    {
     "station": "Workbench",
     "ingredients": [
      {
       "en": "Flinx Fur",
-      "count": 6
+      "count": 6,
+      "ru": "Шерсть флинкса"
      },
      {
       "en": "Platinum Bar",
-      "count": 10
+      "count": 10,
+      "ru": "Платиновый слиток"
      }
-    ]
+    ],
+    "stationRu": "Верстак"
    }
   ],
   "drops": [
    {
     "source": "Snow Flinx",
-    "chance": ""
+    "chance": "",
+    "ru": "Снежный флинкс"
    }
   ],
   "obtain": "",
@@ -4016,7 +4464,8 @@
   "drops": [
    {
     "source": "Crimson Mimic",
-    "chance": "20%"
+    "chance": "20%",
+    "ru": "Багровый мимик"
    }
   ],
   "obtain": "",
@@ -4029,7 +4478,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Fledgling_Wings",
   "recipes": [],
   "drops": [],
-  "obtain": "Из Небесного сундука (Skyware Chest), Sky Crate и Azure Crate, по 1/40 каждый; в режиме Journey новые персонажи получают пару",
+  "obtain": "Из небесного сундука, небесного ящика и лазурного ящика, по 1/40 каждый; в режиме Journey новые персонажи получают пару",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -4041,7 +4490,8 @@
   "drops": [
    {
     "source": "Santa-NK1 (Frost Moon)",
-    "chance": "6.25%-16.67% (Classic, зависит от волны)"
+    "chance": "6.25%-16.67% (классика, зависит от волны)",
+    "ru": "Санта-НК1 (Морозная луна)"
    }
   ],
   "obtain": "",
@@ -4068,9 +4518,11 @@
     "ingredients": [
      {
       "en": "Vortex Fragment",
-      "count": 18
+      "count": 18,
+      "ru": "Вихревой фрагмент"
      }
-    ]
+    ],
+    "stationRu": "Манипулятор древних"
    }
   ],
   "drops": [],
@@ -4086,11 +4538,13 @@
   "drops": [
    {
     "source": "Queen Bee",
-    "chance": "33.33%"
+    "chance": "33.33%",
+    "ru": "Королева пчёл"
    },
    {
     "source": "Queen Bee (Treasure Bag)",
-    "chance": "33%"
+    "chance": "33%",
+    "ru": "Королева пчёл (сумка с сокровищами)"
    }
   ],
   "obtain": "",
@@ -4105,7 +4559,8 @@
   "drops": [
    {
     "source": "Queen Bee",
-    "chance": "33%"
+    "chance": "33%",
+    "ru": "Королева пчёл"
    }
   ],
   "obtain": "",
@@ -4122,23 +4577,28 @@
     "ingredients": [
      {
       "en": "Grenade",
-      "count": 1
+      "count": 1,
+      "ru": "Граната"
      },
      {
       "en": "Bee Wax",
-      "count": 1
+      "count": 1,
+      "ru": "Пчелиный воск"
      }
-    ]
+    ],
+    "stationRu": "Железная/свинцовая наковальня"
    }
   ],
   "drops": [
    {
     "source": "Queen Bee",
-    "chance": "75% (Classic), 100% (Expert)"
+    "chance": "75% (классика), 100% (эксперт)",
+    "ru": "Королева пчёл"
    },
    {
     "source": "Treasure Bag (Queen Bee)",
-    "chance": "100% (Expert)"
+    "chance": "100% (эксперт)",
+    "ru": "Сумка с сокровищами (Королева пчёл)"
    }
   ],
   "obtain": "",
@@ -4155,25 +4615,31 @@
     "ingredients": [
      {
       "en": "Crystal Shard",
-      "count": 10
+      "count": 10,
+      "ru": "Кристальный осколок"
      },
      {
       "en": "Unicorn Horn",
-      "count": 2
+      "count": 2,
+      "ru": "Рог единорога"
      },
      {
       "en": "Pixie Dust",
-      "count": 10
+      "count": 10,
+      "ru": "Пыльца феи"
      },
      {
       "en": "Soul of Light",
-      "count": 8
+      "count": 8,
+      "ru": "Душа света"
      },
      {
       "en": "Soul of Sight",
-      "count": 15
+      "count": 15,
+      "ru": "Душа зрения"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая или орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -4191,13 +4657,16 @@
     "ingredients": [
      {
       "en": "Sniper Scope",
-      "count": 1
+      "count": 1,
+      "ru": "Снайперский прицел"
      },
      {
       "en": "Putrid Scent",
-      "count": 1
+      "count": 1,
+      "ru": "Гнилой аромат"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -4213,7 +4682,8 @@
   "drops": [
    {
     "source": "Ice Queen (Frost Moon)",
-    "chance": "5.19–10.37% (Classic); 15.56–31.11% (Expert), зависит от волны"
+    "chance": "5.19–10.37% (классика); 15.56–31.11% (эксперт), зависит от волны",
+    "ru": "Ледяная королева (Морозная луна)"
    }
   ],
   "obtain": "",
@@ -4230,9 +4700,11 @@
     "ingredients": [
      {
       "en": "Solar Fragment",
-      "count": 18
+      "count": 18,
+      "ru": "Солнечный фрагмент"
      }
-    ]
+    ],
+    "stationRu": "Манипулятор древних"
    }
   ],
   "drops": [],
@@ -4250,13 +4722,16 @@
     "ingredients": [
      {
       "en": "Gold Bar",
-      "count": 7
+      "count": 7,
+      "ru": "Золотой слиток"
      },
      {
       "en": "Ruby",
-      "count": 8
+      "count": 8,
+      "ru": "Рубин"
      }
-    ]
+    ],
+    "stationRu": "Железная или свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -4272,7 +4747,8 @@
   "drops": [
    {
     "source": "Queen Bee (Treasure Bag, Expert/Master only)",
-    "chance": "100%"
+    "chance": "100%",
+    "ru": "Королева пчёл (сумка с сокровищами, только «Эксперт»/«Мастер»)"
    }
   ],
   "obtain": "",
@@ -4287,19 +4763,23 @@
   "drops": [
    {
     "source": "Gold Chest (Underground layer)",
-    "chance": "16.67%"
+    "chance": "16.67%",
+    "ru": "Золотой сундук (подземные слои)"
    },
    {
     "source": "Gold Chest (Cavern layer)",
-    "chance": "13.33%"
+    "chance": "13.33%",
+    "ru": "Золотой сундук (слой пещер)"
    },
    {
     "source": "Gold Chest (Lava layer)",
-    "chance": "12.67%"
+    "chance": "12.67%",
+    "ru": "Золотой сундук (слой лавы)"
    },
    {
     "source": "Mimic (pre-Hardmode)",
-    "chance": "16.67%"
+    "chance": "16.67%",
+    "ru": "Мимик (до хардмода)"
    }
   ],
   "obtain": "",
@@ -4324,7 +4804,8 @@
   "drops": [
    {
     "source": "Mourning Wood (Pumpkin Moon)",
-    "chance": "2.86–20% (Classic); 5–20% (Expert), зависит от волны"
+    "chance": "2.86–20% (классика); 5–20% (эксперт), зависит от волны",
+    "ru": "Плакучий древень (Тыквенная луна)"
    }
   ],
   "obtain": "",
@@ -4341,13 +4822,16 @@
     "ingredients": [
      {
       "en": "Necromantic Scroll",
-      "count": 1
+      "count": 1,
+      "ru": "Некромантский свиток"
      },
      {
       "en": "Hercules Beetle",
-      "count": 1
+      "count": 1,
+      "ru": "Жук Геркулес"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -4365,75 +4849,93 @@
     "ingredients": [
      {
       "en": "Bundle of Balloons",
-      "count": 1
+      "count": 1,
+      "ru": "Связка шаров"
      },
      {
       "en": "Lucky Horseshoe",
-      "count": 1
+      "count": 1,
+      "ru": "Счастливая подкова"
      },
      {
       "en": "White Horseshoe Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Белый шар-подкова"
      },
      {
       "en": "Any Cloud Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Любой облачный шар"
      },
      {
       "en": "Any Sandstorm Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Любой песчаный шар"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    },
    {
     "station": "Tinkerer's Workshop",
     "ingredients": [
      {
       "en": "Bundle of Balloons",
-      "count": 1
+      "count": 1,
+      "ru": "Связка шаров"
      },
      {
       "en": "Lucky Horseshoe",
-      "count": 1
+      "count": 1,
+      "ru": "Счастливая подкова"
      },
      {
       "en": "Blue Horseshoe Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Синий шар-подкова"
      },
      {
       "en": "Any Blizzard Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Любой шар метели"
      },
      {
       "en": "Any Sandstorm Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Любой песчаный шар"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    },
    {
     "station": "Tinkerer's Workshop",
     "ingredients": [
      {
       "en": "Bundle of Balloons",
-      "count": 1
+      "count": 1,
+      "ru": "Связка шаров"
      },
      {
       "en": "Lucky Horseshoe",
-      "count": 1
+      "count": 1,
+      "ru": "Счастливая подкова"
      },
      {
       "en": "Yellow Horseshoe Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Жёлтый шар-подкова"
      },
      {
       "en": "Any Cloud Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Любой облачный шар"
      },
      {
       "en": "Any Blizzard Balloon",
-      "count": 1
+      "count": 1,
+      "ru": "Любой шар метели"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -4455,7 +4957,8 @@
       "ingredients": [
        {
         "en": "Hallowed Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Освящённый слиток"
        }
       ]
      }
@@ -4470,7 +4973,8 @@
       "ingredients": [
        {
         "en": "Hallowed Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Освящённый слиток"
        }
       ]
      }
@@ -4485,7 +4989,8 @@
       "ingredients": [
        {
         "en": "Hallowed Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Освящённый слиток"
        }
       ]
      }
@@ -4500,7 +5005,8 @@
       "ingredients": [
        {
         "en": "Hallowed Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Освящённый слиток"
        }
       ]
      }
@@ -4515,7 +5021,8 @@
       "ingredients": [
        {
         "en": "Hallowed Bar",
-        "count": 24
+        "count": 24,
+        "ru": "Освящённый слиток"
        }
       ]
      }
@@ -4530,9 +5037,11 @@
       "ingredients": [
        {
         "en": "Hallowed Bar",
-        "count": 18
+        "count": 18,
+        "ru": "Освящённый слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    }
@@ -4554,17 +5063,21 @@
     "ingredients": [
      {
       "en": "Hallowed Bar",
-      "count": 12
+      "count": 12,
+      "ru": "Освящённый слиток"
      },
      {
       "en": "Soul of Light",
-      "count": 15
+      "count": 15,
+      "ru": "Душа света"
      },
      {
       "en": "Soul of Might",
-      "count": 15
+      "count": 15,
+      "ru": "Душа мощи"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая/орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -4580,10 +5093,11 @@
   "drops": [
    {
     "source": "Chest (I am error worlds)",
-    "chance": ""
+    "chance": "",
+    "ru": "Сундук (миры «I am error»)"
    }
   ],
-  "obtain": "Покупается у Странствующего торговца за 17 золота после победы над одним из боссов (King Slime, Eye of Cthulhu, Eater of Worlds, Brain of Cthulhu, Queen Bee, Deerclops, Skeletron)",
+  "obtain": "Покупается у Странствующего торговца за 17 золота после победы над одним из боссов (Король слизней, Глаз Ктулху, Пожиратель миров, Мозг Ктулху, Королева пчёл, Циклоп-олень, Скелетрон)",
   "status": "ok",
   "issue": "",
   "hasDrop": true
@@ -4595,7 +5109,8 @@
   "drops": [
    {
     "source": "Skeleton Sniper (Hardmode Dungeon)",
-    "chance": "8.33%"
+    "chance": "8.33%",
+    "ru": "Скелет-снайпер (хардмод-Подземелье)"
    }
   ],
   "obtain": "",
@@ -4622,21 +5137,26 @@
     "ingredients": [
      {
       "en": "Frog Flipper",
-      "count": 1
+      "count": 1,
+      "ru": "Лягушачьи ласты"
      },
      {
       "en": "Tiger Climbing Gear",
-      "count": 1
+      "count": 1,
+      "ru": "Тигриное снаряжение для лазания"
      },
      {
       "en": "Frog Webbing",
-      "count": 1
+      "count": 1,
+      "ru": "Лягушачья перепонка"
      },
      {
       "en": "Flipper",
-      "count": 1
+      "count": 1,
+      "ru": "Ласты"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -4654,17 +5174,21 @@
     "ingredients": [
      {
       "en": "Tiger Climbing Gear",
-      "count": 1
+      "count": 1,
+      "ru": "Тигриное снаряжение для лазания"
      },
      {
       "en": "Tabi",
-      "count": 1
+      "count": 1,
+      "ru": "Таби"
      },
      {
       "en": "Black Belt",
-      "count": 1
+      "count": 1,
+      "ru": "Чёрный пояс"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -4680,7 +5204,8 @@
   "drops": [
    {
     "source": "Snow Flinx",
-    "chance": "4% (1/25)"
+    "chance": "4% (1/25)",
+    "ru": "Снежный флинкс"
    }
   ],
   "obtain": "",
@@ -4725,9 +5250,11 @@
     "ingredients": [
      {
       "en": "Solar Fragment",
-      "count": 18
+      "count": 18,
+      "ru": "Солнечный фрагмент"
      }
-    ]
+    ],
+    "stationRu": "Манипулятор древних"
    }
   ],
   "drops": [],
@@ -4745,9 +5272,11 @@
     "ingredients": [
      {
       "en": "Solar Fragment",
-      "count": 18
+      "count": 18,
+      "ru": "Солнечный фрагмент"
      }
-    ]
+    ],
+    "stationRu": "Манипулятор древних"
    }
   ],
   "drops": [],
@@ -4769,9 +5298,11 @@
       "ingredients": [
        {
         "en": "Spectre Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Призрачный слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -4784,7 +5315,8 @@
       "ingredients": [
        {
         "en": "Spectre Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Призрачный слиток"
        }
       ]
      }
@@ -4799,7 +5331,8 @@
       "ingredients": [
        {
         "en": "Spectre Bar",
-        "count": 24
+        "count": 24,
+        "ru": "Призрачный слиток"
        }
       ]
      }
@@ -4814,7 +5347,8 @@
       "ingredients": [
        {
         "en": "Spectre Bar",
-        "count": 18
+        "count": 18,
+        "ru": "Призрачный слиток"
        }
       ]
      }
@@ -4836,7 +5370,8 @@
   "drops": [
    {
     "source": "Ragged Caster",
-    "chance": "5% (Classic), 9.75% (Expert)"
+    "chance": "5% (классика), 9.75% (эксперт)",
+    "ru": "Оборванный заклинатель"
    }
   ],
   "obtain": "",
@@ -4853,13 +5388,16 @@
     "ingredients": [
      {
       "en": "Bone",
-      "count": 90
+      "count": 90,
+      "ru": "Кость"
      },
      {
       "en": "Cobweb",
-      "count": 55
+      "count": 55,
+      "ru": "Паутина"
      }
-    ]
+    ],
+    "stationRu": "Верстак"
    }
   ],
   "drops": [],
@@ -4887,21 +5425,26 @@
     "ingredients": [
      {
       "en": "Greater Mana Potion",
-      "count": 15
+      "count": 15,
+      "ru": "Большое зелье маны"
      },
      {
       "en": "Fallen Star",
-      "count": 1
+      "count": 1,
+      "ru": "Упавшая звезда"
      },
      {
       "en": "Crystal Shard",
-      "count": 3
+      "count": 3,
+      "ru": "Кристальный осколок"
      },
      {
       "en": "Unicorn Horn",
-      "count": 1
+      "count": 1,
+      "ru": "Рог единорога"
      }
-    ]
+    ],
+    "stationRu": "Алхимический стол"
    }
   ],
   "drops": [],
@@ -4917,15 +5460,18 @@
   "drops": [
    {
     "source": "Blue Armored Bones",
-    "chance": "0.33% (Expert: 0.67%)"
+    "chance": "0.33% (эксперт: 0.67%)",
+    "ru": "Синий бронированный скелет"
    },
    {
     "source": "Rusty Armored Bones",
-    "chance": "0.33% (Expert: 0.67%)"
+    "chance": "0.33% (эксперт: 0.67%)",
+    "ru": "Ржавый бронированный скелет"
    },
    {
     "source": "Hell Armored Bones",
-    "chance": "0.33% (Expert: 0.67%)"
+    "chance": "0.33% (эксперт: 0.67%)",
+    "ru": "Адский бронированный скелет"
    }
   ],
   "obtain": "",
@@ -4950,7 +5496,8 @@
   "drops": [
    {
     "source": "Tactical Skeleton (Hardmode Dungeon)",
-    "chance": "8.33%"
+    "chance": "8.33%",
+    "ru": "Тактический скелет (хардмод-Подземелье)"
    }
   ],
   "obtain": "",
@@ -4975,7 +5522,8 @@
   "drops": [
    {
     "source": "Pumpking (Pumpkin Moon)",
-    "chance": "2.5–12.5% (Classic); 6.25–12.5% (Expert), зависит от волны"
+    "chance": "2.5–12.5% (классика); 6.25–12.5% (эксперт), зависит от волны",
+    "ru": "Тыквенный король (Тыквенная луна)"
    }
   ],
   "obtain": "",
@@ -5002,17 +5550,21 @@
     "ingredients": [
      {
       "en": "True Night's Edge",
-      "count": 1
+      "count": 1,
+      "ru": "Истинный ночной клинок"
      },
      {
       "en": "True Excalibur",
-      "count": 1
+      "count": 1,
+      "ru": "Истинный Экскалибур"
      },
      {
       "en": "Broken Hero Sword",
-      "count": 1
+      "count": 1,
+      "ru": "Сломанный меч героя"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая/орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -5028,7 +5580,8 @@
   "drops": [
    {
     "source": "Empress of Light (only if all damage is dealt during the day)",
-    "chance": "100%"
+    "chance": "100%",
+    "ru": "Императрица света (только если весь урон нанесён днём)"
    }
   ],
   "obtain": "",
@@ -5049,7 +5602,8 @@
       "ingredients": [
        {
         "en": "Titanium Bar",
-        "count": 13
+        "count": 13,
+        "ru": "Титановый слиток"
        }
       ]
      }
@@ -5064,7 +5618,8 @@
       "ingredients": [
        {
         "en": "Titanium Bar",
-        "count": 13
+        "count": 13,
+        "ru": "Титановый слиток"
        }
       ]
      }
@@ -5079,7 +5634,8 @@
       "ingredients": [
        {
         "en": "Titanium Bar",
-        "count": 13
+        "count": 13,
+        "ru": "Титановый слиток"
        }
       ]
      }
@@ -5094,18 +5650,22 @@
       "ingredients": [
        {
         "en": "Titanium Bar",
-        "count": 26
+        "count": 26,
+        "ru": "Титановый слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая наковальня"
      },
      {
       "station": "Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Titanium Bar",
-        "count": 26
+        "count": 26,
+        "ru": "Титановый слиток"
        }
-      ]
+      ],
+      "stationRu": "Орихалковая наковальня"
      }
     ]
    },
@@ -5118,7 +5678,8 @@
       "ingredients": [
        {
         "en": "Titanium Bar",
-        "count": 20
+        "count": 20,
+        "ru": "Титановый слиток"
        }
       ]
      }
@@ -5138,7 +5699,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Sharpening_Station",
   "recipes": [],
   "drops": [],
-  "obtain": "Встречается в подземных хижинах (Underground Cabins) в Подземных джунглях; в Хардмоде продаётся Торговцем за 10 золота",
+  "obtain": "Встречается в подземных хижинах в Подземных джунглях; в хардмоде продаётся Торговцем за 10 золота",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -5152,17 +5713,21 @@
     "ingredients": [
      {
       "en": "Stinger",
-      "count": 12
+      "count": 12,
+      "ru": "Жало"
      },
      {
       "en": "Jungle Spores",
-      "count": 15
+      "count": 15,
+      "ru": "Споры джунглей"
      },
      {
       "en": "Vine",
-      "count": 3
+      "count": 3,
+      "ru": "Лоза"
      }
-    ]
+    ],
+    "stationRu": "Железная наковальня"
    }
   ],
   "drops": [],
@@ -5188,7 +5753,8 @@
   "drops": [
    {
     "source": "Angry Trapper",
-    "chance": "1%"
+    "chance": "1%",
+    "ru": "Злой ловушник"
    }
   ],
   "obtain": "",
@@ -5205,17 +5771,21 @@
     "ingredients": [
      {
       "en": "Thunder Zapper",
-      "count": 1
+      "count": 1,
+      "ru": "Громовой излучатель"
      },
      {
       "en": "Any Adamantite Bar",
-      "count": 24
+      "count": 24,
+      "ru": "Любой адамантитовый слиток"
      },
      {
       "en": "Soul of Night",
-      "count": 20
+      "count": 20,
+      "ru": "Душа ночи"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая/орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -5231,15 +5801,18 @@
   "drops": [
    {
     "source": "Blue Armored Bones",
-    "chance": "0.5% (Expert: 1%)"
+    "chance": "0.5% (эксперт: 1%)",
+    "ru": "Синий бронированный скелет"
    },
    {
     "source": "Rusty Armored Bones",
-    "chance": "0.5% (Expert: 1%)"
+    "chance": "0.5% (эксперт: 1%)",
+    "ru": "Ржавый бронированный скелет"
    },
    {
     "source": "Hell Armored Bones",
-    "chance": "0.5% (Expert: 1%)"
+    "chance": "0.5% (эксперт: 1%)",
+    "ru": "Адский бронированный скелет"
    }
   ],
   "obtain": "",
@@ -5256,9 +5829,11 @@
     "ingredients": [
      {
       "en": "Vortex Fragment",
-      "count": 18
+      "count": 18,
+      "ru": "Вихревой фрагмент"
      }
-    ]
+    ],
+    "stationRu": "Манипулятор древних"
    }
   ],
   "drops": [],
@@ -5276,13 +5851,16 @@
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Ichor",
-      "count": 2
+      "count": 2,
+      "ru": "Ихор"
      }
-    ]
+    ],
+    "stationRu": "Наполнитель"
    }
   ],
   "drops": [],
@@ -5300,26 +5878,32 @@
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Hellstone",
-      "count": 3
+      "count": 3,
+      "ru": "Адский камень"
      }
-    ]
+    ],
+    "stationRu": "Наполнитель"
    },
    {
     "station": "Imbuing Station",
     "ingredients": [
      {
       "en": "Bottled Water",
-      "count": 1
+      "count": 1,
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Stinger",
-      "count": 1
+      "count": 1,
+      "ru": "Жало"
      }
-    ]
+    ],
+    "stationRu": "Наполнитель"
    }
   ],
   "drops": [],
@@ -5345,11 +5929,13 @@
   "drops": [
    {
     "source": "Ogre (Tier 2)",
-    "chance": "10% (Expert: 20%)"
+    "chance": "10% (эксперт: 20%)",
+    "ru": "Огр (Армия Древних, 2 ур.)"
    },
    {
     "source": "Ogre (Tier 3)",
-    "chance": "5%"
+    "chance": "5%",
+    "ru": "Огр (Армия Древних, 3 ур.)"
    }
   ],
   "obtain": "",
@@ -5370,7 +5956,8 @@
       "ingredients": [
        {
         "en": "Chlorophyte Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Хлорофитовый слиток"
        }
       ]
      }
@@ -5385,7 +5972,8 @@
       "ingredients": [
        {
         "en": "Chlorophyte Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Хлорофитовый слиток"
        }
       ]
      }
@@ -5400,7 +5988,8 @@
       "ingredients": [
        {
         "en": "Chlorophyte Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Хлорофитовый слиток"
        }
       ]
      }
@@ -5415,7 +6004,8 @@
       "ingredients": [
        {
         "en": "Chlorophyte Bar",
-        "count": 12
+        "count": 12,
+        "ru": "Хлорофитовый слиток"
        }
       ]
      }
@@ -5430,7 +6020,8 @@
       "ingredients": [
        {
         "en": "Chlorophyte Bar",
-        "count": 24
+        "count": 24,
+        "ru": "Хлорофитовый слиток"
        }
       ]
      }
@@ -5445,9 +6036,11 @@
       "ingredients": [
        {
         "en": "Chlorophyte Bar",
-        "count": 18
+        "count": 18,
+        "ru": "Хлорофитовый слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    }
@@ -5469,9 +6062,11 @@
     "ingredients": [
      {
       "en": "Chlorophyte Bar",
-      "count": 12
+      "count": 12,
+      "ru": "Хлорофитовый слиток"
      }
-    ]
+    ],
+    "stationRu": "Мифриловая наковальня"
    }
   ],
   "drops": [],
@@ -5499,13 +6094,16 @@
     "ingredients": [
      {
       "en": "Nature's Gift",
-      "count": 1
+      "count": 1,
+      "ru": "Дар природы"
      },
      {
       "en": "Mana Potion",
-      "count": 1
+      "count": 1,
+      "ru": "Зелье маны"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -5521,15 +6119,18 @@
   "drops": [
    {
     "source": "Shadow Chest (Underworld)",
-    "chance": "20%"
+    "chance": "20%",
+    "ru": "Теневой сундук (Подземный мир)"
    },
    {
     "source": "Obsidian Lock Box",
-    "chance": "20%"
+    "chance": "20%",
+    "ru": "Обсидиановый запертый ящик"
    },
    {
     "source": "Red Devil (Remix worlds only)",
-    "chance": "3.33%"
+    "chance": "3.33%",
+    "ru": "Красный дьявол (только в ремиксе)"
    }
   ],
   "obtain": "",
@@ -5544,11 +6145,13 @@
   "drops": [
    {
     "source": "Duke Fishron",
-    "chance": "14.29% (1/7)"
+    "chance": "14.29% (1/7)",
+    "ru": "Герцог Рыбокрыл"
    },
    {
     "source": "Treasure Bag (Duke Fishron)",
-    "chance": "14.29% (1/7)"
+    "chance": "14.29% (1/7)",
+    "ru": "Сумка с сокровищами (Герцог Рыбокрыл)"
    }
   ],
   "obtain": "",
@@ -5591,11 +6194,13 @@
   "drops": [
    {
     "source": "Dark Mage (T1)",
-    "chance": "25% (50% in Expert)"
+    "chance": "25% (50% in эксперт)",
+    "ru": "Тёмный маг (Армия Древних, 1 ур.)"
    },
    {
     "source": "Dark Mage (T3)",
-    "chance": "25% (50% in Expert)"
+    "chance": "25% (50% in эксперт)",
+    "ru": "Тёмный маг (Армия Древних, 3 ур.)"
    }
   ],
   "obtain": "",
@@ -5610,7 +6215,8 @@
   "drops": [
    {
     "source": "Eater of Worlds (Treasure Bag, Expert и Master)",
-    "chance": "100%"
+    "chance": "100%",
+    "ru": "Пожиратель миров (сумка с сокровищами, режимы «Эксперт» и «Мастер»)"
    }
   ],
   "obtain": "",
@@ -5625,26 +6231,31 @@
   "drops": [
    {
     "source": "Goblin Archer",
-    "chance": "49.75%"
+    "chance": "49.75%",
+    "ru": "Гоблин-лучник"
    },
    {
     "source": "Goblin Peon",
-    "chance": "49.75%"
+    "chance": "49.75%",
+    "ru": "Гоблин-работяга"
    },
    {
     "source": "Goblin Sorcerer",
-    "chance": "49.75%"
+    "chance": "49.75%",
+    "ru": "Гоблин-колдун"
    },
    {
     "source": "Goblin Thief",
-    "chance": "49.75%"
+    "chance": "49.75%",
+    "ru": "Гоблин-вор"
    },
    {
     "source": "Goblin Warrior",
-    "chance": "49.75%"
+    "chance": "49.75%",
+    "ru": "Гоблин-воин"
    }
   ],
-  "obtain": "Продаётся у Гоблина-механика за 80 меди",
+  "obtain": "Продаётся у Гоблина-инженера за 80 меди",
   "status": "ok",
   "issue": "",
   "hasDrop": true
@@ -5656,7 +6267,8 @@
   "drops": [
    {
     "source": "Plantera",
-    "chance": "10%"
+    "chance": "10%",
+    "ru": "Плантера"
    }
   ],
   "obtain": "",
@@ -5671,7 +6283,8 @@
   "drops": [
    {
     "source": "Eye of Cthulhu (Treasure Bag, Expert Mode)",
-    "chance": "100%"
+    "chance": "100%",
+    "ru": "Глаз Ктулху (сумка с сокровищами, режим «Эксперт»)"
    }
   ],
   "obtain": "",
@@ -5718,63 +6331,78 @@
     "ingredients": [
      {
       "en": "Summoner Emblem",
-      "count": 1
+      "count": 1,
+      "ru": "Эмблема призывателя"
      },
      {
       "en": "Soul of Might",
-      "count": 5
+      "count": 5,
+      "ru": "Душа мощи"
      },
      {
       "en": "Soul of Sight",
-      "count": 5
+      "count": 5,
+      "ru": "Душа зрения"
      },
      {
       "en": "Soul of Fright",
-      "count": 5
+      "count": 5,
+      "ru": "Душа страха"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    },
    {
     "station": "Tinkerer's Workshop",
     "ingredients": [
      {
       "en": "Ranger Emblem",
-      "count": 1
+      "count": 1,
+      "ru": "Эмблема следопыта"
      },
      {
       "en": "Soul of Might",
-      "count": 5
+      "count": 5,
+      "ru": "Душа мощи"
      },
      {
       "en": "Soul of Sight",
-      "count": 5
+      "count": 5,
+      "ru": "Душа зрения"
      },
      {
       "en": "Soul of Fright",
-      "count": 5
+      "count": 5,
+      "ru": "Душа страха"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    },
    {
     "station": "Tinkerer's Workshop",
     "ingredients": [
      {
       "en": "Warrior Emblem",
-      "count": 1
+      "count": 1,
+      "ru": "Эмблема воина"
      },
      {
       "en": "Soul of Might",
-      "count": 5
+      "count": 5,
+      "ru": "Душа мощи"
      },
      {
       "en": "Soul of Sight",
-      "count": 5
+      "count": 5,
+      "ru": "Душа зрения"
      },
      {
       "en": "Soul of Fright",
-      "count": 5
+      "count": 5,
+      "ru": "Душа страха"
      }
-    ]
+    ],
+    "stationRu": "Мастерская инженера"
    }
   ],
   "drops": [],
@@ -5790,11 +6418,13 @@
   "drops": [
    {
     "source": "Wall of Flesh",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Стена плоти"
    },
    {
     "source": "Wall of Flesh (Treasure Bag)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Сумка с сокровищами (Стена плоти)"
    }
   ],
   "obtain": "",
@@ -5809,11 +6439,13 @@
   "drops": [
    {
     "source": "Wall of Flesh",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Стена плоти"
    },
    {
     "source": "Treasure Bag (Wall of Flesh)",
-    "chance": "25%"
+    "chance": "25%",
+    "ru": "Сумка с сокровищами (Стена плоти)"
    }
   ],
   "obtain": "",
@@ -5828,7 +6460,8 @@
   "drops": [
    {
     "source": "Black Recluse",
-    "chance": "2.5%"
+    "chance": "2.5%",
+    "ru": "Чёрный затворник"
    }
   ],
   "obtain": "",
@@ -5841,7 +6474,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Ammo_Box",
   "recipes": [],
   "drops": [],
-  "obtain": "Покупается у Оружейника (Arms Dealer) за 10 золота в Хардмоде",
+  "obtain": "Покупается у Оружейника за 10 золота в хардмоде",
   "status": "ok",
   "issue": "",
   "hasDrop": false
