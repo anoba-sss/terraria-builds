@@ -1657,7 +1657,7 @@
       "station": "",
       "ingredients": [
        {
-        "en": "Gold Bar",
+        "en": "Золотой слиток",
         "count": 20
        }
       ]
@@ -1672,7 +1672,7 @@
       "station": "Iron Anvil or Lead Anvil",
       "ingredients": [
        {
-        "en": "Gold Bar",
+        "en": "Золотой слиток",
         "count": 30
        }
       ]
@@ -1687,7 +1687,7 @@
       "station": "",
       "ingredients": [
        {
-        "en": "Gold Bar",
+        "en": "Золотой слиток",
         "count": 25
        }
       ]
