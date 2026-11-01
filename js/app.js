@@ -16,7 +16,7 @@
     { id: 'buffs', name: 'Баффы' }
   ];
   const BOSS_NAMES = {
-    ks: 'Король слаймов', eye: 'Глаз Ктулху', eow: 'Пожиратель миров', boc: 'Мозг Ктулху',
+    ks: 'Король слизней', eye: 'Глаз Ктулху', eow: 'Пожиратель миров', boc: 'Мозг Ктулху',
     'queen-bee': 'Королева пчёл', skeletron: 'Скелетрон', wof: 'Стена плоти',
     'queen-slime': 'Королева слизней', destroyer: 'Уничтожитель', twins: 'Близнецы',
     'skeletron-prime': 'Скелетрон Прайм', plantera: 'Плантера', duke: 'Герцог Рыброн',
@@ -688,18 +688,20 @@
       box.replaceChildren(
         ...recipes.map((r, ri) => el('div', { class: 'ed-card' }, [
           el('div', { class: 'ed-row' }, [
-            field('Станция', r.station, v => { r.station = v; }, { ph: 'Workbench / Anvil / нет' }),
+            field('Станция (русск.)', r.stationRu, v => { r.stationRu = v; }, { ph: 'Верстак / Наковальня / нет' }),
+            field('Станция (англ.)', r.station, v => { r.station = v; }, { ph: 'Workbench / Anvil / нет' }),
             el('button', { class: 'ed-btn danger', type: 'button', text: 'Удалить рецепт', onclick: () => { recipes.splice(ri, 1); render(); } })
           ]),
-          el('div', { class: 'ed-label', text: 'Ингредиенты (английское название, как на вики)' }),
+          el('div', { class: 'ed-label', text: 'Ингредиенты (русское название для сайта, английское — для ссылки на вики)' }),
           ...r.ingredients.map((ing, ii) => el('div', { class: 'ed-row' }, [
-            field('Название', ing.en, v => { ing.en = v; }, { ph: 'Название' }),
+            field('Название (русск.)', ing.ru, v => { ing.ru = v; }, { ph: 'Прочная окаменелость' }),
+            field('Название (англ.)', ing.en, v => { ing.en = v; }, { ph: 'Sturdy Fossil' }),
             field('Кол-во', ing.count, v => { ing.count = v; }, { type: 'number' }),
             el('button', { class: 'ed-btn danger small', type: 'button', text: '×', 'aria-label': 'Удалить ингредиент', onclick: () => { r.ingredients.splice(ii, 1); render(); } })
           ])),
-          el('button', { class: 'ed-btn', type: 'button', text: '+ ингредиент', onclick: () => { r.ingredients.push({ en: '', count: 1 }); render(); } })
+          el('button', { class: 'ed-btn', type: 'button', text: '+ ингредиент', onclick: () => { r.ingredients.push({ ru: '', en: '', count: 1 }); render(); } })
         ])),
-        el('button', { class: 'ed-btn primary', type: 'button', text: '+ рецепт', onclick: () => { recipes.push({ station: '', ingredients: [] }); render(); } })
+        el('button', { class: 'ed-btn primary', type: 'button', text: '+ рецепт', onclick: () => { recipes.push({ station: '', stationRu: '', ingredients: [] }); render(); } })
       );
     };
     render();
@@ -730,11 +732,12 @@
     const render = () => {
       box.replaceChildren(
         ...drops.map((d, di) => el('div', { class: 'ed-row' }, [
-          field('Источник', d.source, v => { d.source = v; }, { ph: 'Враг или босс' }),
+          field('Источник (русск.)', d.ru, v => { d.ru = v; }, { ph: 'Дьяволист' }),
+          field('Источник (англ.)', d.source, v => { d.source = v; }, { ph: 'Diabolist' }),
           field('Шанс', d.chance, v => { d.chance = v; }, { ph: '25%' }),
           el('button', { class: 'ed-btn danger small', type: 'button', text: '×', 'aria-label': 'Удалить дроп', onclick: () => { drops.splice(di, 1); render(); } })
         ])),
-        el('button', { class: 'ed-btn primary', type: 'button', text: '+ дроп', onclick: () => { drops.push({ source: '', chance: '' }); render(); } })
+        el('button', { class: 'ed-btn primary', type: 'button', text: '+ дроп', onclick: () => { drops.push({ source: '', ru: '', chance: '' }); render(); } })
       );
     };
     render();

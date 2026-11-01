@@ -288,7 +288,8 @@ textarea.ed-input { resize: vertical; }
 .ed-input:focus { outline: 2px solid var(--cls); outline-offset: 1px; }
 .ed-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .ed-row { display: flex; gap: 8px; align-items: flex-end; flex-wrap: wrap; }
-.ed-row .ed-field:nth-child(2) { flex: 0 0 110px; }
+.ed-row .ed-field:nth-child(2) { flex: 1 1 160px; }
+.ed-row .ed-field:has(input[type="number"]) { flex: 0 0 110px; }
 .ed-list { display: grid; gap: 10px; }
 .ed-card { border: var(--bw) solid var(--line); background: var(--panel-2); border-radius: var(--radius-md); padding: 12px; display: grid; gap: 8px; }
 .ed-actions { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; }
