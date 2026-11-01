@@ -24,7 +24,8 @@
  },
  "bg": {
   "mode": "image",
-  "patternSize": 26
+  "patternSize": 26,
+  "url": "https://github.com/anoba-sss/terraria-builds/blob/main/images/yandex1.jpg"
  },
  "texts": {
   "pageTitle": "Билды к боссам"
