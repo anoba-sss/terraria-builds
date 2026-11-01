@@ -779,7 +779,7 @@
 
   function openItemEditor(name, alt) {
     const draft = JSON.parse(JSON.stringify(itemData(name)));
-    const isSet = !!(draft.pieces && draft.pieces.length);
+    let isSet = !!(draft.pieces && draft.pieces.length);
     const c = CLASSES[currentClass()];
     let newName = name;
     let noteVal = alt ? (alt.note || '') : '';
@@ -810,6 +810,38 @@
     };
     statusSel.addEventListener('change', () => { draft.status = statusSel.value; refreshPreview(); });
 
+    // переключатель: один предмет (рецепт) или набор из деталей (броня и т.п.)
+    const recipeSection = el('section', { class: 'modal-section' });
+    const drawRecipeSection = () => {
+      const modeRow = el('div', { class: 'ed-row' }, [
+        el('button', { class: 'ed-btn' + (isSet ? '' : ' primary'), type: 'button', text: 'Один предмет (рецепт)', onclick: () => {
+          if (!isSet) return;
+          const hasParts = (draft.pieces || []).some(p => (p.recipes || []).length || p.ru || p.en);
+          if (hasParts && !window.confirm('Убрать все детали набора? Их названия и рецепты будут удалены.')) return;
+          delete draft.pieces;
+          draft.recipes = draft.recipes || [];
+          isSet = false;
+          drawRecipeSection();
+        } }),
+        el('button', { class: 'ed-btn' + (isSet ? ' primary' : ''), type: 'button', text: 'Набор из деталей (броня)', onclick: () => {
+          if (isSet) return;
+          draft.pieces = [{ ru: '', en: '', recipes: draft.recipes || [] }];
+          draft.recipes = [];
+          isSet = true;
+          drawRecipeSection();
+        } })
+      ]);
+      recipeSection.replaceChildren(
+        el('h3', { text: isSet ? 'Рецепт по частям (детали набора)' : 'Рецепт' }),
+        modeRow,
+        isSet
+          ? el('p', { class: 'ed-hint', text: 'У каждой детали можно задать русское и английское название и свой рецепт. Название самого предмета — вверху (поле «Название предмета»).' })
+          : null,
+        isSet ? piecesEditor(draft.pieces) : recipesEditor(draft.recipes)
+      );
+    };
+    drawRecipeSection();
+
     const body = el('div', { class: 'modal-body' }, [
       el('section', { class: 'modal-section' }, [
         el('h3', { text: 'Надпись на карточке' }),
@@ -829,10 +861,7 @@
       ]),
       field('Описание', draft.description, v => { draft.description = v; }, { multiline: true, ph: 'Краткое описание предмета' }),
       field('Получение (если не крафтится и не падает)', draft.obtain, v => { draft.obtain = v; }, { ph: 'Покупается у Торговца…' }),
-      el('section', { class: 'modal-section' }, [
-        el('h3', { text: isSet ? 'Рецепт по частям' : 'Рецепт' }),
-        isSet ? piecesEditor(draft.pieces) : recipesEditor(draft.recipes)
-      ]),
+      recipeSection,
       el('section', { class: 'modal-section' }, [el('h3', { text: 'Дроп' }), dropsEditor(draft.drops)]),
       el('div', { class: 'ed-actions' }, [
         el('button', { class: 'ed-btn', type: 'button', text: 'Отмена', onclick: closeModal }),
@@ -844,6 +873,7 @@
           if (!okImgUrl(img)) { toast('Ссылка на картинку должна начинаться с https://'); return; }
           if (img) draft.img = img; else delete draft.img;
           if (draft.wiki === '' && draft.en) draft.wiki = wikiUrl(draft.en);
+          if (!isSet) delete draft.pieces;
           draft.hasDrop = draft.drops.length > 0;
           if (alt) alt.note = noteVal.trim() || null;
           ITEMS[name] = draft;
