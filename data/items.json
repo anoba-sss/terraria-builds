@@ -1,0 +1,5823 @@
+{
+ "Адамантитовая броня": {
+  "en": "Adamantite armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Adamantite_armor",
+  "pieces": [
+   {
+    "ru": "Адамантитовый головной убор",
+    "en": "Adamantite Headgear",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Adamantite Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Адамантитовый шлем",
+    "en": "Adamantite Helmet",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Adamantite Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Адамантитовая маска",
+    "en": "Adamantite Mask",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Adamantite Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Адамантитовый нагрудник",
+    "en": "Adamantite Breastplate",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "ingredients": [
+       {
+        "en": "Adamantite Bar",
+        "count": 24
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Адамантитовые поножи",
+    "en": "Adamantite Leggings",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Adamantite Bar",
+        "count": 18
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для головных уборов, маски и поножей на странице не указана. Русские названия деталей не сверены с ru-вики.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Адские вилы": {
+  "en": "Inferno Fork",
+  "wiki": "https://terraria.wiki.gg/wiki/Inferno_Fork",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Diabolist",
+    "chance": "5% (Classic), 9.75% (Expert)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Алмазный посох": {
+  "en": "Diamond Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Diamond_Staff",
+  "recipes": [
+   {
+    "station": "Iron Anvil",
+    "ingredients": [
+     {
+      "en": "Platinum Bar",
+      "count": 7
+     },
+     {
+      "en": "Diamond",
+      "count": 8
+     }
+    ]
+   },
+   {
+    "station": "Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Platinum Bar",
+      "count": 7
+     },
+     {
+      "en": "Diamond",
+      "count": 8
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Амазония": {
+  "en": "Amazon",
+  "wiki": "https://terraria.wiki.gg/wiki/Amazon",
+  "recipes": [
+   {
+    "station": "Iron/Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Rich Mahogany",
+      "count": 8
+     },
+     {
+      "en": "Stinger",
+      "count": 12
+     },
+     {
+      "en": "Vine",
+      "count": 1
+     },
+     {
+      "en": "Jungle Spores",
+      "count": 9
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Анкх-щит": {
+  "en": "Ankh Shield",
+  "wiki": "https://terraria.wiki.gg/wiki/Ankh_Shield",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Obsidian Shield",
+      "count": 1
+     },
+     {
+      "en": "Ankh Charm",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Арканум Небулы": {
+  "en": "Nebula Arcanum",
+  "wiki": "https://terraria.wiki.gg/wiki/Nebula_Arcanum",
+  "recipes": [
+   {
+    "station": "Ancient Manipulator",
+    "ingredients": [
+     {
+      "en": "Nebula Fragment",
+      "count": 18
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Бананаранг": {
+  "en": "Bananarang",
+  "wiki": "https://terraria.wiki.gg/wiki/Bananarang",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Clown (Blood Moon)",
+    "chance": "10%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Бластер феникса": {
+  "en": "Phoenix Blaster",
+  "wiki": "https://terraria.wiki.gg/wiki/Phoenix_Blaster",
+  "recipes": [
+   {
+    "station": "Iron Anvil / Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Hellstone Bar",
+      "count": 10
+     },
+     {
+      "en": "Handgun",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Количество Handgun на странице не указано, принято 1.",
+  "hasDrop": false
+ },
+ "Блестящий красный шарик": {
+  "en": "Shiny Red Balloon",
+  "wiki": "https://terraria.wiki.gg/wiki/Shiny_Red_Balloon",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Skyware Chest (Floating Islands)",
+    "chance": "25%"
+   },
+   {
+    "source": "Sky Crate",
+    "chance": "25%"
+   },
+   {
+    "source": "Azure Crate",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Боевой стол": {
+  "en": "War Table",
+  "wiki": "https://terraria.wiki.gg/wiki/War_Table",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Dark Mage (Old One's Army, tier 1)",
+    "chance": "50% (Classic) / 100% (Expert)"
+   },
+   {
+    "source": "Ogre (Old One's Army, tier 2)",
+    "chance": "25% (Classic) / 50% (Expert)"
+   },
+   {
+    "source": "Dark Mage (Old One's Army, tier 3)",
+    "chance": "12.5% (Classic) / 25% (Expert)"
+   },
+   {
+    "source": "Ogre (Old One's Army, tier 3)",
+    "chance": "12.5% (Classic) / 25% (Expert)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Ботинки Гермеса": {
+  "en": "Hermes Boots",
+  "wiki": "https://terraria.wiki.gg/wiki/Hermes_Boots",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Gold Chest (Underground)",
+    "chance": "16.67%"
+   },
+   {
+    "source": "Gold Chest (Cavern)",
+    "chance": "13.33%"
+   },
+   {
+    "source": "Gold Chest (Lava layer)",
+    "chance": "12.67%"
+   },
+   {
+    "source": "Mimic (pre-Hardmode)",
+    "chance": "16.67%"
+   }
+  ],
+  "obtain": "Находится в сундуках в мире; не крафтится.",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Ботинки амфибии": {
+  "en": "Amphibian Boots",
+  "wiki": "https://terraria.wiki.gg/wiki/Amphibian_Boots",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Sailfish Boots",
+      "count": 1
+     },
+     {
+      "en": "Frog Leg",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "Также можно поймать на рыбалке (конкретного источника на вики не указано)",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Браслет регенерации": {
+  "en": "Band of Regeneration",
+  "wiki": "https://terraria.wiki.gg/wiki/Band_of_Regeneration",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Из золотых сундуков в подземных слоях (шансы на вики зачеркнуты как устаревшие)",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Броня Жука": {
+  "en": "Beetle armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Beetle_armor",
+  "pieces": [
+   {
+    "ru": "Шлем жука",
+    "en": "Beetle Helmet",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "ingredients": [
+       {
+        "en": "Beetle Husk",
+        "count": 4
+       },
+       {
+        "en": "Turtle Helmet",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Чешуйчатая кольчуга жука",
+    "en": "Beetle Scale Mail",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Beetle Husk",
+        "count": 8
+       },
+       {
+        "en": "Turtle Scale Mail",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Панцирь жука",
+    "en": "Beetle Shell",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Beetle Husk",
+        "count": 8
+       },
+       {
+        "en": "Turtle Scale Mail",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Поножи жука",
+    "en": "Beetle Leggings",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Beetle Husk",
+        "count": 6
+       },
+       {
+        "en": "Turtle Leggings",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для кольчуги, панциря и поножей на странице не указана. Русские названия деталей не сверены с ru-вики.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Броня джунглей": {
+  "en": "Jungle armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Jungle_armor",
+  "pieces": [
+   {
+    "ru": "Шляпа джунглей",
+    "en": "Jungle Hat",
+    "recipes": [
+     {
+      "station": "Iron Anvil or Lead Anvil",
+      "ingredients": [
+       {
+        "en": "Jungle Spores",
+        "count": 8
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Рубашка джунглей",
+    "en": "Jungle Shirt",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Jungle Spores",
+        "count": 16
+       },
+       {
+        "en": "Stinger",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Штаны джунглей",
+    "en": "Jungle Pants",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Jungle Spores",
+        "count": 8
+       },
+       {
+        "en": "Vine",
+        "count": 2
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для рубашки и штанов на странице не указана. Русские названия деталей не сверены с ru-вики.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Броня некроманта": {
+  "en": "Necro armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Necro_armor",
+  "pieces": [
+   {
+    "ru": "Шлем некроманта",
+    "en": "Necro Helmet",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Bone",
+        "count": 40
+       },
+       {
+        "en": "Cobweb",
+        "count": 40
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Нагрудник некроманта",
+    "en": "Necro Breastplate",
+    "recipes": [
+     {
+      "station": "Work Bench",
+      "ingredients": [
+       {
+        "en": "Bone",
+        "count": 60
+       },
+       {
+        "en": "Cobweb",
+        "count": 50
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Поножи некроманта",
+    "en": "Necro Greaves",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Bone",
+        "count": 50
+       },
+       {
+        "en": "Cobweb",
+        "count": 45
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для шлема и поножей на странице не указана. Русские названия деталей не сверены с ru-вики.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Булавочный посох": {
+  "en": "Pygmy Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Pygmy_Staff",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Plantera (second form)",
+    "chance": "25%"
+   },
+   {
+    "source": "Treasure Bag (Plantera)",
+    "chance": "50% (Expert)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Вампирские ножи": {
+  "en": "Vampire Knives",
+  "wiki": "https://terraria.wiki.gg/wiki/Vampire_Knives",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Лежит в Багровом сундуке (Crimson Chest) в Подземелье, открывается Багровым ключом после победы над Плантерой",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Водная стрела": {
+  "en": "Water Bolt",
+  "wiki": "https://terraria.wiki.gg/wiki/Water_Bolt",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Water Bolt Mimic",
+    "chance": "2.5% (1/40)"
+   }
+  ],
+  "obtain": "Лежит в книгах на полках Подземелья (Dungeon shelves)",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Водный жезл": {
+  "en": "Water Bolt",
+  "wiki": "https://terraria.wiki.gg/wiki/Water_Bolt",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Water Bolt Mimic",
+    "chance": "2.5%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Волшебная арфа": {
+  "en": "Magical Harp",
+  "wiki": "https://terraria.wiki.gg/wiki/Magical_Harp",
+  "recipes": [
+   {
+    "station": "Mythril Anvil",
+    "ingredients": [
+     {
+      "en": "Harp",
+      "count": 1
+     },
+     {
+      "en": "Crystal Shard",
+      "count": 20
+     },
+     {
+      "en": "Soul of Night",
+      "count": 8
+     },
+     {
+      "en": "Soul of Sight",
+      "count": 15
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Волшебный стол": {
+  "en": "Bewitching Table",
+  "wiki": "https://terraria.wiki.gg/wiki/Bewitching_Table",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Продаётся у Witch Doctor за 10 золота в Хардмоде (при наличии Wizard); также встречается в Подземелье",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Вспышка Небулы": {
+  "en": "Nebula Blaze",
+  "wiki": "https://terraria.wiki.gg/wiki/Nebula_Blaze",
+  "recipes": [
+   {
+    "station": "Ancient Manipulator",
+    "ingredients": [
+     {
+      "en": "Nebula Fragment",
+      "count": 18
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Вулкан": {
+  "en": "Volcano",
+  "wiki": "https://terraria.wiki.gg/wiki/Volcano",
+  "recipes": [
+   {
+    "station": "Iron Anvil",
+    "ingredients": [
+     {
+      "en": "Hellstone Bar",
+      "count": 20
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Гильотины на цепях": {
+  "en": "Chain Guillotines",
+  "wiki": "https://terraria.wiki.gg/wiki/Chain_Guillotines",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Corrupt Mimic",
+    "chance": "20%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Гнев Бетси": {
+  "en": "Betsy's Wrath",
+  "wiki": "https://terraria.wiki.gg/wiki/Betsy's_Wrath",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Betsy",
+    "chance": "25%"
+   },
+   {
+    "source": "Treasure Bag (Betsy)",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Гнилые останки": {
+  "en": "Rotten Chunk",
+  "wiki": "https://terraria.wiki.gg/wiki/Rotten_Chunk",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Corruptor",
+    "chance": "33.33%"
+   },
+   {
+    "source": "Devourer",
+    "chance": "33.33%"
+   },
+   {
+    "source": "Eater of Souls",
+    "chance": "33.33%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Грань Ночи": {
+  "en": "Night's Edge",
+  "wiki": "https://terraria.wiki.gg/wiki/Night's_Edge",
+  "recipes": [
+   {
+    "station": "Demon Altar",
+    "ingredients": [
+     {
+      "en": "Light's Bane",
+      "count": 1
+     },
+     {
+      "en": "Muramasa",
+      "count": 1
+     },
+     {
+      "en": "Blade of Grass",
+      "count": 1
+     },
+     {
+      "en": "Volcano",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Crimson Altar",
+    "ingredients": [
+     {
+      "en": "Blood Butcherer",
+      "count": 1
+     },
+     {
+      "en": "Muramasa",
+      "count": 1
+     },
+     {
+      "en": "Blade of Grass",
+      "count": 1
+     },
+     {
+      "en": "Volcano",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Количества ингредиентов на вики не указаны, принято 1 для каждого.",
+  "hasDrop": false
+ },
+ "Грибная броня": {
+  "en": "Shroomite armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Shroomite_armor",
+  "pieces": [
+   {
+    "ru": "Грибной шлем",
+    "en": "Shroomite Headgear",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Shroomite Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Грибная маска",
+    "en": "Shroomite Mask",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Shroomite Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Грибной нагрудник",
+    "en": "Shroomite Breastplate",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "ingredients": [
+       {
+        "en": "Shroomite Bar",
+        "count": 24
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Грибные поножи",
+    "en": "Shroomite Leggings",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Shroomite Bar",
+        "count": 18
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для шлема, маски и поножей на странице не указана. Русские названия деталей не сверены с ru-вики.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Дар природы": {
+  "en": "Nature's Gift",
+  "wiki": "https://terraria.wiki.gg/wiki/Nature's_Gift",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Nature's Gift",
+      "count": 1
+     },
+     {
+      "en": "Mana Potion",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Iron Anvil or Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Nature's Gift",
+      "count": 1
+     },
+     {
+      "en": "Moonglow",
+      "count": 2
+     },
+     {
+      "en": "Vine",
+      "count": 3
+     },
+     {
+      "en": "Rich Mahogany",
+      "count": 7
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "Не крафтится и не выпадает. Срывается с редкого цветка, растущего на траве в Подземных джунглях, любым оружием или инструментом.",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Демоническая коса": {
+  "en": "Demon Scythe",
+  "wiki": "https://terraria.wiki.gg/wiki/Demon_Scythe",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Demon",
+    "chance": "2.86%"
+   },
+   {
+    "source": "Voodoo Demon",
+    "chance": "2.86%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Демонический лук": {
+  "en": "Demon Bow",
+  "wiki": "https://terraria.wiki.gg/wiki/Demon_Bow",
+  "recipes": [
+   {
+    "station": "Iron Anvil or Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Demonite Bar",
+      "count": 8
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Дюрандаль": {
+  "en": "Durendal",
+  "wiki": "https://terraria.wiki.gg/wiki/Durendal",
+  "recipes": [
+   {
+    "station": "Mythril/Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Hallowed Bar",
+      "count": 12
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Жезл ауры": {
+  "en": "Lightning Aura Rod",
+  "wiki": "https://terraria.wiki.gg/wiki/Lightning_Aura_Rod",
+  "recipes": [
+   {
+    "station": "Shimmer",
+    "ingredients": [
+     {
+      "en": "Explosive Trap Rod",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "Покупается у Таверника за 5 медалей защитников",
+  "status": "ok",
+  "issue": "Соответствие предположительное: это первый уровень ауры молний (Lightning Aura Rod).",
+  "hasDrop": false
+ },
+ "Жезл баллисты": {
+  "en": "Ballista Rod",
+  "wiki": "https://terraria.wiki.gg/wiki/Ballista_Rod",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Покупается у Таверника за 5 Медалей защитника (Defender Medals). Также получается трансмутацией Шиммера из Flameburst Rod.",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Жуткая броня": {
+  "en": "Spooky armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Spooky_armor",
+  "pieces": [
+   {
+    "ru": "Жуткий шлем",
+    "en": "Spooky Helmet",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Spooky Wood",
+        "count": 200
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Жуткий нагрудник",
+    "en": "Spooky Breastplate",
+    "recipes": [
+     {
+      "station": "Work Bench",
+      "ingredients": [
+       {
+        "en": "Spooky Wood",
+        "count": 300
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Жуткие поножи",
+    "en": "Spooky Leggings",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Spooky Wood",
+        "count": 250
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для шлема и поножей на странице не указана. Русские названия деталей не сверены с ru-вики.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Заводная штурмовая винтовка": {
+  "en": "Clockwork Assault Rifle",
+  "wiki": "https://terraria.wiki.gg/wiki/Clockwork_Assault_Rifle",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Wall of Flesh",
+    "chance": "25%"
+   },
+   {
+    "source": "Treasure Bag (Wall of Flesh)",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Замороженный щит": {
+  "en": "Frozen Shield",
+  "wiki": "https://terraria.wiki.gg/wiki/Frozen_Shield",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Paladin's Shield",
+      "count": 1
+     },
+     {
+      "en": "Frozen Turtle Shell",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Заряженная пушка бластера": {
+  "en": "Charged Blaster Cannon",
+  "wiki": "https://terraria.wiki.gg/wiki/Charged_Blaster_Cannon",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Brain Scrambler (Martian Madness)",
+    "chance": "0.13% (1/800)"
+   },
+   {
+    "source": "Gigazapper (Martian Madness)",
+    "chance": "0.13% (1/800)"
+   },
+   {
+    "source": "Gray Grunt (Martian Madness)",
+    "chance": "0.13% (1/800)"
+   },
+   {
+    "source": "Martian Engineer (Martian Madness)",
+    "chance": "0.13% (1/800)"
+   },
+   {
+    "source": "Martian Officer (Martian Madness)",
+    "chance": "0.13% (1/800)"
+   },
+   {
+    "source": "Martian Walker (Martian Madness)",
+    "chance": "0.13% (1/800)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Зачарованный меч": {
+  "en": "Enchanted Sword",
+  "wiki": "https://terraria.wiki.gg/wiki/Enchanted_Sword",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Enchanted Sword in Stone (background object)",
+    "chance": "96.67%"
+   },
+   {
+    "source": "Titanium Crate",
+    "chance": "6.67%"
+   },
+   {
+    "source": "Golden Crate",
+    "chance": "3.33%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Звериные когти": {
+  "en": "Feral Claws",
+  "wiki": "https://terraria.wiki.gg/wiki/Feral_Claws",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Звёздная мелодия": {
+  "en": "Stellar Tune",
+  "wiki": "https://terraria.wiki.gg/wiki/Stellar_Tune",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Empress of Light",
+    "chance": "2% (Classic), 5% (Expert)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Звёздная пушка": {
+  "en": "Star Cannon",
+  "wiki": "https://terraria.wiki.gg/wiki/Star_Cannon",
+  "recipes": [
+   {
+    "station": "Iron/Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Minishark",
+      "count": 1
+     },
+     {
+      "en": "Meteorite Bar",
+      "count": 20
+     },
+     {
+      "en": "Fallen Star",
+      "count": 5
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Звёздная ярость": {
+  "en": "Starfury",
+  "wiki": "https://terraria.wiki.gg/wiki/Starfury",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Azure Crate",
+    "chance": "25%"
+   },
+   {
+    "source": "Sky Crate",
+    "chance": "25%"
+   },
+   {
+    "source": "Skyware Chest (Floating Islands)",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Звёздный свет": {
+  "en": "Starlight",
+  "wiki": "https://terraria.wiki.gg/wiki/Starlight",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Empress of Light",
+    "chance": "25%"
+   },
+   {
+    "source": "Treasure Bag (Empress of Light)",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Зелье выносливости": {
+  "en": "Endurance Potion",
+  "wiki": "https://terraria.wiki.gg/wiki/Endurance_Potion",
+  "recipes": [
+   {
+    "station": "Alchemy Table",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Armored Cavefish",
+      "count": 1
+     },
+     {
+      "en": "Blinkroot",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Зелье железной кожи": {
+  "en": "Ironskin Potion",
+  "wiki": "https://terraria.wiki.gg/wiki/Ironskin_Potion",
+  "recipes": [
+   {
+    "station": "Alchemy Table",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Daybloom",
+      "count": 1
+     },
+     {
+      "en": "Iron Ore",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Alchemy Table",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Daybloom",
+      "count": 1
+     },
+     {
+      "en": "Lead Ore",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция и количества на странице не указаны, приняты по умолчанию.",
+  "hasDrop": false
+ },
+ "Зелье лучника": {
+  "en": "Archery Potion",
+  "wiki": "https://terraria.wiki.gg/wiki/Archery_Potion",
+  "recipes": [
+   {
+    "station": "Alchemy Table",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Daybloom",
+      "count": 1
+     },
+     {
+      "en": "Lens",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "Выпадает из горшков и золотых сундуков (под землей около 9,5%, в пещерах около 11%)",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Зелье магической силы": {
+  "en": "Magic Power Potion",
+  "wiki": "https://terraria.wiki.gg/wiki/Magic_Power_Potion",
+  "recipes": [
+   {
+    "station": "Alchemy Table (или Placed Bottle / Alchemy Flask)",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": null
+     },
+     {
+      "en": "Moonglow",
+      "count": null
+     },
+     {
+      "en": "Deathweed",
+      "count": null
+     },
+     {
+      "en": "Fallen Star",
+      "count": null
+     }
+    ]
+   }
+  ],
+  "drops": [
+   {
+    "source": "Shadow Chest (Underworld)",
+    "chance": "9.38% (3/32)"
+   },
+   {
+    "source": "Pots (Underworld)",
+    "chance": ""
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Зелье маны": {
+  "en": "Mana Potion",
+  "wiki": "https://terraria.wiki.gg/wiki/Mana_Potion",
+  "recipes": [
+   {
+    "station": "Alchemy Table or Placed Bottle",
+    "ingredients": [
+     {
+      "en": "Lesser Mana Potion",
+      "count": 2
+     },
+     {
+      "en": "Glowing Mushroom",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Зелье призыва": {
+  "en": "Summoning Potion",
+  "wiki": "https://terraria.wiki.gg/wiki/Summoning_Potion",
+  "recipes": [
+   {
+    "station": "Alchemy Table",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Variegated Lardfish",
+      "count": 1
+     },
+     {
+      "en": "Moonglow",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Зелье регенерации": {
+  "en": "Regeneration",
+  "wiki": "https://terraria.wiki.gg/wiki/Regeneration",
+  "recipes": [
+   {
+    "station": "Alchemy Table",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Daybloom",
+      "count": 1
+     },
+     {
+      "en": "Mushroom",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Placed Bottle",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Daybloom",
+      "count": 1
+     },
+     {
+      "en": "Mushroom",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Alchemy Flask",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Daybloom",
+      "count": 1
+     },
+     {
+      "en": "Mushroom",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "Из золотых сундуков в подземных слоях (около 9.52%), также из горшков и сундуков",
+  "status": "ok",
+  "issue": "Количества ингредиентов на вики не указаны, принято 1.",
+  "hasDrop": false
+ },
+ "Зелье регенерации маны": {
+  "en": "Mana Regeneration Potion",
+  "wiki": "https://terraria.wiki.gg/wiki/Mana_Regeneration_Potion",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Зелье скорости": {
+  "en": "Swiftness Potion",
+  "wiki": "https://terraria.wiki.gg/wiki/Swiftness_Potion",
+  "recipes": [
+   {
+    "station": "Alchemy Table (или Placed Bottle / Alchemy Flask)",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": null
+     },
+     {
+      "en": "Blinkroot",
+      "count": null
+     },
+     {
+      "en": "Cactus",
+      "count": null
+     }
+    ]
+   }
+  ],
+  "drops": [
+   {
+    "source": "Chest",
+    "chance": "11.11%"
+   },
+   {
+    "source": "Gold Chest (underground)",
+    "chance": "9.52%"
+   },
+   {
+    "source": "Pearlwood Crate",
+    "chance": "1.43%"
+   },
+   {
+    "source": "Wooden Crate",
+    "chance": "1.43%"
+   },
+   {
+    "source": "Slimes (bonus drop, each)",
+    "chance": "0.18%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Зелье экономии боеприпасов": {
+  "en": "Ammo Reservation Potion",
+  "wiki": "https://terraria.wiki.gg/wiki/Ammo_Reservation_Potion",
+  "recipes": [
+   {
+    "station": "Alchemy Table",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Double Cod",
+      "count": 1
+     },
+     {
+      "en": "Moonglow",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция и количества на странице не указаны, приняты по умолчанию.",
+  "hasDrop": false
+ },
+ "Золотая броня": {
+  "en": "Gold armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Gold_armor",
+  "pieces": [
+   {
+    "ru": "Золотой шлем",
+    "en": "Gold Helmet",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Gold Bar",
+        "count": 20
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Золотая кольчуга",
+    "en": "Gold Chainmail",
+    "recipes": [
+     {
+      "station": "Iron Anvil or Lead Anvil",
+      "ingredients": [
+       {
+        "en": "Gold Bar",
+        "count": 30
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Золотые поножи",
+    "en": "Gold Greaves",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Gold Bar",
+        "count": 25
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для шлема и поножей на странице не указана. Русские названия деталей не сверены с ru-вики.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Золотой душ": {
+  "en": "Golden Shower",
+  "wiki": "https://terraria.wiki.gg/wiki/Golden_Shower",
+  "recipes": [
+   {
+    "station": "Bookcase",
+    "ingredients": [
+     {
+      "en": "Spell Tome",
+      "count": 1
+     },
+     {
+      "en": "Ichor",
+      "count": 20
+     },
+     {
+      "en": "Soul of Night",
+      "count": 15
+     }
+    ]
+   }
+  ],
+  "drops": [
+   {
+    "source": "Jungle Mimic",
+    "chance": "33%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Золотой лук": {
+  "en": "Gold Bow",
+  "wiki": "https://terraria.wiki.gg/wiki/Gold_Bow",
+  "recipes": [
+   {
+    "station": "Iron Anvil",
+    "ingredients": [
+     {
+      "en": "Gold Bar",
+      "count": 7
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Ископаемая броня": {
+  "en": "Fossil armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Fossil_armor",
+  "pieces": [
+   {
+    "ru": "Ископаемый шлем",
+    "en": "Fossil Helmet",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Sturdy Fossil",
+        "count": 15
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Ископаемый панцирь",
+    "en": "Fossil Plate",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Sturdy Fossil",
+        "count": 25
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Ископаемые поножи",
+    "en": "Fossil Greaves",
+    "recipes": [
+     {
+      "station": "Iron Anvil or Lead Anvil",
+      "ingredients": [
+       {
+        "en": "Sturdy Fossil",
+        "count": 20
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для шлема и панциря на странице не указана. Русские названия деталей не сверены с ru-вики.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Искромётные Терра Ботинки": {
+  "en": "Terraspark Boots",
+  "wiki": "https://terraria.wiki.gg/wiki/Terraspark_Boots",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Frostspark Boots",
+      "count": 1
+     },
+     {
+      "en": "Lava Waders",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Искромётные ботинки": {
+  "en": "Terraspark Boots",
+  "wiki": "https://terraria.wiki.gg/wiki/Terraspark_Boots",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Frostspark Boots",
+      "count": 1
+     },
+     {
+      "en": "Lava Waders",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Истинная Грань Ночи": {
+  "en": "True Night's Edge",
+  "wiki": "https://terraria.wiki.gg/wiki/True_Night's_Edge",
+  "recipes": [
+   {
+    "station": "Mythril Anvil",
+    "ingredients": [
+     {
+      "en": "Night's Edge",
+      "count": 1
+     },
+     {
+      "en": "Soul of Fright",
+      "count": 20
+     },
+     {
+      "en": "Soul of Might",
+      "count": 20
+     },
+     {
+      "en": "Soul of Sight",
+      "count": 20
+     }
+    ]
+   },
+   {
+    "station": "Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Night's Edge",
+      "count": 1
+     },
+     {
+      "en": "Soul of Fright",
+      "count": 20
+     },
+     {
+      "en": "Soul of Might",
+      "count": 20
+     },
+     {
+      "en": "Soul of Sight",
+      "count": 20
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Калейдоскоп": {
+  "en": "Kaleidoscope",
+  "wiki": "https://terraria.wiki.gg/wiki/Kaleidoscope",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Empress of Light",
+    "chance": ""
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Кинжал теневого пламени": {
+  "en": "Shadowflame Knife",
+  "wiki": "https://terraria.wiki.gg/wiki/Shadowflame_Knife",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Goblin Warlock (Goblin Army)",
+    "chance": "16.7% (1/6); 33.3% в Expert Mode"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Книга мёртвых": {
+  "en": "Book of Skulls",
+  "wiki": "https://terraria.wiki.gg/wiki/Book_of_Skulls",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Skeletron",
+    "chance": "10.5%"
+   },
+   {
+    "source": "Treasure Bag (Skeletron, Expert)",
+    "chance": "33.33%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Книга черепов": {
+  "en": "Book of Skulls",
+  "wiki": "https://terraria.wiki.gg/wiki/Book_of_Skulls",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Skeletron",
+    "chance": "10.5%"
+   },
+   {
+    "source": "Skeletron's Treasure Bag",
+    "chance": "33%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Код 1": {
+  "en": "Code 1",
+  "wiki": "https://terraria.wiki.gg/wiki/Code_1",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Chest (\"I am error\" worlds)",
+    "chance": ""
+   }
+  ],
+  "obtain": "Продаётся Странствующим торговцем за 5 золота после победы над Глазом Ктулху",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Колючий чакрам": {
+  "en": "Thorn Chakram",
+  "wiki": "https://terraria.wiki.gg/wiki/Thorn_Chakram",
+  "recipes": [
+   {
+    "station": "Iron Anvil / Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Jungle Spores",
+      "count": 6
+     },
+     {
+      "en": "Stinger",
+      "count": 9
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Коса Смерти": {
+  "en": "Death Sickle",
+  "wiki": "https://terraria.wiki.gg/wiki/Death_Sickle",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Reaper (Solar Eclipse)",
+    "chance": "2.5% (1/40); 4.94% в Expert Mode"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Космическая пушка": {
+  "en": "Space Gun",
+  "wiki": "https://terraria.wiki.gg/wiki/Space_Gun",
+  "recipes": [
+   {
+    "station": "Iron Anvil or Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Meteorite Bar",
+      "count": 20
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Кристальный змей": {
+  "en": "Crystal Serpent",
+  "wiki": "https://terraria.wiki.gg/wiki/Crystal_Serpent",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Ловится удочкой в Священных землях (The Hallow) на любой глубине; точный шанс на вики не указан.",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Кристальный шар": {
+  "en": "Crystal Ball",
+  "wiki": "https://terraria.wiki.gg/wiki/Crystal_Ball",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Покупается у Wizard за 10 золота",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Крылья Рыброна": {
+  "en": "Fishron Wings",
+  "wiki": "https://terraria.wiki.gg/wiki/Fishron_Wings",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Крылья бабочки": {
+  "en": "Wings",
+  "wiki": "https://terraria.wiki.gg/wiki/Wings",
+  "recipes": [
+   {
+    "station": "Mythril Anvil or Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Soul of Flight",
+      "count": 20
+     },
+     {
+      "en": "Butterfly Dust",
+      "count": null
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Крылья императрицы": {
+  "en": "Empress Wings",
+  "wiki": "https://terraria.wiki.gg/wiki/Empress_Wings",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Empress of Light",
+    "chance": "6.67% (Expert: 10%)"
+   }
+  ],
+  "obtain": "",
+  "status": "partial",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Крылья летучей мыши": {
+  "en": "Bat Wings",
+  "wiki": "https://terraria.wiki.gg/wiki/Bat_Wings",
+  "recipes": [
+   {
+    "station": "Mythril Anvil",
+    "ingredients": [
+     {
+      "en": "Soul of Flight",
+      "count": 20
+     },
+     {
+      "en": "Broken Bat Wing",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Крылья стимпанка": {
+  "en": "Steampunk Wings",
+  "wiki": "https://terraria.wiki.gg/wiki/Steampunk_Wings",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Продаётся у Стимпанкера (Steampunker) за 3 платины, после победы над Големом",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Крылья феи": {
+  "en": "Fairy Wings",
+  "wiki": "https://terraria.wiki.gg/wiki/Fairy_Wings",
+  "recipes": [
+   {
+    "station": "Mythril Anvil / Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Soul of Flight",
+      "count": 20
+     },
+     {
+      "en": "Pixie Dust",
+      "count": 99
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Ксенопосох": {
+  "en": "Xenopopper",
+  "wiki": "https://terraria.wiki.gg/wiki/Xenopopper",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Martian Saucer (Martian Madness)",
+    "chance": "16.67% (1/6)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Ксенопушка": {
+  "en": "Xenopopper",
+  "wiki": "https://terraria.wiki.gg/wiki/Xenopopper",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Martian Saucer (Martian Madness event)",
+    "chance": "16.67%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Лазерная пушка": {
+  "en": "Laser Rifle",
+  "wiki": "https://terraria.wiki.gg/wiki/Laser_Rifle",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Wall of Flesh",
+    "chance": "25%"
+   },
+   {
+    "source": "Treasure Bag (Wall of Flesh)",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Ледяная коса": {
+  "en": "Ice Sickle",
+  "wiki": "https://terraria.wiki.gg/wiki/Ice_Sickle",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Armored Viking",
+    "chance": "1%"
+   },
+   {
+    "source": "Ice Elemental",
+    "chance": "1%"
+   },
+   {
+    "source": "Ice Tortoise",
+    "chance": "1%"
+   },
+   {
+    "source": "Icy Merman",
+    "chance": "1%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Ледяные крылья": {
+  "en": "Frozen Wings",
+  "wiki": "https://terraria.wiki.gg/wiki/Frozen_Wings",
+  "recipes": [
+   {
+    "station": "Mythril Anvil",
+    "ingredients": [
+     {
+      "en": "Soul of Flight",
+      "count": 20
+     },
+     {
+      "en": "Ice Feather",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Литая броня": {
+  "en": "Molten armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Molten_armor",
+  "pieces": [
+   {
+    "ru": "Литой шлем",
+    "en": "Molten Helmet",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Hellstone Bar",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Литой нагрудник",
+    "en": "Molten Breastplate",
+    "recipes": [
+     {
+      "station": "Iron Anvil or Lead Anvil",
+      "ingredients": [
+       {
+        "en": "Hellstone Bar",
+        "count": 20
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Литые поножи",
+    "en": "Molten Greaves",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Hellstone Bar",
+        "count": 15
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для шлема и поножей на странице не указана. Русские названия деталей не сверены с ru-вики.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Литая ярость": {
+  "en": "Molten Fury",
+  "wiki": "https://terraria.wiki.gg/wiki/Molten_Fury",
+  "recipes": [
+   {
+    "station": "Iron Anvil or Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Hellstone Bar",
+      "count": 15
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Лук Дедала": {
+  "en": "Daedalus Stormbow",
+  "wiki": "https://terraria.wiki.gg/wiki/Daedalus_Stormbow",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Hallowed Mimic",
+    "chance": "20%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Лука плоти": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Предмет с таким названием в Terraria не найден; ближайший по смыслу Tendon Bow (Сухожильный лук), но название не совпадает.",
+  "hasDrop": false
+ },
+ "Любой шарик с подковой": {
+  "en": "Balloon",
+  "wiki": "https://terraria.wiki.gg/wiki/Balloon",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Cloud in a Balloon",
+      "count": 1
+     },
+     {
+      "en": "Lucky Horseshoe",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Fart in a Balloon",
+      "count": 1
+     },
+     {
+      "en": "Lucky Horseshoe",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Sharkron Balloon",
+      "count": 1
+     },
+     {
+      "en": "Lucky Horseshoe",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Не один предмет, а группа Horseshoe Balloon; показаны рецепты Blue, Green и Pink Horseshoe Balloon",
+  "hasDrop": false
+ },
+ "Лягушачья лапка": {
+  "en": "Frog Leg",
+  "wiki": "https://terraria.wiki.gg/wiki/Frog_Leg",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Ловится удочкой в любом водоёме",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Магисвет": {
+  "en": "Magiluminescence",
+  "wiki": "https://terraria.wiki.gg/wiki/Magiluminescence",
+  "recipes": [
+   {
+    "station": "Iron Anvil or Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Demonite Bar",
+      "count": 12
+     },
+     {
+      "en": "Topaz",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "station": "Iron Anvil or Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Crimtane Bar",
+      "count": 12
+     },
+     {
+      "en": "Topaz",
+      "count": 5
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Магический колчан": {
+  "en": "Magic Quiver",
+  "wiki": "https://terraria.wiki.gg/wiki/Magic_Quiver",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Skeleton Archer",
+    "chance": "2.5%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Магический снаряд": {
+  "en": "Magic Missile",
+  "wiki": "https://terraria.wiki.gg/wiki/Magic_Missile",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Gold Chest (Dungeon)",
+    "chance": "14.29%"
+   },
+   {
+    "source": "Golden Lock Box",
+    "chance": "14.29%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Мегаакула": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Предмет с таким названием не найден в Terraria, возможно, название ошибочное",
+  "hasDrop": false
+ },
+ "Метеоритная броня": {
+  "en": "Meteor armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Meteor_armor",
+  "pieces": [
+   {
+    "ru": "Метеоритный шлем",
+    "en": "Meteor Helmet",
+    "recipes": [
+     {
+      "station": "Iron Anvil or Lead Anvil",
+      "ingredients": [
+       {
+        "en": "Meteorite Bar",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Метеоритный костюм",
+    "en": "Meteor Suit",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Meteorite Bar",
+        "count": 20
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Метеоритные поножи",
+    "en": "Meteor Leggings",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Meteorite Bar",
+        "count": 15
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для костюма и поножей на странице не указана. Русские названия деталей не сверены с ru-вики.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Метеоритный посох": {
+  "en": "Meteor Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Meteor_Staff",
+  "recipes": [
+   {
+    "station": "Mythril Anvil or Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Meteorite Bar",
+      "count": 20
+     },
+     {
+      "en": "Pixie Dust",
+      "count": 10
+     },
+     {
+      "en": "Soul of Light",
+      "count": 10
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Механическая перчатка": {
+  "en": "Mechanical Glove",
+  "wiki": "https://terraria.wiki.gg/wiki/Mechanical_Glove",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Миниакула": {
+  "en": "Minishark",
+  "wiki": "https://terraria.wiki.gg/wiki/Minishark",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Покупается у Arms Dealer за 35 золота",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Мифриловая броня": {
+  "en": "Mythril armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Mythril_armor",
+  "pieces": [
+   {
+    "ru": "Мифриловый шлем",
+    "en": "Mythril Helmet",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Mythril Bar",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Мифриловая шляпа",
+    "en": "Mythril Hat",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Mythril Bar",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Мифриловый капюшон",
+    "en": "Mythril Hood",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Mythril Bar",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Мифриловая кольчуга",
+    "en": "Mythril Chainmail",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "ingredients": [
+       {
+        "en": "Mythril Bar",
+        "count": 20
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Мифриловые поножи",
+    "en": "Mythril Greaves",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Mythril Bar",
+        "count": 15
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для шлема, шляпы, капюшона и поножей на странице не указана. Русские названия деталей не сверены с ru-вики.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Мозг Ошеломления": {
+  "en": "Brain of Confusion",
+  "wiki": "https://terraria.wiki.gg/wiki/Brain_of_Confusion",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Brain of Cthulhu (Treasure Bag, Expert Mode)",
+    "chance": "100%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Молниеносные ботинки": {
+  "en": "Lightning Boots",
+  "wiki": "https://terraria.wiki.gg/wiki/Lightning_Boots",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Spectre Boots",
+      "count": 1
+     },
+     {
+      "en": "Anklet of the Wind",
+      "count": 1
+     },
+     {
+      "en": "Aglet",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Молот Паладина": {
+  "en": "Paladin's Hammer",
+  "wiki": "https://terraria.wiki.gg/wiki/Paladin's_Hammer",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Paladin (Hardmode Dungeon)",
+    "chance": "6.67%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Морозный хлыст": {
+  "en": "Cool Whip",
+  "wiki": "https://terraria.wiki.gg/wiki/Cool_Whip",
+  "recipes": [
+   {
+    "station": "Mythril Anvil or Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Soul of Light",
+      "count": 8
+     },
+     {
+      "en": "Soul of Night",
+      "count": 8
+     },
+     {
+      "en": "Frost Core",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Морозный щит": {
+  "en": "Frozen Shield",
+  "wiki": "https://terraria.wiki.gg/wiki/Frozen_Shield",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Paladin's Shield",
+      "count": 1
+     },
+     {
+      "en": "Frozen Turtle Shell",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Количества на странице не указаны, приняты 1.",
+  "hasDrop": false
+ },
+ "Небесная ракушка": {
+  "en": "Celestial Shell",
+  "wiki": "https://terraria.wiki.gg/wiki/Celestial_Shell",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Celestial Stone",
+      "count": null
+     },
+     {
+      "en": "Moon Shell",
+      "count": null
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Небесная эмблема": {
+  "en": "Celestial Emblem",
+  "wiki": "https://terraria.wiki.gg/wiki/Celestial_Emblem",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Celestial Magnet",
+      "count": 1
+     },
+     {
+      "en": "Avenger Emblem",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Небесные наручники": {
+  "en": "Celestial Cuffs",
+  "wiki": "https://terraria.wiki.gg/wiki/Celestial_Cuffs",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Celestial Magnet",
+      "count": 1
+     },
+     {
+      "en": "Magic Cuffs",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Небесный магнит": {
+  "en": "Celestial Magnet",
+  "wiki": "https://terraria.wiki.gg/wiki/Celestial_Magnet",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Skyware Chest (Floating Islands)",
+    "chance": "25%"
+   },
+   {
+    "source": "Sky Crate",
+    "chance": "25%"
+   },
+   {
+    "source": "Azure Crate",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Небесный разлом": {
+  "en": "Sky Fracture",
+  "wiki": "https://terraria.wiki.gg/wiki/Sky_Fracture",
+  "recipes": [
+   {
+    "station": "Mythril Anvil",
+    "ingredients": [
+     {
+      "en": "Magic Missile",
+      "count": 1
+     },
+     {
+      "en": "Light Shard",
+      "count": 2
+     },
+     {
+      "en": "Soul of Light",
+      "count": 16
+     }
+    ]
+   },
+   {
+    "station": "Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Magic Missile",
+      "count": 1
+     },
+     {
+      "en": "Light Shard",
+      "count": 2
+     },
+     {
+      "en": "Soul of Light",
+      "count": 16
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Ночное сияние": {
+  "en": "Nightglow",
+  "wiki": "https://terraria.wiki.gg/wiki/Nightglow",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Empress of Light",
+    "chance": "25%"
+   },
+   {
+    "source": "Treasure Bag (Empress of Light)",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "В таблице дропа на вики строки зачёркнуты, их актуальность неясна.",
+  "hasDrop": true
+ },
+ "Облако в бутылке": {
+  "en": "Cloud in a Bottle",
+  "wiki": "https://terraria.wiki.gg/wiki/Cloud_in_a_Bottle",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Находится в Золотых сундуках (Gold Chest) и выпадает из Мимиков",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Обрез": {
+  "en": "Boomstick",
+  "wiki": "https://terraria.wiki.gg/wiki/Boomstick",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "Предмет Sawed-Off Shotgun в Terraria не найден; соответствие с Boomstick предположительное.",
+  "hasDrop": false
+ },
+ "Обсидиановая броня": {
+  "en": "Obsidian armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Obsidian_armor",
+  "pieces": [
+   {
+    "ru": "Обсидиановая шляпа разбойника",
+    "en": "Obsidian Outlaw Hat",
+    "recipes": [
+     {
+      "station": "Hellforge",
+      "ingredients": [
+       {
+        "en": "Silk",
+        "count": 10
+       },
+       {
+        "en": "Obsidian",
+        "count": 20
+       },
+       {
+        "en": "Tissue Sample",
+        "count": 5
+       }
+      ]
+     },
+     {
+      "station": "Hellforge",
+      "ingredients": [
+       {
+        "en": "Silk",
+        "count": 10
+       },
+       {
+        "en": "Obsidian",
+        "count": 20
+       },
+       {
+        "en": "Shadow Scale",
+        "count": 5
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Обсидиановый длинный плащ",
+    "en": "Obsidian Longcoat",
+    "recipes": [
+     {
+      "station": "Hellforge",
+      "ingredients": [
+       {
+        "en": "Silk",
+        "count": 10
+       },
+       {
+        "en": "Obsidian",
+        "count": 20
+       },
+       {
+        "en": "Shadow Scale",
+        "count": 10
+       }
+      ]
+     },
+     {
+      "station": "Hellforge",
+      "ingredients": [
+       {
+        "en": "Silk",
+        "count": 10
+       },
+       {
+        "en": "Obsidian",
+        "count": 20
+       },
+       {
+        "en": "Tissue Sample",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Обсидиановые штаны",
+    "en": "Obsidian Pants",
+    "recipes": [
+     {
+      "station": "Hellforge",
+      "ingredients": [
+       {
+        "en": "Silk",
+        "count": 10
+       },
+       {
+        "en": "Obsidian",
+        "count": 20
+       },
+       {
+        "en": "Shadow Scale",
+        "count": 5
+       }
+      ]
+     },
+     {
+      "station": "Hellforge",
+      "ingredients": [
+       {
+        "en": "Silk",
+        "count": 10
+       },
+       {
+        "en": "Obsidian",
+        "count": 20
+       },
+       {
+        "en": "Tissue Sample",
+        "count": 5
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Обсидиановый щит": {
+  "en": "Obsidian Shield",
+  "wiki": "https://terraria.wiki.gg/wiki/Obsidian_Shield",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Cobalt Shield",
+      "count": 1
+     },
+     {
+      "en": "Obsidian Skull",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Огнемёт": {
+  "en": "Flamethrower",
+  "wiki": "https://terraria.wiki.gg/wiki/Flamethrower",
+  "recipes": [
+   {
+    "station": "Mythril Anvil or Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Any Iron Bar",
+      "count": 20
+     },
+     {
+      "en": "Illegal Gun Parts",
+      "count": null
+     },
+     {
+      "en": "Soul of Fright",
+      "count": 20
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Огненная рукавица": {
+  "en": "Fire Gauntlet",
+  "wiki": "https://terraria.wiki.gg/wiki/Fire_Gauntlet",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Magma Stone",
+      "count": 1
+     },
+     {
+      "en": "Mechanical Glove",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Количества на вики не указаны, принято 1.",
+  "hasDrop": false
+ },
+ "Огненный лук": {
+  "en": "Molten Fury",
+  "wiki": "https://terraria.wiki.gg/wiki/Molten_Fury",
+  "recipes": [
+   {
+    "station": "Iron/Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Hellstone Bar",
+      "count": 15
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Предположительно Molten Fury (огненный лук); точного совпадения названия в вики нет",
+  "hasDrop": false
+ },
+ "Огненный хлыст": {
+  "en": "Firecracker",
+  "wiki": "https://terraria.wiki.gg/wiki/Firecracker",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Wall of Flesh",
+    "chance": "25%"
+   },
+   {
+    "source": "Treasure Bag (Wall of Flesh)",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Соответствие предположительное: хлыст Firecracker.",
+  "hasDrop": true
+ },
+ "Огнеранг": {
+  "en": "Flamarang",
+  "wiki": "https://terraria.wiki.gg/wiki/Flamarang",
+  "recipes": [
+   {
+    "station": "Iron Anvil",
+    "ingredients": [
+     {
+      "en": "Hellstone Bar",
+      "count": 10
+     },
+     {
+      "en": "Enchanted Boomerang",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Ожерелье Пигмеев": {
+  "en": "Pygmy Necklace",
+  "wiki": "https://terraria.wiki.gg/wiki/Pygmy_Necklace",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Покупается у Witch Doctor за 20 золота (ночью; с версии 1.4.1 продаётся на любой стадии игры)",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Ожерелье жал": {
+  "en": "Stinger Necklace",
+  "wiki": "https://terraria.wiki.gg/wiki/Stinger_Necklace",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Shark Tooth Necklace",
+      "count": 1
+     },
+     {
+      "en": "Honey Comb",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Количества на вики не указаны, принято 1.",
+  "hasDrop": false
+ },
+ "Ожерелье из акульих зубов": {
+  "en": "Shark Tooth Necklace",
+  "wiki": "https://terraria.wiki.gg/wiki/Shark_Tooth_Necklace",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Blood Zombie (Blood Moon)",
+    "chance": "0.67% (Classic), 1.33% (Expert)"
+   },
+   {
+    "source": "Drippler (Blood Moon)",
+    "chance": "0.67% (Classic), 1.33% (Expert)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Ожерелье тики": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Ожерелье с таким названием в Terraria не найдено; на странице Tiki есть Tiki Totem и Tiki armor, но не ожерелье",
+  "hasDrop": false
+ },
+ "Ониксовый бластер": {
+  "en": "Onyx Blaster",
+  "wiki": "https://terraria.wiki.gg/wiki/Onyx_Blaster",
+  "recipes": [
+   {
+    "station": "Mythril Anvil / Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Shotgun",
+      "count": 1
+     },
+     {
+      "en": "Dark Shard",
+      "count": 2
+     },
+     {
+      "en": "Soul of Night",
+      "count": 10
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Оптический посох": {
+  "en": "Optic Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Optic_Staff",
+  "recipes": [
+   {
+    "station": "Mythril Anvil or Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Black Lens",
+      "count": 1
+     },
+     {
+      "en": "Lens",
+      "count": 2
+     },
+     {
+      "en": "Hallowed Bar",
+      "count": 12
+     },
+     {
+      "en": "Soul of Sight",
+      "count": 20
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Очарование мифов": {
+  "en": "Charm of Myths",
+  "wiki": "https://terraria.wiki.gg/wiki/Charm_of_Myths",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Band of Regeneration",
+      "count": 1
+     },
+     {
+      "en": "Philosopher's Stone",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Пальто из флинкса": {
+  "en": "Flinx Fur Coat",
+  "wiki": "https://terraria.wiki.gg/wiki/Flinx_Fur_Coat",
+  "pieces": [],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Парящая эмблема": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Предмет с таким названием в Terraria не найден.",
+  "hasDrop": false
+ },
+ "Парящие знаки отличия": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Аксессуар с таким названием в Terraria Wiki не найден, возможно неверное название",
+  "hasDrop": false
+ },
+ "Паучья броня": {
+  "en": "Spider armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Spider_armor",
+  "pieces": [
+   {
+    "ru": "Паучья маска",
+    "en": "Spider Mask",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "ingredients": [
+       {
+        "en": "Spider Fang",
+        "count": 8
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Паучий нагрудник",
+    "en": "Spider Breastplate",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "ingredients": [
+       {
+        "en": "Spider Fang",
+        "count": 16
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Паучьи поножи",
+    "en": "Spider Greaves",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "ingredients": [
+       {
+        "en": "Spider Fang",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Перчатки берсерка": {
+  "en": "Berserker's Glove",
+  "wiki": "https://terraria.wiki.gg/wiki/Berserker's_Glove",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Песчаная буря в бутылке": {
+  "en": "Sandstorm in a Bottle",
+  "wiki": "https://terraria.wiki.gg/wiki/Sandstorm_in_a_Bottle",
+  "recipes": [
+   {
+    "station": "Crystal Ball",
+    "ingredients": [
+     {
+      "en": "Cloud in a Bottle",
+      "count": 1
+     },
+     {
+      "en": "Forbidden Fragment",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [
+   {
+    "source": "Gold Chest (Pyramid)",
+    "chance": "44.44%"
+   },
+   {
+    "source": "Mirage Crate",
+    "chance": "2.86%"
+   },
+   {
+    "source": "Oasis Crate",
+    "chance": "2.86%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Петарда": {
+  "en": "Firecracker",
+  "wiki": "https://terraria.wiki.gg/wiki/Firecracker",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Wall of Flesh",
+    "chance": "25%"
+   },
+   {
+    "source": "Wall of Flesh (Treasure Bag)",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Плавниковые ботинки": {
+  "en": "Amphibian Boots",
+  "wiki": "https://terraria.wiki.gg/wiki/Amphibian_Boots",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Sailfish Boots",
+      "count": 1
+     },
+     {
+      "en": "Frog Leg",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Соответствие по названию предположительное; количества на вики не указаны, принято 1.",
+  "hasDrop": false
+ },
+ "Платиновая броня": {
+  "en": "Platinum armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Platinum_armor",
+  "pieces": [
+   {
+    "ru": "Платиновый шлем",
+    "en": "Platinum Helmet",
+    "recipes": []
+   },
+   {
+    "ru": "Платиновая кольчуга",
+    "en": "Platinum Chainmail",
+    "recipes": []
+   },
+   {
+    "ru": "Платиновые поножи",
+    "en": "Platinum Greaves",
+    "recipes": []
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "На вики нет рецептов по отдельным частям; весь набор крафтится за 75 Platinum Bar на Iron Anvil или Lead Anvil.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Платиновый лук": {
+  "en": "Platinum Bow",
+  "wiki": "https://terraria.wiki.gg/wiki/Platinum_Bow",
+  "recipes": [
+   {
+    "station": "Iron Anvil or Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Platinum Bar",
+      "count": 7
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Плащ из маны": {
+  "en": "Mana Cloak",
+  "wiki": "https://terraria.wiki.gg/wiki/Mana_Cloak",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Mana Flower",
+      "count": 1
+     },
+     {
+      "en": "Star Cloak",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Плеть корня": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Плеть с таким названием в Terraria Wiki не найдена",
+  "hasDrop": false
+ },
+ "Плетёный браслет": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Не удалось сопоставить с предметом Terraria; возможно, неточный перевод.",
+  "hasDrop": false
+ },
+ "Покров звёзд": {
+  "en": "Star Cloak",
+  "wiki": "https://terraria.wiki.gg/wiki/Star_Cloak",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Mimic",
+    "chance": "16.67% (1/6)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Строка Mimic на вики зачёркнута, актуальность дропа неясна. Рецепт самого Star Cloak на вики не указан.",
+  "hasDrop": true
+ },
+ "Порчельный шип": {
+  "en": "Vilethorn",
+  "wiki": "https://terraria.wiki.gg/wiki/Vilethorn",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Shadow Orb (destroyed in The Corruption)",
+    "chance": "20%"
+   },
+   {
+    "source": "Corrupt Crate",
+    "chance": "20%"
+   },
+   {
+    "source": "Defiled Crate",
+    "chance": "20%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Посох баллисты": {
+  "en": "Ballista Rod",
+  "wiki": "https://terraria.wiki.gg/wiki/Ballista_Rod",
+  "recipes": [
+   {
+    "station": "Shimmer",
+    "ingredients": [
+     {
+      "en": "Flameburst Rod",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "Покупается у Хозяина таверны за 5 Defender Medals.",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Посох беса": {
+  "en": "Imp Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Imp_Staff",
+  "recipes": [
+   {
+    "station": "Iron Anvil",
+    "ingredients": [
+     {
+      "en": "Hellstone Bar",
+      "count": 17
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Посох вампира-лягушки": {
+  "en": "Vampire Frog Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Vampire_Frog_Staff",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Wandering Eye Fish",
+    "chance": "12.5%"
+   },
+   {
+    "source": "Zombie Merman",
+    "chance": "12.5%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Посох воронов": {
+  "en": "Raven Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Raven_Staff",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Pumpking (Pumpkin Moon)",
+    "chance": "2.5%-12.5% в зависимости от волны"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Посох заморозки": {
+  "en": "Frost Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Frost_Staff",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Icy Merman",
+    "chance": "2%"
+   },
+   {
+    "source": "Ice Elemental",
+    "chance": "2%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Посох звёздного дракона": {
+  "en": "Stardust Dragon Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Stardust_Dragon_Staff",
+  "recipes": [
+   {
+    "station": "Ancient Manipulator",
+    "ingredients": [
+     {
+      "en": "Stardust Fragment",
+      "count": 18
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Посох кинжалов": {
+  "en": "Blade Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Blade_Staff",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Queen Slime",
+    "chance": "25%"
+   },
+   {
+    "source": "Treasure Bag (Queen Slime)",
+    "chance": "33%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Посох сангвиников": {
+  "en": "Sanguine Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Sanguine_Staff",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Dreadnautilus",
+    "chance": "50%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Посох теневого луча": {
+  "en": "Shadowbeam Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Shadowbeam_Staff",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Necromancer (Hardmode Dungeon)",
+    "chance": "5% (1/20); 9.75% в Expert Mode"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Посох тигра пустыни": {
+  "en": "Desert Tiger Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Desert_Tiger_Staff",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Лежит в Сундуке пустыни в Подземелье (100%); сундук открывается Ключом пустыни после победы над Плантерой",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Посох туч": {
+  "en": "Tempest Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Tempest_Staff",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Duke Fishron",
+    "chance": "14.29%"
+   },
+   {
+    "source": "Treasure Bag (Duke Fishron)",
+    "chance": "14.29%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Перевод неточный, предположительно Tempest Staff (Посох бури)",
+  "hasDrop": true
+ },
+ "Посох флинкса": {
+  "en": "Flinx Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Flinx_Staff",
+  "recipes": [
+   {
+    "station": "Workbench",
+    "ingredients": [
+     {
+      "en": "Flinx Fur",
+      "count": 6
+     },
+     {
+      "en": "Gold Bar",
+      "count": 10
+     }
+    ]
+   },
+   {
+    "station": "Workbench",
+    "ingredients": [
+     {
+      "en": "Flinx Fur",
+      "count": 6
+     },
+     {
+      "en": "Platinum Bar",
+      "count": 10
+     }
+    ]
+   }
+  ],
+  "drops": [
+   {
+    "source": "Snow Flinx",
+    "chance": ""
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Посох цеплятеля": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Не удалось сопоставить с предметом Terraria; возможно, неточный перевод.",
+  "hasDrop": false
+ },
+ "Похититель жизни": {
+  "en": "Life Drain",
+  "wiki": "https://terraria.wiki.gg/wiki/Life_Drain",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Crimson Mimic",
+    "chance": "20%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Птенцовые крылья": {
+  "en": "Fledgling Wings",
+  "wiki": "https://terraria.wiki.gg/wiki/Fledgling_Wings",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Из Небесного сундука (Skyware Chest), Sky Crate и Azure Crate, по 1/40 каждый; в режиме Journey новые персонажи получают пару",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Пулемёт": {
+  "en": "Chain Gun",
+  "wiki": "https://terraria.wiki.gg/wiki/Chain_Gun",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Santa-NK1 (Frost Moon)",
+    "chance": "6.25%-16.67% (Classic, зависит от волны)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Пурпурный дождь": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Предмет Purple Rain в Terraria Wiki не найден",
+  "hasDrop": false
+ },
+ "Пушка вихря": {
+  "en": "Vortex Beater",
+  "wiki": "https://terraria.wiki.gg/wiki/Vortex_Beater",
+  "recipes": [
+   {
+    "station": "Ancient Manipulator",
+    "ingredients": [
+     {
+      "en": "Vortex Fragment",
+      "count": 18
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Пчелинострел": {
+  "en": "Bee Gun",
+  "wiki": "https://terraria.wiki.gg/wiki/Bee_Gun",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Queen Bee",
+    "chance": "33.33%"
+   },
+   {
+    "source": "Queen Bee (Treasure Bag)",
+    "chance": "33%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Пчелиный лук": {
+  "en": "The Bee's Knees",
+  "wiki": "https://terraria.wiki.gg/wiki/The_Bee's_Knees",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Queen Bee",
+    "chance": "33%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Пчелонаты": {
+  "en": "Beenade",
+  "wiki": "https://terraria.wiki.gg/wiki/Beenade",
+  "recipes": [
+   {
+    "station": "Iron/Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Grenade",
+      "count": 1
+     },
+     {
+      "en": "Bee Wax",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [
+   {
+    "source": "Queen Bee",
+    "chance": "75% (Classic), 100% (Expert)"
+   },
+   {
+    "source": "Treasure Bag (Queen Bee)",
+    "chance": "100% (Expert)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Радужная палочка": {
+  "en": "Rainbow Rod",
+  "wiki": "https://terraria.wiki.gg/wiki/Rainbow_Rod",
+  "recipes": [
+   {
+    "station": "Mythril Anvil or Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Crystal Shard",
+      "count": 10
+     },
+     {
+      "en": "Unicorn Horn",
+      "count": 2
+     },
+     {
+      "en": "Pixie Dust",
+      "count": 10
+     },
+     {
+      "en": "Soul of Light",
+      "count": 8
+     },
+     {
+      "en": "Soul of Sight",
+      "count": 15
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Разведывательный прицел": {
+  "en": "Recon Scope",
+  "wiki": "https://terraria.wiki.gg/wiki/Recon_Scope",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Sniper Scope",
+      "count": 1
+     },
+     {
+      "en": "Putrid Scent",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Количества на странице не указаны, приняты 1.",
+  "hasDrop": false
+ },
+ "Ракетница снеговика": {
+  "en": "Snowman Cannon",
+  "wiki": "https://terraria.wiki.gg/wiki/Snowman_Cannon",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Ice Queen (Frost Moon)",
+    "chance": "5.19–10.37% (Classic); 15.56–31.11% (Expert), зависит от волны"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Рассвет": {
+  "en": "Daybreak",
+  "wiki": "https://terraria.wiki.gg/wiki/Daybreak",
+  "recipes": [
+   {
+    "station": "Ancient Manipulator",
+    "ingredients": [
+     {
+      "en": "Solar Fragment",
+      "count": 18
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Рубиновый посох": {
+  "en": "Ruby Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Ruby_Staff",
+  "recipes": [
+   {
+    "station": "Iron Anvil or Lead Anvil",
+    "ingredients": [
+     {
+      "en": "Gold Bar",
+      "count": 7
+     },
+     {
+      "en": "Ruby",
+      "count": 8
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Рюкзак-улей": {
+  "en": "Hive Pack",
+  "wiki": "https://terraria.wiki.gg/wiki/Hive_Pack",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Queen Bee (Treasure Bag, Expert/Master only)",
+    "chance": "100%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Сапоги Гермеса": {
+  "en": "Hermes Boots",
+  "wiki": "https://terraria.wiki.gg/wiki/Hermes_Boots",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Gold Chest (Underground layer)",
+    "chance": "16.67%"
+   },
+   {
+    "source": "Gold Chest (Cavern layer)",
+    "chance": "13.33%"
+   },
+   {
+    "source": "Gold Chest (Lava layer)",
+    "chance": "12.67%"
+   },
+   {
+    "source": "Mimic (pre-Hardmode)",
+    "chance": "16.67%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Светящийся огонёк": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Предмет Terraria с таким названием не найден.",
+  "hasDrop": false
+ },
+ "Свиток некроманта": {
+  "en": "Necromantic Scroll",
+  "wiki": "https://terraria.wiki.gg/wiki/Necromantic_Scroll",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Mourning Wood (Pumpkin Moon)",
+    "chance": "2.86–20% (Classic); 5–20% (Expert), зависит от волны"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Свиток скарабея": {
+  "en": "Papyrus Scarab",
+  "wiki": "https://terraria.wiki.gg/wiki/Papyrus_Scarab",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Necromantic Scroll",
+      "count": 1
+     },
+     {
+      "en": "Hercules Beetle",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Связка шаров с подковой": {
+  "en": "Bundle of Horseshoe Balloons",
+  "wiki": "https://terraria.wiki.gg/wiki/Bundle_of_Horseshoe_Balloons",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Bundle of Balloons",
+      "count": 1
+     },
+     {
+      "en": "Lucky Horseshoe",
+      "count": 1
+     },
+     {
+      "en": "White Horseshoe Balloon",
+      "count": 1
+     },
+     {
+      "en": "Any Cloud Balloon",
+      "count": 1
+     },
+     {
+      "en": "Any Sandstorm Balloon",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Bundle of Balloons",
+      "count": 1
+     },
+     {
+      "en": "Lucky Horseshoe",
+      "count": 1
+     },
+     {
+      "en": "Blue Horseshoe Balloon",
+      "count": 1
+     },
+     {
+      "en": "Any Blizzard Balloon",
+      "count": 1
+     },
+     {
+      "en": "Any Sandstorm Balloon",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Bundle of Balloons",
+      "count": 1
+     },
+     {
+      "en": "Lucky Horseshoe",
+      "count": 1
+     },
+     {
+      "en": "Yellow Horseshoe Balloon",
+      "count": 1
+     },
+     {
+      "en": "Any Cloud Balloon",
+      "count": 1
+     },
+     {
+      "en": "Any Blizzard Balloon",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Количества на вики не указаны (принято 1); вариантов рецепта несколько, показаны три.",
+  "hasDrop": false
+ },
+ "Святая броня": {
+  "en": "Hallowed armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Hallowed_armor",
+  "pieces": [
+   {
+    "ru": "Святая маска",
+    "en": "Hallowed Mask",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Hallowed Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Святой шлем",
+    "en": "Hallowed Helmet",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Hallowed Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Святой головной убор",
+    "en": "Hallowed Headgear",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Hallowed Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Святой капюшон",
+    "en": "Hallowed Hood",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Hallowed Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Святая кольчуга",
+    "en": "Hallowed Plate Mail",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Hallowed Bar",
+        "count": 24
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Святые поножи",
+    "en": "Hallowed Greaves",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "ingredients": [
+       {
+        "en": "Hallowed Bar",
+        "count": 18
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для масок, шлемов, головного убора, капюшона и нагрудника на вики не указана.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Святой диск": {
+  "en": "Light Disc",
+  "wiki": "https://terraria.wiki.gg/wiki/Light_Disc",
+  "recipes": [
+   {
+    "station": "Mythril/Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Hallowed Bar",
+      "count": 12
+     },
+     {
+      "en": "Soul of Light",
+      "count": 15
+     },
+     {
+      "en": "Soul of Might",
+      "count": 15
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Предположительно Light Disc (Святой диск)",
+  "hasDrop": false
+ },
+ "Серый заринатор": {
+  "en": "Gray Zapinator",
+  "wiki": "https://terraria.wiki.gg/wiki/Gray_Zapinator",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Chest (I am error worlds)",
+    "chance": ""
+   }
+  ],
+  "obtain": "Покупается у Странствующего торговца за 17 золота после победы над одним из боссов (King Slime, Eye of Cthulhu, Eater of Worlds, Brain of Cthulhu, Queen Bee, Deerclops, Skeletron)",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Снайперская винтовка": {
+  "en": "Sniper Rifle",
+  "wiki": "https://terraria.wiki.gg/wiki/Sniper_Rifle",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Skeleton Sniper (Hardmode Dungeon)",
+    "chance": "8.33%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Снайперский прицел": {
+  "en": "Sniper Scope",
+  "wiki": "https://terraria.wiki.gg/wiki/Sniper_Scope",
+  "recipes": [],
+  "drops": [],
+  "obtain": "На вики не указаны ни рецепт, ни источник получения",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Снаряжение лягушки": {
+  "en": "Frog Gear",
+  "wiki": "https://terraria.wiki.gg/wiki/Frog_Gear",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Frog Flipper",
+      "count": 1
+     },
+     {
+      "en": "Tiger Climbing Gear",
+      "count": 1
+     },
+     {
+      "en": "Frog Webbing",
+      "count": 1
+     },
+     {
+      "en": "Flipper",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Количества на вики не указаны, принято 1.",
+  "hasDrop": false
+ },
+ "Снаряжение мастера ниндзя": {
+  "en": "Master Ninja Gear",
+  "wiki": "https://terraria.wiki.gg/wiki/Master_Ninja_Gear",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Tiger Climbing Gear",
+      "count": 1
+     },
+     {
+      "en": "Tabi",
+      "count": 1
+     },
+     {
+      "en": "Black Belt",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Снежковая пушка": {
+  "en": "Snowball Launcher",
+  "wiki": "https://terraria.wiki.gg/wiki/Snowball_Launcher",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Snow Flinx",
+    "chance": "4% (1/25)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Снежная броня": {
+  "en": "Snow armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Snow_armor",
+  "pieces": [
+   {
+    "ru": "Снежный капюшон",
+    "en": "Snow Hood",
+    "recipes": []
+   },
+   {
+    "ru": "Снежная куртка",
+    "en": "Snow Coat",
+    "recipes": []
+   },
+   {
+    "ru": "Снежные штаны",
+    "en": "Snow Pants",
+    "recipes": []
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "Обычного крафта нет: части выпадают из замороженных зомби (шанс 1/30).",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Солнечная ярость": {
+  "en": "Solar Eruption",
+  "wiki": "https://terraria.wiki.gg/wiki/Solar_Eruption",
+  "recipes": [
+   {
+    "station": "Ancient Manipulator",
+    "ingredients": [
+     {
+      "en": "Solar Fragment",
+      "count": 18
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Солнечное извержение": {
+  "en": "Solar Eruption",
+  "wiki": "https://terraria.wiki.gg/wiki/Solar_Eruption",
+  "recipes": [
+   {
+    "station": "Ancient Manipulator",
+    "ingredients": [
+     {
+      "en": "Solar Fragment",
+      "count": 18
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Спектральная броня": {
+  "en": "Spectre armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Spectre_armor",
+  "pieces": [
+   {
+    "ru": "Призрачный капюшон",
+    "en": "Spectre Hood",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "ingredients": [
+       {
+        "en": "Spectre Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Призрачная маска",
+    "en": "Spectre Mask",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Spectre Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Призрачная мантия",
+    "en": "Spectre Robe",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Spectre Bar",
+        "count": 24
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Призрачные штаны",
+    "en": "Spectre Pants",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Spectre Bar",
+        "count": 18
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для маски, мантии и штанов на вики не указана.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Спектральный посох": {
+  "en": "Spectre Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Spectre_Staff",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Ragged Caster",
+    "chance": "5% (Classic), 9.75% (Expert)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Спинной хлыст": {
+  "en": "Spinal Tap",
+  "wiki": "https://terraria.wiki.gg/wiki/Spinal_Tap",
+  "recipes": [
+   {
+    "station": "Work Bench",
+    "ingredients": [
+     {
+      "en": "Bone",
+      "count": 90
+     },
+     {
+      "en": "Cobweb",
+      "count": 55
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Сумерки": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Предмет Terraria с таким названием не найден.",
+  "hasDrop": false
+ },
+ "Суперзелье маны": {
+  "en": "Super Mana Potion",
+  "wiki": "https://terraria.wiki.gg/wiki/Super_Mana_Potion",
+  "recipes": [
+   {
+    "station": "Alchemy Table",
+    "ingredients": [
+     {
+      "en": "Greater Mana Potion",
+      "count": 15
+     },
+     {
+      "en": "Fallen Star",
+      "count": 1
+     },
+     {
+      "en": "Crystal Shard",
+      "count": 3
+     },
+     {
+      "en": "Unicorn Horn",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Рецепт различается по версиям; указан вариант для консолей и мобильных (для Desktop: 8 Greater Mana Potion, 2 Fallen Star, 1 Ectoplasm)",
+  "hasDrop": false
+ },
+ "Сфера магнита": {
+  "en": "Magnet Sphere",
+  "wiki": "https://terraria.wiki.gg/wiki/Magnet_Sphere",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Blue Armored Bones",
+    "chance": "0.33% (Expert: 0.67%)"
+   },
+   {
+    "source": "Rusty Armored Bones",
+    "chance": "0.33% (Expert: 0.67%)"
+   },
+   {
+    "source": "Hell Armored Bones",
+    "chance": "0.33% (Expert: 0.67%)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Тайфун из лезвий": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Предмет с таким названием в Terraria Wiki не найден",
+  "hasDrop": false
+ },
+ "Тактический дробовик": {
+  "en": "Tactical Shotgun",
+  "wiki": "https://terraria.wiki.gg/wiki/Tactical_Shotgun",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Tactical Skeleton (Hardmode Dungeon)",
+    "chance": "8.33%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Темная винтовка": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Предмет Terraria с таким названием не найден.",
+  "hasDrop": false
+ },
+ "Темная жатва": {
+  "en": "Dark Harvest",
+  "wiki": "https://terraria.wiki.gg/wiki/Dark_Harvest",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Pumpking (Pumpkin Moon)",
+    "chance": "2.5–12.5% (Classic); 6.25–12.5% (Expert), зависит от волны"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Темный пистолет": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "none",
+  "issue": "Предмет с таким названием в Terraria не найден.",
+  "hasDrop": false
+ },
+ "Террамеч": {
+  "en": "Terra Blade",
+  "wiki": "https://terraria.wiki.gg/wiki/Terra_Blade",
+  "recipes": [
+   {
+    "station": "Mythril/Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "True Night's Edge",
+      "count": 1
+     },
+     {
+      "en": "True Excalibur",
+      "count": 1
+     },
+     {
+      "en": "Broken Hero Sword",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Террапризма": {
+  "en": "Terraprisma",
+  "wiki": "https://terraria.wiki.gg/wiki/Terraprisma",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Empress of Light (only if all damage is dealt during the day)",
+    "chance": "100%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Титановая броня": {
+  "en": "Titanium armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Titanium_armor",
+  "pieces": [
+   {
+    "ru": "Титановая маска",
+    "en": "Titanium Mask",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Titanium Bar",
+        "count": 13
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Титановый шлем",
+    "en": "Titanium Helmet",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Titanium Bar",
+        "count": 13
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Титановый головной убор",
+    "en": "Titanium Headgear",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Titanium Bar",
+        "count": 13
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Титановый нагрудник",
+    "en": "Titanium Breastplate",
+    "recipes": [
+     {
+      "station": "Mythril Anvil",
+      "ingredients": [
+       {
+        "en": "Titanium Bar",
+        "count": 26
+       }
+      ]
+     },
+     {
+      "station": "Orichalcum Anvil",
+      "ingredients": [
+       {
+        "en": "Titanium Bar",
+        "count": 26
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Титановые поножи",
+    "en": "Titanium Leggings",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Titanium Bar",
+        "count": 20
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для масок, шлема, головного убора и поножей на вики не указана.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Точильный станок": {
+  "en": "Sharpening Station",
+  "wiki": "https://terraria.wiki.gg/wiki/Sharpening_Station",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Встречается в подземных хижинах (Underground Cabins) в Подземных джунглях; в Хардмоде продаётся Торговцем за 10 золота",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Травяной меч": {
+  "en": "Blade of Grass",
+  "wiki": "https://terraria.wiki.gg/wiki/Blade_of_Grass",
+  "recipes": [
+   {
+    "station": "Iron Anvil",
+    "ingredients": [
+     {
+      "en": "Stinger",
+      "count": 12
+     },
+     {
+      "en": "Jungle Spores",
+      "count": 15
+     },
+     {
+      "en": "Vine",
+      "count": 3
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Тёмная пика": {
+  "en": "Dark Lance",
+  "wiki": "https://terraria.wiki.gg/wiki/Dark_Lance",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Из Теневых сундуков в Подземном мире (данные на вики зачеркнуты как устаревшие)",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "УЗИ": {
+  "en": "Uzi",
+  "wiki": "https://terraria.wiki.gg/wiki/Uzi",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Angry Trapper",
+    "chance": "1%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Удар молнии": {
+  "en": "Lightning Strike",
+  "wiki": "https://terraria.wiki.gg/wiki/Lightning_Strike",
+  "recipes": [
+   {
+    "station": "Mythril/Orichalcum Anvil",
+    "ingredients": [
+     {
+      "en": "Thunder Zapper",
+      "count": 1
+     },
+     {
+      "en": "Any Adamantite Bar",
+      "count": 24
+     },
+     {
+      "en": "Soul of Night",
+      "count": 20
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Утренняя звезда": {
+  "en": "Morning Star",
+  "wiki": "https://terraria.wiki.gg/wiki/Morning_Star",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Blue Armored Bones",
+    "chance": "0.5% (Expert: 1%)"
+   },
+   {
+    "source": "Rusty Armored Bones",
+    "chance": "0.5% (Expert: 1%)"
+   },
+   {
+    "source": "Hell Armored Bones",
+    "chance": "0.5% (Expert: 1%)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Фантазм": {
+  "en": "Phantasm",
+  "wiki": "https://terraria.wiki.gg/wiki/Phantasm",
+  "recipes": [
+   {
+    "station": "Ancient Manipulator",
+    "ingredients": [
+     {
+      "en": "Vortex Fragment",
+      "count": 18
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Флаконы ихора и проклятого пламени": {
+  "en": "Flask of Ichor",
+  "wiki": "https://terraria.wiki.gg/wiki/Flask_of_Ichor",
+  "recipes": [
+   {
+    "station": "Imbuing Station",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Ichor",
+      "count": 2
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Во входных данных два предмета (Флакон ихора и Флакон проклятого пламени); здесь описан только Флакон ихора. Количество воды на вики не указано, принято 1.",
+  "hasDrop": false
+ },
+ "Флаконы огня и отравления": {
+  "en": "Flasks",
+  "wiki": "https://terraria.wiki.gg/wiki/Flasks",
+  "recipes": [
+   {
+    "station": "Imbuing Station",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Hellstone",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "station": "Imbuing Station",
+    "ingredients": [
+     {
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "en": "Stinger",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Фокспаркс": {
+  "en": "Foxparks",
+  "wiki": "https://terraria.wiki.gg/wiki/Foxparks",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Не выпадает из врагов: редкий 'истощённый' Foxparks появляется днём на поверхностной траве, в джунглях или на снегу (вне Кладбища) рядом с двумя Goblin Archer; подойдите к нему после их убийства",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Фолиант бесконечной мудрости": {
+  "en": "Tome of Infinite Wisdom",
+  "wiki": "https://terraria.wiki.gg/wiki/Tome_of_Infinite_Wisdom",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Ogre (Tier 2)",
+    "chance": "10% (Expert: 20%)"
+   },
+   {
+    "source": "Ogre (Tier 3)",
+    "chance": "5%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Хлорофитовая броня": {
+  "en": "Chlorophyte armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Chlorophyte_armor",
+  "pieces": [
+   {
+    "ru": "Хлорофитовая маска",
+    "en": "Chlorophyte Mask",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Chlorophyte Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Хлорофитовый шлем",
+    "en": "Chlorophyte Helmet",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Chlorophyte Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Хлорофитовый головной убор",
+    "en": "Chlorophyte Headgear",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Chlorophyte Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Хлорофитовый визор",
+    "en": "Chlorophyte Visor",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Chlorophyte Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Хлорофитовый нагрудник",
+    "en": "Chlorophyte Plate Mail",
+    "recipes": [
+     {
+      "station": "",
+      "ingredients": [
+       {
+        "en": "Chlorophyte Bar",
+        "count": 24
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Хлорофитовые поножи",
+    "en": "Chlorophyte Greaves",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "ingredients": [
+       {
+        "en": "Chlorophyte Bar",
+        "count": 18
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Станция крафта для большинства частей на вики не указана (явно указана только для поножей).",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Хлорофитовый арбалет": {
+  "en": "Chlorophyte Shotbow",
+  "wiki": "https://terraria.wiki.gg/wiki/Chlorophyte_Shotbow",
+  "recipes": [
+   {
+    "station": "Mythril Anvil",
+    "ingredients": [
+     {
+      "en": "Chlorophyte Bar",
+      "count": 12
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Цветок Эбигейла": {
+  "en": "Abigail's Flower",
+  "wiki": "https://terraria.wiki.gg/wiki/Abigail's_Flower",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Растёт на траве рядом с установленным надгробием; не выпадает и не крафтится.",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Цветок магии": {
+  "en": "Mana Flower",
+  "wiki": "https://terraria.wiki.gg/wiki/Mana_Flower",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Nature's Gift",
+      "count": 1
+     },
+     {
+      "en": "Mana Potion",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "Соответствие по названию предположительное; количества на вики не указаны, принято 1.",
+  "hasDrop": false
+ },
+ "Цветок огня": {
+  "en": "Flower of Fire",
+  "wiki": "https://terraria.wiki.gg/wiki/Flower_of_Fire",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Shadow Chest (Underworld)",
+    "chance": "20%"
+   },
+   {
+    "source": "Obsidian Lock Box",
+    "chance": "20%"
+   },
+   {
+    "source": "Red Devil (Remix worlds only)",
+    "chance": "3.33%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Цунами": {
+  "en": "Tsunami",
+  "wiki": "https://terraria.wiki.gg/wiki/Tsunami",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Duke Fishron",
+    "chance": "14.29% (1/7)"
+   },
+   {
+    "source": "Treasure Bag (Duke Fishron)",
+    "chance": "14.29% (1/7)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Черепашья броня": {
+  "en": "Turtle armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Turtle_armor",
+  "pieces": [
+   {
+    "ru": "Черепаший шлем",
+    "en": "Turtle Helmet",
+    "recipes": []
+   },
+   {
+    "ru": "Черепашья кольчуга",
+    "en": "Turtle Scale Mail",
+    "recipes": []
+   },
+   {
+    "ru": "Черепашьи поножи",
+    "en": "Turtle Leggings",
+    "recipes": []
+   }
+  ],
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "На вики не указано точное количество Turtle Shell в рецептах частей; рецепты не подтверждены, поле пусто.",
+  "hasDrop": false,
+  "isSet": true
+ },
+ "Шарф подмастерья": {
+  "en": "Apprentice's Scarf",
+  "wiki": "https://terraria.wiki.gg/wiki/Apprentice's_Scarf",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Dark Mage (T1)",
+    "chance": "25% (50% in Expert)"
+   },
+   {
+    "source": "Dark Mage (T3)",
+    "chance": "25% (50% in Expert)"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Шарф-червь": {
+  "en": "Worm Scarf",
+  "wiki": "https://terraria.wiki.gg/wiki/Worm_Scarf",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Eater of Worlds (Treasure Bag, Expert и Master)",
+    "chance": "100%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Шипастый шар": {
+  "en": "Spiky Ball",
+  "wiki": "https://terraria.wiki.gg/wiki/Spiky_Ball",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Goblin Archer",
+    "chance": "49.75%"
+   },
+   {
+    "source": "Goblin Peon",
+    "chance": "49.75%"
+   },
+   {
+    "source": "Goblin Sorcerer",
+    "chance": "49.75%"
+   },
+   {
+    "source": "Goblin Thief",
+    "chance": "49.75%"
+   },
+   {
+    "source": "Goblin Warrior",
+    "chance": "49.75%"
+   }
+  ],
+  "obtain": "Продаётся у Гоблина-механика за 80 меди",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Шипохват": {
+  "en": "Thorn Hook",
+  "wiki": "https://terraria.wiki.gg/wiki/Thorn_Hook",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Plantera",
+    "chance": "10%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Щит Ктулху": {
+  "en": "Shield of Cthulhu",
+  "wiki": "https://terraria.wiki.gg/wiki/Shield_of_Cthulhu",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Eye of Cthulhu (Treasure Bag, Expert Mode)",
+    "chance": "100%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Щит оруженосца": {
+  "en": "Squire's Shield",
+  "wiki": "https://terraria.wiki.gg/wiki/Squire's_Shield",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Эмблема Воина": {
+  "en": "Warrior Emblem",
+  "wiki": "https://terraria.wiki.gg/wiki/Warrior_Emblem",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Эмблема мага": {
+  "en": "Sorcerer Emblem",
+  "wiki": "https://terraria.wiki.gg/wiki/Sorcerer_Emblem",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "status": "partial",
+  "issue": "Предположительно Sorcerer Emblem (Эмблема мага); рецепт и источник не найдены",
+  "hasDrop": false
+ },
+ "Эмблема мстителя": {
+  "en": "Avenger Emblem",
+  "wiki": "https://terraria.wiki.gg/wiki/Avenger_Emblem",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Summoner Emblem",
+      "count": 1
+     },
+     {
+      "en": "Soul of Might",
+      "count": 5
+     },
+     {
+      "en": "Soul of Sight",
+      "count": 5
+     },
+     {
+      "en": "Soul of Fright",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Ranger Emblem",
+      "count": 1
+     },
+     {
+      "en": "Soul of Might",
+      "count": 5
+     },
+     {
+      "en": "Soul of Sight",
+      "count": 5
+     },
+     {
+      "en": "Soul of Fright",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "station": "Tinkerer's Workshop",
+    "ingredients": [
+     {
+      "en": "Warrior Emblem",
+      "count": 1
+     },
+     {
+      "en": "Soul of Might",
+      "count": 5
+     },
+     {
+      "en": "Soul of Sight",
+      "count": 5
+     },
+     {
+      "en": "Soul of Fright",
+      "count": 5
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "status": "ok",
+  "issue": "На странице 4 варианта рецепта, указаны первые 3.",
+  "hasDrop": false
+ },
+ "Эмблема призывателя": {
+  "en": "Summoner Emblem",
+  "wiki": "https://terraria.wiki.gg/wiki/Summoner_Emblem",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Wall of Flesh",
+    "chance": "25%"
+   },
+   {
+    "source": "Wall of Flesh (Treasure Bag)",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Эмблема стрелка": {
+  "en": "Ranger Emblem",
+  "wiki": "https://terraria.wiki.gg/wiki/Ranger_Emblem",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Wall of Flesh",
+    "chance": "25%"
+   },
+   {
+    "source": "Treasure Bag (Wall of Flesh)",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Ядовитый посох": {
+  "en": "Poison Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Poison_Staff",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Black Recluse",
+    "chance": "2.5%"
+   }
+  ],
+  "obtain": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Ящик с боеприпасами": {
+  "en": "Ammo Box",
+  "wiki": "https://terraria.wiki.gg/wiki/Ammo_Box",
+  "recipes": [],
+  "drops": [],
+  "obtain": "Покупается у Оружейника (Arms Dealer) за 10 золота в Хардмоде",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ }
+}
