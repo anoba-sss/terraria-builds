@@ -1,1 +1,32 @@
-{"v":1}
+{
+ "v": 1,
+ "theme": "dark",
+ "colors": {
+  "bg": "#0f1a14",
+  "panel": "#16261d",
+  "panel2": "#1d3226",
+  "line": "#2f4a39",
+  "text": "#e6f2e8",
+  "muted": "#9db8a5",
+  "accent": "#7fd17f",
+  "cls": "#7fd17f",
+  "ok": "#7fd1a0",
+  "warn": "#e6c84f"
+ },
+ "classColors": {
+  "melee": "#e9781c",
+  "magic": "#a62de6",
+  "summoner": "#fffa5c",
+  "ranged": "#3ffdd7"
+ },
+ "fonts": {
+  "body": "Golos Text"
+ },
+ "bg": {
+  "mode": "image",
+  "patternSize": 26
+ },
+ "texts": {
+  "pageTitle": "Билды к боссам"
+ }
+}
