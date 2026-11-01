@@ -407,7 +407,7 @@
     "en": "Beetle Shell",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Beetle Husk",
@@ -419,7 +419,8 @@
         "count": 1,
         "ru": "черепашьи латы"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -428,7 +429,7 @@
     "en": "Beetle Leggings",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Beetle Husk",
@@ -440,7 +441,8 @@
         "count": 1,
         "ru": "Черепашьи ботинки"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    }
@@ -6396,64 +6398,83 @@
   "issue": "",
   "hasDrop": false
  },
- "Броня Жука (Урон+)": {
-  "en": "",
-  "wiki": "",
-  "recipes": [
-   {
-    "station": "Mythril Anvil or Orichalcum Anvil",
-    "stationRu": "Мифриловая или орихалковая наковальня",
-    "ingredients": [
-     {
-      "ru": "Жучий панцирь",
-      "en": "Beetle Husk",
-      "count": 4
-     },
-     {
-      "ru": "Черепаший шлем",
-      "en": "",
-      "count": 1
-     }
-    ]
-   },
-   {
-    "station": "Mythril Anvil or Orichalcum Anvil",
-    "stationRu": "Мифриловая или орихалковая наковальня",
-    "ingredients": [
-     {
-      "ru": "Жучий панцирь",
-      "en": "Beetle Husk",
-      "count": 8
-     },
-     {
-      "ru": "Черепашьи латы",
-      "en": "",
-      "count": 1
-     }
-    ]
-   },
-   {
-    "station": "Mythril Anvil or Orichalcum Anvil",
-    "stationRu": "Мифриловая или орихалковая наковальня",
-    "ingredients": [
-     {
-      "ru": "Жучий панцирь",
-      "en": "Beetle Husk",
-      "count": 6
-     },
-     {
-      "ru": "Черепашьи ботинки",
-      "en": "",
-      "count": 1
-     }
-    ]
-   }
-  ],
+ "Броня Жука (броня)": {
+  "en": "Beetle armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Beetle_armor",
+  "recipes": [],
   "drops": [],
   "obtain": "",
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "pieces": [
+   {
+    "ru": "Жучий шлем",
+    "en": "Beetle Helmet",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Жучий панцирь",
+        "en": "Beetle Husk",
+        "count": 4
+       },
+       {
+        "ru": "Черепаший шлем",
+        "en": "Turtle Helmet",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Жучий нагрудник",
+    "en": "Beetle Shell",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Жучий панцирь",
+        "en": "Beetle Husk",
+        "count": 8
+       },
+       {
+        "ru": "Черепаший нагрудник",
+        "en": "Turtle Scale Mail",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Жучьи ботинки",
+    "en": "Beetle Leggings",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Жучий панцирь",
+        "en": "Beetle Husk",
+        "count": 6
+       },
+       {
+        "ru": "Черепашьи ботинки",
+        "en": "Turtle Leggings",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  ]
  }
 }
