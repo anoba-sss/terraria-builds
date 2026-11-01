@@ -8,7 +8,7 @@
     "en": "Adamantite Helmet",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Adamantite Bar",
@@ -42,7 +42,7 @@
     "en": "Adamantite Leggings",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Adamantite Bar",
@@ -5505,7 +5505,7 @@
     "en": "Titanium Mask",
     "recipes": [
      {
-      "station": "Mythril Anvil",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Titanium Bar",
@@ -5513,7 +5513,7 @@
         "ru": "Титановый слиток"
        }
       ],
-      "stationRu": "Орихалковая наковальня"
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -5522,7 +5522,7 @@
     "en": "Titanium Breastplate",
     "recipes": [
      {
-      "station": "Mythril Anvil",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Titanium Bar",
@@ -5530,18 +5530,7 @@
         "ru": "Титановый слиток"
        }
       ],
-      "stationRu": "Мифриловая наковальня"
-     },
-     {
-      "station": "Orichalcum Anvil",
-      "ingredients": [
-       {
-        "en": "Titanium Bar",
-        "count": 26,
-        "ru": "Титановый слиток"
-       }
-      ],
-      "stationRu": "Орихалковая наковальня"
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -5550,7 +5539,7 @@
     "en": "Titanium Leggings",
     "recipes": [
      {
-      "station": "Mythril Anvil",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Titanium Bar",
@@ -5558,7 +5547,7 @@
         "ru": "Титановый слиток"
        }
       ],
-      "stationRu": "Орихалковая наковальня"
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    }
