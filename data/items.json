@@ -376,7 +376,7 @@
   "issue": "",
   "hasDrop": false
  },
- "Броня Жука": {
+ "Броня Жука (урон)": {
   "en": "Beetle armor",
   "wiki": "https://terraria.wiki.gg/wiki/Beetle_armor",
   "pieces": [
@@ -403,7 +403,7 @@
     ]
    },
    {
-    "ru": "Жучий нагрудник",
+    "ru": "Жучьи латы",
     "en": "Beetle Shell",
     "recipes": [
      {
@@ -412,12 +412,12 @@
        {
         "en": "Beetle Husk",
         "count": 8,
-        "ru": "черепашьи латы"
+        "ru": "Жучий панцирь"
        },
        {
         "en": "Turtle Scale Mail",
         "count": 1,
-        "ru": "Черепашья кольчуга"
+        "ru": "черепашьи латы"
        }
       ]
      }
@@ -6392,6 +6392,66 @@
   "recipes": [],
   "drops": [],
   "obtain": "Покупается у Оружейника за 10 золота в хардмоде",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Броня Жука (Урон+)": {
+  "en": "",
+  "wiki": "",
+  "recipes": [
+   {
+    "station": "Mythril Anvil or Orichalcum Anvil",
+    "stationRu": "Мифриловая или орихалковая наковальня",
+    "ingredients": [
+     {
+      "ru": "Жучий панцирь",
+      "en": "Beetle Husk",
+      "count": 4
+     },
+     {
+      "ru": "Черепаший шлем",
+      "en": "",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Mythril Anvil or Orichalcum Anvil",
+    "stationRu": "Мифриловая или орихалковая наковальня",
+    "ingredients": [
+     {
+      "ru": "Жучий панцирь",
+      "en": "Beetle Husk",
+      "count": 8
+     },
+     {
+      "ru": "Черепашьи латы",
+      "en": "",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Mythril Anvil or Orichalcum Anvil",
+    "stationRu": "Мифриловая или орихалковая наковальня",
+    "ingredients": [
+     {
+      "ru": "Жучий панцирь",
+      "en": "Beetle Husk",
+      "count": 6
+     },
+     {
+      "ru": "Черепашьи ботинки",
+      "en": "",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "description": "",
   "status": "ok",
   "issue": "",
   "hasDrop": false
