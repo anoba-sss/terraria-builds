@@ -6476,5 +6476,45 @@
     ]
    }
   ]
+ },
+ "Экскалибур": {
+  "en": "Excalibur",
+  "wiki": "https://terraria.wiki.gg/wiki/Excalibur",
+  "recipes": [
+   {
+    "station": "Mythril/Orichalcum Anvil",
+    "stationRu": "Мифриловая/орихалковая наковальня",
+    "ingredients": [
+     {
+      "ru": "Святой слиток",
+      "en": "Hallowed Bar",
+      "count": 12
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Летающий дракон": {
+  "en": "Flying Dragon",
+  "wiki": "https://terraria.wiki.gg/wiki/Flying_Dragon",
+  "recipes": [],
+  "drops": [
+   {
+    "source": "Betsy",
+    "ru": "Бэтси",
+    "chance": "25%"
+   }
+  ],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
  }
 }
