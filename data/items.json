@@ -1190,19 +1190,19 @@
   "recipes": [],
   "drops": [
    {
-    "source": "Enchanted Sword in Stone (background object)",
+    "source": "Зачарованный меч в камне ( под землёй )",
     "chance": "96.67%"
    },
    {
-    "source": "Titanium Crate",
+    "source": "Титановый ящик",
     "chance": "6.67%"
    },
    {
-    "source": "Golden Crate",
+    "source": "Золотой ящик",
     "chance": "3.33%"
    }
   ],
-  "obtain": "",
+  "obtain": "можно найти в структуре \"Святыня зачарованного меча\" , где нужно сломать обьект \"меч в камне\"",
   "status": "ok",
   "issue": "",
   "hasDrop": true
@@ -1266,19 +1266,15 @@
   "recipes": [],
   "drops": [
    {
-    "source": "Azure Crate",
+    "source": "Небесный ящик",
     "chance": "25%"
    },
    {
-    "source": "Sky Crate",
-    "chance": "25%"
-   },
-   {
-    "source": "Skyware Chest (Floating Islands)",
+    "source": "Заоблачный сундук ( на парящих островах)",
     "chance": "25%"
    }
   ],
-  "obtain": "",
+  "obtain": " меч, который можно найти только на парящих островах в Заоблачном сундуке или при открытии Небесного ящика",
   "status": "ok",
   "issue": "",
   "hasDrop": true
