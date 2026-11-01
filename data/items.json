@@ -127,30 +127,30 @@
   "wiki": "https://terraria.wiki.gg/wiki/Amazon",
   "recipes": [
    {
-    "station": "Наковальня",
+    "station": "Iron Anvil / Lead Anvil",
     "ingredients": [
      {
-      "en": "Красная древесина",
+      "en": "Rich Mahogany",
       "count": 8,
       "ru": "Красная древесина"
      },
      {
-      "en": "Жало",
+      "en": "Stinger",
       "count": 12,
       "ru": "Жало"
      },
      {
-      "en": "Лоза",
+      "en": "Vine",
       "count": 1,
       "ru": "Лоза"
      },
      {
-      "en": "Споры джунглей",
+      "en": "Jungle Spores",
       "count": 9,
       "ru": "Споры джунглей"
      }
     ],
-    "stationRu": "Наковальня"
+    "stationRu": "Железная / свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -741,7 +741,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Volcano",
   "recipes": [
    {
-    "station": "Iron Anvil",
+    "station": "Iron Anvil / Lead Anvil",
     "ingredients": [
      {
       "en": "Hellstone Bar",
@@ -749,7 +749,7 @@
       "ru": "Слиток адского камня"
      }
     ],
-    "stationRu": "Железная наковальня"
+    "stationRu": "Железная / свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -831,7 +831,7 @@
      {
       "en": "Light's Bane",
       "count": 1,
-      "ru": "Погибель света"
+      "ru": "Бич света"
      },
      {
       "en": "Muramasa",
@@ -857,7 +857,7 @@
      {
       "en": "Blood Butcherer",
       "count": 1,
-      "ru": "Кровавый мясник"
+      "ru": "Кровавый мясорез"
      },
      {
       "en": "Muramasa",
@@ -3587,7 +3587,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Flamarang",
   "recipes": [
    {
-    "station": "Iron Anvil",
+    "station": "Iron Anvil / Lead Anvil",
     "ingredients": [
      {
       "en": "Hellstone Bar",
@@ -3600,7 +3600,7 @@
       "ru": "Зачарованный бумеранг"
      }
     ],
-    "stationRu": "Железная наковальня"
+    "stationRu": "Железная / свинцовая наковальня"
    }
   ],
   "drops": [],
@@ -5572,7 +5572,7 @@
   "issue": "",
   "hasDrop": false
  },
- "Травяной меч": {
+ "Травяной клинок": {
   "en": "Blade of Grass",
   "wiki": "https://terraria.wiki.gg/wiki/Blade_of_Grass",
   "recipes": [
@@ -5609,7 +5609,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Dark_Lance",
   "recipes": [],
   "drops": [],
-  "obtain": "Из Теневых сундуков в Подземном мире (данные на вики зачеркнуты как устаревшие)",
+  "obtain": "Можно найти только в теневых сундуках в Аду ",
   "status": "ok",
   "issue": "",
   "hasDrop": false
