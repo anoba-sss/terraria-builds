@@ -465,7 +465,13 @@
       method: 'PUT', headers,
       body: JSON.stringify({ message, content: b64(JSON.stringify(obj, null, 1) + '\n'), sha: meta.sha, branch: CFG.branch })
     });
-    if (!put.ok) throw new Error(`запись ${path}: ${put.status}`);
+    if (!put.ok) {
+      let detail = '';
+      try { detail = (await put.json()).message || ''; } catch (e) { /* ignore */ }
+      throw new Error(`запись ${path}: ${put.status} ${detail}`.trim());
+    }
+    const res = await put.json();
+    return res && res.commit ? res.commit : null;
   }
 
   async function saveAll() {
@@ -473,10 +479,12 @@
     toast('Сохраняю…');
     try {
       await putFile(`${CFG.dir}/builds.json`, DATA, 'Обновление билдов (редактор сайта)');
-      await putFile(`${CFG.dir}/items.json`, ITEMS, 'Обновление предметов (редактор сайта)');
+      const c = await putFile(`${CFG.dir}/items.json`, ITEMS, 'Обновление предметов (редактор сайта)');
       DIRTY = false;
       renderSaveBar();
-      toast('Сохранено на GitHub. Сайт обновится через минуту.');
+      const where = `${CFG.repo}@${CFG.branch}/${CFG.dir}` + (c && c.sha ? ` (коммит ${c.sha.slice(0, 7)})` : '');
+      toast(`Сохранено: ${where}. Сайт обновится через 1–2 минуты.`);
+      console.info('Saved to', where, c && c.html_url);
     } catch (e) {
       toast(`Ошибка сохранения: ${e.message}`);
     }
@@ -488,10 +496,22 @@
   window.addEventListener('beforeunload', (e) => { if (DIRTY) { e.preventDefault(); e.returnValue = ''; } });
   $('#settings-btn').addEventListener('click', openSettings);
 
-  Promise.all([
-    fetch('data/builds.json').then(r => r.json()),
-    fetch('data/items.json').then(r => r.json())
-  ]).then(([builds, items]) => {
+  // Pages отдаёт JSON с кэшем (~10 мин) — после «Сохранить» страница показывала старые данные.
+  // Владелец читает файлы напрямую из репозитория (всегда свежие), остальные — с обходом кэша.
+  function loadJson(name) {
+    if (EDIT) {
+      const url = `https://api.github.com/repos/${CFG.repo}/contents/${CFG.dir}/${name}?ref=${encodeURIComponent(CFG.branch)}`;
+      return fetch(url, { cache: 'no-store', headers: { Authorization: `Bearer ${CFG.token}`, Accept: 'application/vnd.github.raw+json' } })
+        .then(r => { if (!r.ok) throw new Error(`${name}: ${r.status}`); return r.json(); })
+        .catch(err => { console.warn('GitHub read failed, falling back to site copy:', err); return plainJson(name); });
+    }
+    return plainJson(name);
+  }
+  function plainJson(name) {
+    return fetch(`data/${name}?v=${Date.now()}`, { cache: 'no-store' }).then(r => r.json());
+  }
+
+  Promise.all([loadJson('builds.json'), loadJson('items.json')]).then(([builds, items]) => {
     DATA = builds;
     ITEMS = items;
     renderAll();
