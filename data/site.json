@@ -22,10 +22,14 @@
  "fonts": {
   "body": "Golos Text"
  },
+ "layout": {
+  "border": 2,
+  "shadow": 50
+ },
  "bg": {
   "mode": "image",
   "patternSize": 26,
-  "url": "https://github.com/anoba-sss/terraria-builds/blob/main/images/yandex1.jpg"
+  "url": "images/7.jpg"
  },
  "texts": {
   "pageTitle": "Билды к боссам"
