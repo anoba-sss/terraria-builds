@@ -2270,7 +2270,7 @@
      {
       "en": "Soul of Flight",
       "count": 20,
-      "ru": "Душа полёта"
+      "ru": "Эссенция воздуха"
      },
      {
       "en": "Butterfly Dust",
@@ -2313,7 +2313,7 @@
      {
       "en": "Soul of Flight",
       "count": 20,
-      "ru": "Душа полёта"
+      "ru": "Эссенция воздуха"
      },
      {
       "en": "Broken Bat Wing",
@@ -3089,13 +3089,13 @@
     "ingredients": [
      {
       "en": "Celestial Stone",
-      "count": null,
+      "count": 1,
       "ru": "Небесный камень"
      },
      {
       "en": "Moon Shell",
-      "count": null,
-      "ru": "Лунная раковина"
+      "count": 1,
+      "ru": "Лунная ракушка"
      }
     ],
     "stationRu": "Мастерская инженера"
