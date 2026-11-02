@@ -326,6 +326,24 @@ textarea.ed-input { resize: vertical; }
 .item-btn.preview:hover { transform: none; border-color: var(--line); }
 .ed-section-title { margin: 0; font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--cls); }
 
+/* ---------- редактор этапов (только владелец) ---------- */
+.stage-class-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+.stg-card { gap: 10px; }
+.stg-head { display: flex; align-items: center; gap: 10px; }
+.stg-head .stage-num { flex: 0 0 auto; }
+.stg-title { flex: 1 1 auto; min-width: 0; font-size: 16px; }
+.stg-meta { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.stg-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.stg-actions .ed-btn:disabled { opacity: .4; cursor: default; }
+.stg-bosses { display: grid; gap: 6px; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); }
+.stg-boss {
+  display: flex; align-items: center; gap: 8px; cursor: pointer;
+  padding: 6px 10px; border: var(--bw, 2px) solid var(--line); border-radius: var(--radius-sm);
+  background: var(--panel); font-size: 14px; color: var(--text);
+}
+.stg-boss input { accent-color: var(--cls); margin: 0; }
+.stg-boss:has(input:checked) { border-color: var(--cls); }
+
 /* ---------- appearance designer (owner only) ----------
    Панель использует собственные цвета, чтобы оставаться читаемой,
    даже если выбрать неудачные цвета самого сайта. */

@@ -907,10 +907,12 @@
     const btn = modal.querySelector('.modal-close');
     if (btn) btn.focus();
   }
+  let onModalClose = null;   // действие после закрытия модалки (например, перерисовать билды)
   function closeModal() {
     const root = $('#modal-root');
     root.hidden = true;
     root.replaceChildren();
+    if (onModalClose) { const f = onModalClose; onModalClose = null; f(); }
   }
 
   // ---------- owner settings + GitHub saving ----------
@@ -975,12 +977,131 @@
         el('label', { class: 'ed-field' }, [el('span', { class: 'ed-label', text: 'Логин владельца (проверка)' }), login]),
         msg,
         el('div', { class: 'ed-actions' }, [
+          EDIT ? el('button', { class: 'ed-btn', type: 'button', text: '🧭 Этапы подготовки', onclick: () => { closeModal(); openStagesEditor(); } }) : null,
           EDIT ? el('button', { class: 'ed-btn', type: 'button', text: '🎨 Оформление сайта', onclick: () => { closeModal(); openDesigner(); } }) : null,
           CFG.token ? el('button', { class: 'ed-btn danger', type: 'button', text: 'Выключить редактирование', onclick: disable }) : null,
           el('button', { class: 'ed-btn primary', type: 'button', text: EDIT ? 'Обновить настройки' : 'Включить редактирование', onclick: enable })
         ])
       ])
     ]));
+  }
+
+  // ---------- редактор этапов подготовки (только владелец) ----------
+  // Меняет надписи этапов, боссов под надписью, порядок, добавляет и удаляет этапы.
+  // Предметы внутри этапа редактируются в самом билде, как и раньше.
+  function openStagesEditor() {
+    let cls = currentClass();
+    const bossIds = Object.keys(BOSS_NAMES);
+    const stagesOf = () => (Array.isArray(DATA.builds[cls]) ? DATA.builds[cls] : (DATA.builds[cls] = []));
+    const itemCount = (st) => CATS.reduce((n, c) => n + ((st.cats && st.cats[c.id]) || []).length, 0);
+    const touch = () => markDirty();
+
+    const tabsBox = el('div', { class: 'stage-class-tabs', role: 'tablist' });
+    const summary = el('p', { class: 'ed-hint' });
+    const listBox = el('div', { class: 'ed-list' });
+    const newTitle = el('input', { class: 'ed-input', type: 'text', placeholder: 'Надпись нового этапа, например «Подготовка к Глазу Ктулху»' });
+
+    function bossPicker(stage) {
+      return el('div', { class: 'stg-bosses' }, bossIds.map(id => {
+        const input = el('input', { type: 'checkbox' });
+        input.checked = stage.bosses.includes(id);
+        input.addEventListener('change', () => {
+          const i = stage.bosses.indexOf(id);
+          if (input.checked && i < 0) stage.bosses.push(id);
+          if (!input.checked && i >= 0) stage.bosses.splice(i, 1);
+          touch();
+          renderStages();   // обновить счётчики и подписи сверху
+        });
+        return el('label', { class: 'stg-boss' }, [input, el('span', { text: bossName(id) })]);
+      }));
+    }
+
+    function move(list, i, d) {
+      const j = i + d;
+      if (j < 0 || j >= list.length) return;
+      [list[i], list[j]] = [list[j], list[i]];
+      touch();
+      renderStages();
+    }
+
+    function stageCard(stage, i, list) {
+      const title = el('input', { class: 'ed-input stg-title', type: 'text', 'aria-label': `Надпись этапа ${i + 1}` });
+      title.value = stage.title;
+      title.addEventListener('input', () => {
+        const v = title.value.trim();
+        if (v) { stage.title = v; touch(); }
+      });
+      const bossesNow = stage.bosses.map(b => bossName(b)).join(', ') || 'боссы не выбраны';
+      return el('div', { class: 'ed-card stg-card' }, [
+        el('div', { class: 'stg-head' }, [
+          el('span', { class: 'stage-num', text: String(i + 1) }),
+          title
+        ]),
+        el('div', { class: 'stg-meta' }, [
+          el('span', { class: 'ed-hint', text: `Боссы: ${bossesNow} · предметов: ${itemCount(stage)}` }),
+          el('div', { class: 'stg-actions' }, [
+            el('button', { class: 'ed-btn small', type: 'button', text: '↑', title: 'Поднять этап', 'aria-label': 'Поднять этап', disabled: i === 0 ? true : null, onclick: () => move(list, i, -1) }),
+            el('button', { class: 'ed-btn small', type: 'button', text: '↓', title: 'Опустить этап', 'aria-label': 'Опустить этап', disabled: i === list.length - 1 ? true : null, onclick: () => move(list, i, 1) }),
+            el('button', { class: 'ed-btn small danger', type: 'button', text: 'Удалить', onclick: () => {
+              if (!confirm(`Удалить этап «${stage.title}» вместе с его предметами?`)) return;
+              list.splice(i, 1);
+              touch();
+              renderStages();
+              toast('Этап удалён');
+            } })
+          ])
+        ]),
+        el('div', { class: 'ed-section-title', text: 'Боссы этапа' }),
+        bossPicker(stage)
+      ]);
+    }
+
+    function renderTabs() {
+      tabsBox.replaceChildren(...ORDER.map(k => el('button', {
+        class: 'class-btn', type: 'button', role: 'tab',
+        'aria-current': k === cls ? 'page' : null, style: `--cls:${CLASSES[k].color}`,
+        onclick: () => { cls = k; renderTabs(); renderStages(); }
+      }, [el('span', { class: 'class-dot' }), CLASSES[k].name])));
+    }
+
+    function renderStages() {
+      const list = stagesOf();
+      summary.textContent = `${CLASSES[cls].name}: этапов ${list.length}. Надписи и боссы сохраняются вместе с билдами (кнопка «Сохранить на GitHub»).`;
+      listBox.replaceChildren(...(list.length
+        ? list.map((s, i) => stageCard(s, i, list))
+        : [el('p', { class: 'empty', text: 'У этого класса пока нет этапов. Добавь первый ниже.' })]));
+    }
+
+    const addBtn = el('button', { class: 'ed-btn primary', type: 'button', text: '+ Добавить этап', onclick: () => {
+      const t = newTitle.value.trim();
+      if (!t) { toast('Введи надпись этапа'); return; }
+      stagesOf().push({ title: t, bosses: [], cats: { armor: [], weapons: [], accessories: [], buffs: [] } });
+      newTitle.value = '';
+      touch();
+      renderStages();
+      toast(`Этап «${t}» добавлен в конец. Отметь боссы под надписью.`);
+    } });
+    newTitle.addEventListener('keydown', (e) => { if (e.key === 'Enter') addBtn.click(); });
+
+    onModalClose = () => renderAll();
+    showModal(el('div', { class: 'modal wide', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'Этапы подготовки' }, [
+      el('div', { class: 'modal-head' }, [
+        el('div', {}, [el('h2', { text: 'Этапы подготовки' }), el('div', { class: 'sub', text: 'Надписи этапов, боссы под ними, порядок. Предметы — в самом билде.' })]),
+        el('button', { class: 'modal-close', type: 'button', 'aria-label': 'Закрыть', text: '×', onclick: closeModal })
+      ]),
+      el('div', { class: 'modal-body' }, [
+        tabsBox,
+        summary,
+        listBox,
+        el('div', { class: 'ed-card add-entry' }, [
+          el('div', { class: 'add-title', text: '+ Новый этап' }),
+          newTitle,
+          el('div', { class: 'ed-actions' }, [addBtn])
+        ])
+      ])
+    ]));
+    renderTabs();
+    renderStages();
   }
 
   function renderSaveBar() {
