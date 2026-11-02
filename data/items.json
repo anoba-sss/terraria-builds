@@ -695,7 +695,7 @@
   "issue": "",
   "hasDrop": false
  },
- "Перчатка туманности": {
+ "Пламя туманности": {
   "en": "Nebula Blaze",
   "wiki": "https://terraria.wiki.gg/wiki/Nebula_Blaze",
   "recipes": [
@@ -705,7 +705,7 @@
      {
       "en": "Nebula Fragment",
       "count": 18,
-      "ru": "Туманный фрагмент"
+      "ru": "Фрагмент туманности"
      }
     ],
     "stationRu": "Манипулятор древних"
