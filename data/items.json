@@ -1373,7 +1373,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Endurance_Potion",
   "recipes": [
    {
-    "station": "Alchemy Table",
+    "station": "Alchemy Table (or Placed Bottle )",
     "ingredients": [
      {
       "en": "Bottled Water",
@@ -1391,7 +1391,7 @@
       "ru": "Мигающий корень"
      }
     ],
-    "stationRu": "Алхимический стол"
+    "stationRu": "Алхимический стол (или размещённая банка )"
    }
   ],
   "drops": [],
@@ -1405,7 +1405,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Ironskin_Potion",
   "recipes": [
    {
-    "station": "Alchemy Table",
+    "station": "Alchemy Table (or Placed Bottle )",
     "ingredients": [
      {
       "en": "Bottled Water",
@@ -1423,10 +1423,10 @@
       "ru": "Железная руда"
      }
     ],
-    "stationRu": "Алхимический стол"
+    "stationRu": "Алхимический стол (или размещённая банка )"
    },
    {
-    "station": "Alchemy Table",
+    "station": "Alchemy Table (or Placed Bottle )",
     "ingredients": [
      {
       "en": "Bottled Water",
@@ -1597,7 +1597,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Regeneration",
   "recipes": [
    {
-    "station": "Alchemy Table",
+    "station": "Alchemy Table (or Placed Bottle )",
     "ingredients": [
      {
       "en": "Bottled Water",
@@ -1615,49 +1615,7 @@
       "ru": "Гриб"
      }
     ],
-    "stationRu": "Алхимический стол"
-   },
-   {
-    "station": "Placed Bottle",
-    "ingredients": [
-     {
-      "en": "Bottled Water",
-      "count": 1,
-      "ru": "Вода в бутылке"
-     },
-     {
-      "en": "Daybloom",
-      "count": 1,
-      "ru": "Дневной цветок"
-     },
-     {
-      "en": "Mushroom",
-      "count": 1,
-      "ru": "Гриб"
-     }
-    ],
-    "stationRu": "Размещённая банка"
-   },
-   {
-    "station": "Alchemy Flask",
-    "ingredients": [
-     {
-      "en": "Bottled Water",
-      "count": 1,
-      "ru": "Вода в бутылке"
-     },
-     {
-      "en": "Daybloom",
-      "count": 1,
-      "ru": "Дневной цветок"
-     },
-     {
-      "en": "Mushroom",
-      "count": 1,
-      "ru": "Гриб"
-     }
-    ],
-    "stationRu": "Алхимический флакон"
+    "stationRu": "Алхимический стол (или размещённая банка )"
    }
   ],
   "drops": [],
@@ -1681,7 +1639,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Swiftness_Potion",
   "recipes": [
    {
-    "station": "Alchemy Table (или Placed Bottle / Alchemy Flask)",
+    "station": "Alchemy Table (or Placed Bottle )",
     "ingredients": [
      {
       "en": "Bottled Water",
@@ -1699,7 +1657,7 @@
       "ru": "Кактус"
      }
     ],
-    "stationRu": "Алхимический стол (или размещённая банка / алхимическая колба)"
+    "stationRu": "Алхимический стол (или размещённая банка )"
    }
   ],
   "drops": [
@@ -5502,7 +5460,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Sharpening_Station",
   "recipes": [],
   "drops": [],
-  "obtain": "Встречается в подземных хижинах в Подземных джунглях; в хардмоде продаётся Торговцем за 10 золота",
+  "obtain": "Встречается в подземных разрушенных домах ; в хардмоде продаётся Торговцем за 10 золота",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -5645,7 +5603,7 @@
   "issue": "",
   "hasDrop": false
  },
- "Флаконы ихора и проклятого пламени": {
+ "Флаконы ихора": {
   "en": "Flask of Ichor",
   "wiki": "https://terraria.wiki.gg/wiki/Flask_of_Ichor",
   "recipes": [
@@ -5663,7 +5621,7 @@
       "ru": "Ихор"
      }
     ],
-    "stationRu": "Наполнитель"
+    "stationRu": "Наполняющий стол"
    }
   ],
   "drops": [],
@@ -5672,7 +5630,7 @@
   "issue": "Во входных данных два предмета (Флакон ихора и Флакон проклятого пламени); здесь описан только Флакон ихора. Количество воды на вики не указано, принято 1.",
   "hasDrop": false
  },
- "Флаконы огня и отравления": {
+ "Флаконы огня": {
   "en": "Flasks",
   "wiki": "https://terraria.wiki.gg/wiki/Flasks",
   "recipes": [
@@ -5690,23 +5648,7 @@
       "ru": "Адский камень"
      }
     ],
-    "stationRu": "Наполнитель"
-   },
-   {
-    "station": "Imbuing Station",
-    "ingredients": [
-     {
-      "en": "Bottled Water",
-      "count": 1,
-      "ru": "Вода в бутылке"
-     },
-     {
-      "en": "Stinger",
-      "count": 1,
-      "ru": "Жало"
-     }
-    ],
-    "stationRu": "Наполнитель"
+    "stationRu": "Наполняющий стол"
    }
   ],
   "drops": [],
@@ -6563,6 +6505,62 @@
       "ru": "Блестящий красный шарик",
       "en": "Shiny Red Balloon",
       "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Флакон Яда": {
+  "en": "Flask of Poison",
+  "wiki": "https://terraria.wiki.gg/wiki/Flasks",
+  "recipes": [
+   {
+    "station": "Imbuing Station",
+    "stationRu": "Наполняющий стол",
+    "ingredients": [
+     {
+      "ru": "Вода в бутылке",
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "ru": "Жало",
+      "en": "Stinger",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "флакон проклятого пламени": {
+  "en": "Flask of Cursed Flames",
+  "wiki": "https://terraria.wiki.gg/wiki/Flasks",
+  "recipes": [
+   {
+    "station": "Imbuing Station",
+    "stationRu": "Наполняющий стол",
+    "ingredients": [
+     {
+      "ru": "Вода в бутылке",
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "ru": "Проклятое пламя",
+      "en": "Cursed Flame",
+      "count": 2
      }
     ]
    }
