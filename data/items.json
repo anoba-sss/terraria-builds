@@ -630,7 +630,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Vampire_Knives",
   "recipes": [],
   "drops": [],
-  "obtain": "Лежит в багровом сундуке в Подземелье, открывается багровым ключом после победы над Плантерой",
+  "obtain": "Лежит в багровом сундуке в Подземелье скелетрона , открывается багровым ключом после победы над Плантерой",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -3028,7 +3028,7 @@
    {
     "source": "Paladin (Hardmode Dungeon)",
     "chance": "6.67%",
-    "ru": "Паладин (хардмод-Подземелье)"
+    "ru": "Паладин (хардмод-Подземелье скелетрона)"
    }
   ],
   "obtain": "",
@@ -5577,7 +5577,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Blade_of_Grass",
   "recipes": [
    {
-    "station": "Iron Anvil",
+    "station": "Iron Anvil / Lead Anvil",
     "ingredients": [
      {
       "en": "Stinger",
@@ -5595,7 +5595,7 @@
       "ru": "Лоза"
      }
     ],
-    "stationRu": "Железная наковальня"
+    "stationRu": "Железная / свинцовая наковальня"
    }
   ],
   "drops": [],
