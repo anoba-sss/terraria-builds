@@ -312,32 +312,11 @@
   "en": "Hermes Boots",
   "wiki": "https://terraria.wiki.gg/wiki/Hermes_Boots",
   "recipes": [],
-  "drops": [
-   {
-    "source": "Gold Chest (Underground)",
-    "chance": "16.67%",
-    "ru": "Золотой сундук (подземные слои)"
-   },
-   {
-    "source": "Gold Chest (Cavern)",
-    "chance": "13.33%",
-    "ru": "Золотой сундук (пещеры)"
-   },
-   {
-    "source": "Gold Chest (Lava layer)",
-    "chance": "12.67%",
-    "ru": "Золотой сундук (слой лавы)"
-   },
-   {
-    "source": "Mimic (pre-Hardmode)",
-    "chance": "16.67%",
-    "ru": "Мимик (до хардмода)"
-   }
-  ],
-  "obtain": "Находится в сундуках в мире; не крафтится.",
+  "drops": [],
+  "obtain": "Находится в золотых сундуках под землёй , не крафтится.",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": false
  },
  "Ботинки амфибии": {
   "en": "Amphibian Boots",
@@ -371,7 +350,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Band_of_Regeneration",
   "recipes": [],
   "drops": [],
-  "obtain": "Из золотых сундуков в подземных слоях (шансы на вики зачеркнуты как устаревшие)",
+  "obtain": "Находится в золотых сундуках под землёй , не крафтится.",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -1294,7 +1273,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Feral_Claws",
   "recipes": [],
   "drops": [],
-  "obtain": "",
+  "obtain": "можно найти в Плющевом(Джунглевом) сундуке в джунглевых пещерах ",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -3281,7 +3260,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Cloud_in_a_Bottle",
   "recipes": [],
   "drops": [],
-  "obtain": "Находится в золотых сундуках и выпадает из мимиков",
+  "obtain": "Находится в золотых сундуках под землёй , не крафтится.",
   "status": "ok",
   "issue": "",
   "hasDrop": false
