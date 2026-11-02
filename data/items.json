@@ -648,7 +648,7 @@
   "issue": "",
   "hasDrop": true
  },
- "Волшебная арфа": {
+ "Магическая арфа": {
   "en": "Magical Harp",
   "wiki": "https://terraria.wiki.gg/wiki/Magical_Harp",
   "recipes": [
@@ -663,17 +663,17 @@
      {
       "en": "Crystal Shard",
       "count": 20,
-      "ru": "Кристальный осколок"
+      "ru": "Осколок кристалла"
      },
      {
       "en": "Soul of Night",
       "count": 8,
-      "ru": "Душа ночи"
+      "ru": "Эссенция ночи"
      },
      {
       "en": "Soul of Sight",
       "count": 15,
-      "ru": "Душа зрения"
+      "ru": "Эссенция прозрения"
      }
     ],
     "stationRu": "Мифриловая наковальня"
@@ -4494,7 +4494,7 @@
   "issue": "",
   "hasDrop": true
  },
- "Радужная палочка": {
+ "Радужный жезл": {
   "en": "Rainbow Rod",
   "wiki": "https://terraria.wiki.gg/wiki/Rainbow_Rod",
   "recipes": [
@@ -4504,7 +4504,7 @@
      {
       "en": "Crystal Shard",
       "count": 10,
-      "ru": "Кристальный осколок"
+      "ru": "Осколок кристалла"
      },
      {
       "en": "Unicorn Horn",
@@ -4514,17 +4514,17 @@
      {
       "en": "Pixie Dust",
       "count": 10,
-      "ru": "Пыльца феи"
+      "ru": "Пыль феи"
      },
      {
       "en": "Soul of Light",
       "count": 8,
-      "ru": "Душа света"
+      "ru": "Эссенция света"
      },
      {
       "en": "Soul of Sight",
       "count": 15,
-      "ru": "Душа зрения"
+      "ru": "Эссенция прозрения"
      }
     ],
     "stationRu": "Мифриловая или орихалковая наковальня"
@@ -4765,7 +4765,7 @@
   "issue": "Количества на вики не указаны (принято 1); вариантов рецепта несколько, показаны три.",
   "hasDrop": false
  },
- "Святая броня": {
+ "Святая броня(В)": {
   "en": "Hallowed armor",
   "wiki": "https://terraria.wiki.gg/wiki/Hallowed_armor",
   "pieces": [
@@ -6860,6 +6860,70 @@
        {
         "ru": "Адамантитовый слиток",
         "en": "Adamantite Bar",
+        "count": 18
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "Святая броня(М)": {
+  "en": "Hallowed armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Hallowed_armor",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false,
+  "pieces": [
+   {
+    "ru": "Святой наголовник",
+    "en": "Hallowed Headgear",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Святой слиток",
+        "en": "Hallowed Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Святой нагрудник",
+    "en": "Hallowed Plate Mail",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Святой слиток",
+        "en": "Hallowed Bar",
+        "count": 24
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Святые ботинки",
+    "en": "Hallowed Greaves",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Святой слиток",
+        "en": "Hallowed Bar",
         "count": 18
        }
       ]
