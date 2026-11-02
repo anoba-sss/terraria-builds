@@ -2248,11 +2248,17 @@
   "en": "Fishron Wings",
   "wiki": "https://terraria.wiki.gg/wiki/Fishron_Wings",
   "recipes": [],
-  "drops": [],
+  "drops": [
+   {
+    "source": "Duke Fishron",
+    "ru": "Герцог Рыброн",
+    "chance": " 6,67%-класика ; 10%-експерт и мастер"
+   }
+  ],
   "obtain": "",
-  "status": "partial",
+  "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": true
  },
  "Крылья бабочки": {
   "en": "Wings",
