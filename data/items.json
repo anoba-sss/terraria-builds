@@ -6573,8 +6573,8 @@
   "hasDrop": false
  },
  "Облако в шарике": {
-  "en": "",
-  "wiki": "",
+  "en": "Cloud in a Balloon",
+  "wiki": "https://terraria.wiki.gg/wiki/Cloud_in_a_Balloon",
   "recipes": [
    {
     "station": "Tinkerer's Workshop",
@@ -6596,7 +6596,7 @@
   "drops": [],
   "obtain": "",
   "description": "",
-  "status": "none",
+  "status": "ok",
   "issue": "",
   "hasDrop": false
  }
