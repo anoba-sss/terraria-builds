@@ -2959,7 +2959,7 @@
    {
     "source": "Brain of Cthulhu (Treasure Bag, Expert Mode)",
     "chance": "100%",
-    "ru": "Мозг Ктулху (сумка с сокровищами, режим «Эксперт»)"
+    "ru": "Мозг Ктулху (сумка с сокровищами, режимы «Эксперт» и «Мастер»)"
    }
   ],
   "obtain": "",
@@ -3598,7 +3598,7 @@
   "issue": "",
   "hasDrop": false
  },
- "Ожерелье жал": {
+ "Ожерелье из жал": {
   "en": "Stinger Necklace",
   "wiki": "https://terraria.wiki.gg/wiki/Stinger_Necklace",
   "recipes": [
@@ -3613,7 +3613,7 @@
      {
       "en": "Honey Comb",
       "count": 1,
-      "ru": "Медовые соты"
+      "ru": "Мед в сотах"
      }
     ],
     "stationRu": "Мастерская инженера"
@@ -6182,7 +6182,7 @@
    {
     "source": "Eye of Cthulhu (Treasure Bag, Expert Mode)",
     "chance": "100%",
-    "ru": "Глаз Ктулху (сумка с сокровищами, режим «Эксперт»)"
+    "ru": "Глаз Ктулху (сумка с сокровищами, режимы «Эксперт» и «Мастер»)"
    }
   ],
   "obtain": "",
