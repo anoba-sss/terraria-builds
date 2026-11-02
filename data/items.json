@@ -6495,5 +6495,81 @@
   "status": "ok",
   "issue": "",
   "hasDrop": true
+ },
+ "Спектральные ботинки": {
+  "en": "Spectre Boots",
+  "wiki": "https://terraria.wiki.gg/wiki/Spectre_Boots",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "stationRu": "Мастерская изобретателя",
+    "ingredients": [
+     {
+      "ru": "Ботинки Гермеса",
+      "en": "Hermes Boots",
+      "count": 1
+     },
+     {
+      "ru": "Реактивные ботинки",
+      "en": "Rocket Boots",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Tinkerer's Workshop",
+    "stationRu": "Мастерская изобретателя",
+    "ingredients": [
+     {
+      "ru": "Реактивные ботинки",
+      "en": "Rocket Boots",
+      "count": 1
+     },
+     {
+      "ru": "Марлиновые ботинки",
+      "en": "Sailfish Boots",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Tinkerer's Workshop",
+    "stationRu": "Мастерская изобретателя",
+    "ingredients": [
+     {
+      "ru": "Дюноходные ботинки",
+      "en": "Dunerider Boots",
+      "count": 1
+     },
+     {
+      "ru": "Реактивные ботинки",
+      "en": "Rocket Boots",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "station": "Tinkerer's Workshop",
+    "stationRu": "Мастерская изобретателя",
+    "ingredients": [
+     {
+      "ru": "Ботинки метели",
+      "en": "Flurry Boots",
+      "count": 1
+     },
+     {
+      "ru": "Реактивные ботинки",
+      "en": "Rocket Boots",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
  }
 }
