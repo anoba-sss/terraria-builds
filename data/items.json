@@ -2344,7 +2344,7 @@
      {
       "en": "Soul of Flight",
       "count": 20,
-      "ru": "Душа полёта"
+      "ru": "Эссенция воздуха"
      },
      {
       "en": "Pixie Dust",
@@ -2455,7 +2455,7 @@
      {
       "en": "Soul of Flight",
       "count": 20,
-      "ru": "Душа полёта"
+      "ru": "Эссенция воздуха"
      },
      {
       "en": "Ice Feather",
@@ -3848,13 +3848,30 @@
   "hasDrop": false,
   "isSet": true
  },
- "Перчатки берсерка": {
+ "Перчатка берсерка": {
   "en": "Berserker's Glove",
   "wiki": "https://terraria.wiki.gg/wiki/Berserker's_Glove",
-  "recipes": [],
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "stationRu": "Мастерская изобретателя",
+    "ingredients": [
+     {
+      "ru": "Перчатка силы",
+      "en": "Power Glove",
+      "count": 1
+     },
+     {
+      "ru": "Кастет из плоти",
+      "en": "Flesh Knuckles",
+      "count": 1
+     }
+    ]
+   }
+  ],
   "drops": [],
   "obtain": "",
-  "status": "partial",
+  "status": "ok",
   "issue": "",
   "hasDrop": false
  },
@@ -6136,12 +6153,30 @@
  "Эмблема Воина": {
   "en": "Warrior Emblem",
   "wiki": "https://terraria.wiki.gg/wiki/Warrior_Emblem",
-  "recipes": [],
-  "drops": [],
+  "recipes": [
+   {
+    "station": "Shimmer",
+    "stationRu": "Мерцание",
+    "ingredients": [
+     {
+      "ru": "Эмблема призывателя",
+      "en": "Summoner Emblem",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [
+   {
+    "source": "Wall of Flesh",
+    "ru": "Стена плоти",
+    "chance": "25%"
+   }
+  ],
   "obtain": "",
-  "status": "partial",
+  "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": true
  },
  "Эмблема мага": {
   "en": "Sorcerer Emblem",
