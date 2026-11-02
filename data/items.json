@@ -2788,12 +2788,12 @@
      {
       "en": "Pixie Dust",
       "count": 10,
-      "ru": "Пыльца феи"
+      "ru": "Пыль феи"
      },
      {
       "en": "Soul of Light",
       "count": 10,
-      "ru": "Душа света"
+      "ru": "Эссенции света"
      }
     ],
     "stationRu": "Мифриловая или орихалковая наковальня"
@@ -3154,46 +3154,25 @@
   "wiki": "https://terraria.wiki.gg/wiki/Sky_Fracture",
   "recipes": [
    {
-    "station": "Mythril Anvil",
+    "station": "Mythril Anvil or Orichalcum Anvil",
     "ingredients": [
      {
       "en": "Magic Missile",
       "count": 1,
-      "ru": "Магическая ракета"
+      "ru": "Волшебная ракета"
      },
      {
       "en": "Light Shard",
       "count": 2,
-      "ru": "Световой осколок"
+      "ru": "Осколок света"
      },
      {
       "en": "Soul of Light",
       "count": 16,
-      "ru": "Душа света"
+      "ru": "Эссенция света"
      }
     ],
-    "stationRu": "Мифриловая наковальня"
-   },
-   {
-    "station": "Orichalcum Anvil",
-    "ingredients": [
-     {
-      "en": "Magic Missile",
-      "count": 1,
-      "ru": "Магическая ракета"
-     },
-     {
-      "en": "Light Shard",
-      "count": 2,
-      "ru": "Световой осколок"
-     },
-     {
-      "en": "Soul of Light",
-      "count": 16,
-      "ru": "Душа света"
-     }
-    ],
-    "stationRu": "Орихалковая наковальня"
+    "stationRu": "Мифриловая или орихалковая наковальня"
    }
   ],
   "drops": [],
