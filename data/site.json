@@ -32,7 +32,7 @@
   "url": "images/7.jpg"
  },
  "texts": {
-  "pageTitle": "Билды к боссам",
+  "pageTitle": "terraria builds",
   "classes": {
    "melee": {
     "blurb": "«Невозможно испытывать гнев к тем, кто слабее тебя. Я испытываю к тебе лишь жалость»"
@@ -46,6 +46,11 @@
    "ranged": {
     "blurb": "«Я уже говорил, дистанция моего выстрела не так коротка , я могу попасть с любого места карты»"
    }
-  }
+  },
+  "brandName": "terraria builds",
+  "brandTag": ""
+ },
+ "show": {
+  "brandTag": false
  }
 }
