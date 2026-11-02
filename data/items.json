@@ -6571,5 +6571,172 @@
   "status": "ok",
   "issue": "",
   "hasDrop": false
+ },
+ "Любая роба": {
+  "en": "Any robe",
+  "wiki": "https://terraria.wiki.gg/wiki/Robes",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "none",
+  "issue": "",
+  "hasDrop": false,
+  "pieces": [
+   {
+    "ru": "Аметистовая роба",
+    "en": "Amethyst Robe",
+    "recipes": [
+     {
+      "station": "Loom",
+      "stationRu": "ткацкий станок",
+      "ingredients": [
+       {
+        "ru": "Платье",
+        "en": "Robe",
+        "count": 1
+       },
+       {
+        "ru": "Аметист",
+        "en": "Amethyst",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Топазовая роба",
+    "en": "Topaz Robe",
+    "recipes": [
+     {
+      "station": "Loom",
+      "stationRu": "ткацкий станок",
+      "ingredients": [
+       {
+        "ru": "Платье",
+        "en": "Robe",
+        "count": 1
+       },
+       {
+        "ru": "Топаз",
+        "en": "Topaz",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Сапфировая роба",
+    "en": "Sapphire Robe",
+    "recipes": [
+     {
+      "station": "Loom",
+      "stationRu": "ткацкий станок",
+      "ingredients": [
+       {
+        "ru": "Платье",
+        "en": "Robe",
+        "count": 1
+       },
+       {
+        "ru": "Сапфир",
+        "en": "Sapphire",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Изумрудная роба",
+    "en": "Emerald Robe",
+    "recipes": [
+     {
+      "station": "Loom",
+      "stationRu": "ткацкий станок",
+      "ingredients": [
+       {
+        "ru": "Платье",
+        "en": "Robe",
+        "count": 1
+       },
+       {
+        "ru": "Изумруд",
+        "en": "Emerald",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Рубиновая роба",
+    "en": "Ruby Robe",
+    "recipes": [
+     {
+      "station": "Loom",
+      "stationRu": "ткацкий станок",
+      "ingredients": [
+       {
+        "ru": "Платье",
+        "en": "Robe",
+        "count": 1
+       },
+       {
+        "ru": "Рубин",
+        "en": "Ruby",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Янтарная роба",
+    "en": "Amber Robe",
+    "recipes": [
+     {
+      "station": "Loom",
+      "stationRu": "ткацкий станок",
+      "ingredients": [
+       {
+        "ru": "Платье",
+        "en": "Robe",
+        "count": 1
+       },
+       {
+        "ru": "Янтарь",
+        "en": "Amber",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Алмазная роба",
+    "en": "Diamond Robe",
+    "recipes": [
+     {
+      "station": "Loom",
+      "stationRu": "ткацкий станок",
+      "ingredients": [
+       {
+        "ru": "Платье",
+        "en": "Robe",
+        "count": 1
+       },
+       {
+        "ru": "Алмаз",
+        "en": "Diamond",
+        "count": 10
+       }
+      ]
+     }
+    ]
+   }
+  ]
  }
 }
