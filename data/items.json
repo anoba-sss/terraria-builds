@@ -63,7 +63,7 @@
   "hasDrop": false,
   "isSet": true
  },
- "Адские вилы": {
+ "Адский трезубец": {
   "en": "Inferno Fork",
   "wiki": "https://terraria.wiki.gg/wiki/Inferno_Fork",
   "recipes": [],
@@ -71,7 +71,7 @@
    {
     "source": "Diabolist",
     "chance": "5% (классика), 9.75% (эксперт)",
-    "ru": "Дьяволист"
+    "ru": "Сатанист"
    }
   ],
   "obtain": "",
@@ -5065,8 +5065,8 @@
   "wiki": "https://terraria.wiki.gg/wiki/Spectre_armor",
   "pieces": [
    {
-    "ru": "Призрачный капюшон",
-    "en": "Spectre Hood",
+    "ru": "Призрачная маска",
+    "en": "Spectre Mask",
     "recipes": [
      {
       "station": "Mythril Anvil or Orichalcum Anvil",
@@ -5082,34 +5082,19 @@
     ]
    },
    {
-    "ru": "Призрачная маска",
-    "en": "Spectre Mask",
-    "recipes": [
-     {
-      "station": "",
-      "ingredients": [
-       {
-        "en": "Spectre Bar",
-        "count": 12,
-        "ru": "Призрачный слиток"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "ru": "Призрачная мантия",
     "en": "Spectre Robe",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Spectre Bar",
         "count": 24,
         "ru": "Призрачный слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -5118,14 +5103,15 @@
     "en": "Spectre Pants",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Spectre Bar",
         "count": 18,
         "ru": "Призрачный слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    }
@@ -5254,15 +5240,21 @@
   "issue": "",
   "hasDrop": true
  },
- "Тайфун из лезвий": {
-  "en": "",
-  "wiki": "",
+ "Бритвенный тайфун": {
+  "en": "Razorblade Typhoon",
+  "wiki": "https://terraria.wiki.gg/wiki/Razorblade_Typhoon",
   "recipes": [],
-  "drops": [],
+  "drops": [
+   {
+    "source": "Duke Fishron",
+    "ru": "Герцог Рыброн",
+    "chance": "14,29%"
+   }
+  ],
   "obtain": "",
-  "status": "none",
+  "status": "ok",
   "issue": "Предмет с таким названием в Terraria Wiki не найден",
-  "hasDrop": false
+  "hasDrop": true
  },
  "Тактический дробовик": {
   "en": "Tactical Shotgun",
@@ -6240,21 +6232,32 @@
   "issue": "",
   "hasDrop": true
  },
- "Ядовитый посох": {
-  "en": "Poison Staff",
-  "wiki": "https://terraria.wiki.gg/wiki/Poison_Staff",
-  "recipes": [],
-  "drops": [
+ "Посох яда": {
+  "en": "Venom Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Venom_Staff",
+  "recipes": [
    {
-    "source": "Black Recluse",
-    "chance": "2.5%",
-    "ru": "Чёрный затворник"
+    "station": "Mythril Anvil or Orichalcum Anvil",
+    "stationRu": "Мифриловая или орихалковая наковальня",
+    "ingredients": [
+     {
+      "ru": "Отравляющий посох",
+      "en": "Poison Staff",
+      "count": 1
+     },
+     {
+      "ru": "Хлорофитовый слиток",
+      "en": "Chlorophyte Bar",
+      "count": 14
+     }
+    ]
    }
   ],
+  "drops": [],
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": false
  },
  "Ящик с боеприпасами": {
   "en": "Ammo Box",
