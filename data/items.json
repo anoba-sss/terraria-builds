@@ -1,5 +1,5 @@
 {
- "Адамантитовая броня": {
+ "Адамантитовая броня(В)": {
   "en": "Adamantite armor",
   "wiki": "https://terraria.wiki.gg/wiki/Adamantite_armor",
   "pieces": [
@@ -5385,7 +5385,7 @@
   "issue": "",
   "hasDrop": true
  },
- "Титановая броня": {
+ "Титановая броня(В)": {
   "en": "Titanium armor",
   "wiki": "https://terraria.wiki.gg/wiki/Titanium_armor",
   "pieces": [
@@ -6760,5 +6760,133 @@
   "status": "ok",
   "issue": "",
   "hasDrop": false
+ },
+ "Титановая броня(М)": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false,
+  "pieces": [
+   {
+    "ru": "Титановый наголовник",
+    "en": "Titanium Headgear",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Титановый слиток",
+        "en": "Titanium Bar",
+        "count": 13
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Титановый нагрудник",
+    "en": "Titanium Breastplate",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Титановый слиток",
+        "en": "Titanium Bar",
+        "count": 26
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Титановые ботинки",
+    "en": "Titanium Leggings",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Титановый слиток",
+        "en": "Titanium Bar",
+        "count": 20
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "Адамантитовая броня(М)": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "none",
+  "issue": "",
+  "hasDrop": false,
+  "pieces": [
+   {
+    "ru": "Адамантитовый наголовник",
+    "en": "Adamantite Headgear",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Адамантитовый слиток",
+        "en": "Adamantite Bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Адамантитовый нагрудник",
+    "en": "Adamantite Breastplate",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Адамантитовый слиток",
+        "en": "Adamantite Bar",
+        "count": 24
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Адамантитовые ботинки",
+    "en": "Adamantite Leggings",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Адамантитовый слиток",
+        "en": "Adamantite Bar",
+        "count": 18
+       }
+      ]
+     }
+    ]
+   }
+  ]
  }
 }
