@@ -272,7 +272,7 @@
     "ru": "Лазурный ящик"
    }
   ],
-  "obtain": "",
+  "obtain": "Можно найти только на парящих островах в Заоблачном сундуке или при открытии Небесного ящика",
   "status": "ok",
   "issue": "",
   "hasDrop": true
@@ -6569,6 +6569,34 @@
   "obtain": "",
   "description": "",
   "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Облако в шарике": {
+  "en": "",
+  "wiki": "",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "stationRu": "Мастерская изобретателя",
+    "ingredients": [
+     {
+      "ru": "Облако в бутылке",
+      "en": "Cloud in a Bottle",
+      "count": 1
+     },
+     {
+      "ru": "Блестящий красный шарик",
+      "en": "Shiny Red Balloon",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "none",
   "issue": "",
   "hasDrop": false
  }
