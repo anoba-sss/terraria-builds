@@ -460,7 +460,7 @@
     "en": "Jungle Shirt",
     "recipes": [
      {
-      "station": "",
+      "station": "Iron Anvil or Lead Anvil",
       "ingredients": [
        {
         "en": "Jungle Spores",
@@ -472,7 +472,8 @@
         "count": 10,
         "ru": "Жало"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    },
@@ -481,7 +482,7 @@
     "en": "Jungle Pants",
     "recipes": [
      {
-      "station": "",
+      "station": "Iron Anvil or Lead Anvil",
       "ingredients": [
        {
         "en": "Jungle Spores",
@@ -493,7 +494,8 @@
         "count": 2,
         "ru": "Лоза"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    }
@@ -2733,14 +2735,15 @@
     "en": "Meteor Suit",
     "recipes": [
      {
-      "station": "",
+      "station": "Iron Anvil or Lead Anvil",
       "ingredients": [
        {
         "en": "Meteorite Bar",
         "count": 20,
         "ru": "Метеоритовый слиток"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    },
@@ -2749,14 +2752,15 @@
     "en": "Meteor Leggings",
     "recipes": [
      {
-      "station": "",
+      "station": "Iron Anvil or Lead Anvil",
       "ingredients": [
        {
         "en": "Meteorite Bar",
         "count": 15,
         "ru": "Метеоритовый слиток"
        }
-      ]
+      ],
+      "stationRu": "Железная или свинцовая наковальня"
      }
     ]
    }
@@ -4079,7 +4083,7 @@
   "issue": "Строка Mimic на вики зачёркнута, актуальность дропа неясна. Рецепт самого Star Cloak на вики не указан.",
   "hasDrop": true
  },
- "Порчельный шип": {
+ "злая колючка": {
   "en": "Vilethorn",
   "wiki": "https://terraria.wiki.gg/wiki/Vilethorn",
   "recipes": [],
@@ -4088,16 +4092,6 @@
     "source": "Shadow Orb (destroyed in The Corruption)",
     "chance": "20%",
     "ru": "Теневой шар (уничтожается в Порче)"
-   },
-   {
-    "source": "Corrupt Crate",
-    "chance": "20%",
-    "ru": "Порченый ящик"
-   },
-   {
-    "source": "Defiled Crate",
-    "chance": "20%",
-    "ru": "Осквернённый ящик"
    }
   ],
   "obtain": "",
@@ -4446,7 +4440,7 @@
   "issue": "",
   "hasDrop": false
  },
- "Пчелинострел": {
+ "Пчеломёт": {
   "en": "Bee Gun",
   "wiki": "https://terraria.wiki.gg/wiki/Bee_Gun",
   "recipes": [],
@@ -6738,5 +6732,33 @@
     ]
    }
   ]
+ },
+ "Багряный жезл": {
+  "en": "Crimson Rod",
+  "wiki": "https://terraria.wiki.gg/wiki/Crimson_Rod",
+  "recipes": [],
+  "drops": [
+   {
+    "source": " Crimson Hearts",
+    "ru": " живое сердце (уничтожается в багрянце)",
+    "chance": "20%"
+   }
+  ],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": true
+ },
+ "Огнеплеть": {
+  "en": "Flamelash",
+  "wiki": "https://terraria.wiki.gg/wiki/Flamelash",
+  "recipes": [],
+  "drops": [],
+  "obtain": " Можно найти в теневом сундуке в аду ",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
  }
 }
