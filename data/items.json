@@ -879,7 +879,7 @@
        {
         "en": "Shroomite Bar",
         "count": 12,
-        "ru": "Грибной слиток"
+        "ru": "Грибнитовый слиток"
        }
       ]
      }
@@ -895,7 +895,7 @@
        {
         "en": "Shroomite Bar",
         "count": 12,
-        "ru": "Грибной слиток"
+        "ru": "Грибнитовый слиток"
        }
       ]
      }
@@ -911,7 +911,7 @@
        {
         "en": "Shroomite Bar",
         "count": 24,
-        "ru": "Грибной слиток"
+        "ru": "Грибнитовый слиток"
        }
       ],
       "stationRu": "Мифриловая или орихалковая наковальня"
@@ -928,7 +928,7 @@
        {
         "en": "Shroomite Bar",
         "count": 18,
-        "ru": "Грибной слиток"
+        "ru": "Грибнитовый слиток"
        }
       ]
      }
@@ -1382,7 +1382,7 @@
      {
       "en": "Bottled Water",
       "count": 1,
-      "ru": "Бутылка с водой"
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Armored Cavefish",
@@ -1414,7 +1414,7 @@
      {
       "en": "Bottled Water",
       "count": 1,
-      "ru": "Бутылка с водой"
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Daybloom",
@@ -1435,7 +1435,7 @@
      {
       "en": "Bottled Water",
       "count": 1,
-      "ru": "Бутылка с водой"
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Daybloom",
@@ -1467,7 +1467,7 @@
      {
       "en": "Bottled Water",
       "count": 1,
-      "ru": "Бутылка с водой"
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Daybloom",
@@ -1499,7 +1499,7 @@
      {
       "en": "Bottled Water",
       "count": null,
-      "ru": "Бутылка с водой"
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Moonglow",
@@ -1574,7 +1574,7 @@
      {
       "en": "Bottled Water",
       "count": 1,
-      "ru": "Бутылка с водой"
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Variegated Lardfish",
@@ -1606,7 +1606,7 @@
      {
       "en": "Bottled Water",
       "count": 1,
-      "ru": "Бутылка с водой"
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Daybloom",
@@ -1675,7 +1675,7 @@
      {
       "en": "Bottled Water",
       "count": null,
-      "ru": "Бутылка с водой"
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Blinkroot",
@@ -1733,7 +1733,7 @@
      {
       "en": "Bottled Water",
       "count": 1,
-      "ru": "Бутылка с водой"
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Double Cod",
@@ -1839,7 +1839,7 @@
      {
       "en": "Soul of Night",
       "count": 15,
-      "ru": "Эссенция ночи"
+      "ru": "Душа ночи"
      }
     ],
     "stationRu": "Книжный шкаф"
@@ -2822,7 +2822,7 @@
      {
       "en": "Soul of Light",
       "count": 10,
-      "ru": "Эссенция света"
+      "ru": "Эссенции света"
      }
     ],
     "stationRu": "Мифриловая или орихалковая наковальня"
@@ -2948,7 +2948,7 @@
   "hasDrop": false,
   "isSet": true
  },
- "Мозг Ошеломления": {
+ "Мозг Запутанности": {
   "en": "Brain of Confusion",
   "wiki": "https://terraria.wiki.gg/wiki/Brain_of_Confusion",
   "recipes": [],
@@ -3623,12 +3623,12 @@
   "hasDrop": true
  },
  "Ожерелье тики": {
-  "en": "",
-  "wiki": "",
+  "en": " Pygmy Necklace",
+  "wiki": "https://terraria.wiki.gg/wiki/Pygmy_Necklace",
   "recipes": [],
   "drops": [],
-  "obtain": "",
-  "status": "none",
+  "obtain": "Можно купить у Знахаря ночью за 20 золотых монет",
+  "status": "ok",
   "issue": "Ожерелье с таким названием в Terraria не найдено; на странице Tiki есть Tiki Totem и Tiki armor, но не ожерелье",
   "hasDrop": false
  },
@@ -3652,7 +3652,7 @@
      {
       "en": "Soul of Night",
       "count": 10,
-      "ru": "Эссенция ночи"
+      "ru": "Душа ночи"
      }
     ],
     "stationRu": "Мифриловая / орихалковая наковальня"
@@ -4344,12 +4344,12 @@
    {
     "source": "Duke Fishron",
     "chance": "14.29%",
-    "ru": "Герцог Рыброн"
+    "ru": "Герцог Рыбокрыл"
    },
    {
     "source": "Treasure Bag (Duke Fishron)",
     "chance": "14.29%",
-    "ru": "Сумка с сокровищами (Герцог Рыброн)"
+    "ru": "Сумка с сокровищами (Герцог Рыбокрыл)"
    }
   ],
   "obtain": "",
@@ -4910,12 +4910,12 @@
      {
       "en": "Hallowed Bar",
       "count": 12,
-      "ru": "Святой слиток"
+      "ru": "Освящённый слиток"
      },
      {
       "en": "Soul of Light",
       "count": 15,
-      "ru": "Эссенция света"
+      "ru": "Душа света"
      },
      {
       "en": "Soul of Might",
@@ -5579,7 +5579,7 @@
      {
       "en": "Soul of Night",
       "count": 20,
-      "ru": "Эссенция ночи"
+      "ru": "Душа ночи"
      }
     ],
     "stationRu": "Мифриловая/орихалковая наковальня"
@@ -5649,7 +5649,7 @@
      {
       "en": "Bottled Water",
       "count": 1,
-      "ru": "Бутылка с водой"
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Ichor",
@@ -5676,7 +5676,7 @@
      {
       "en": "Bottled Water",
       "count": 1,
-      "ru": "Бутылка с водой"
+      "ru": "Вода в бутылке"
      },
      {
       "en": "Hellstone",
@@ -5927,12 +5927,12 @@
    {
     "source": "Duke Fishron",
     "chance": "14.29% (1/7)",
-    "ru": "Герцог Рыброн"
+    "ru": "Герцог Рыбокрыл"
    },
    {
     "source": "Treasure Bag (Duke Fishron)",
     "chance": "14.29% (1/7)",
-    "ru": "Сумка с сокровищами (Герцог Рыброн)"
+    "ru": "Сумка с сокровищами (Герцог Рыбокрыл)"
    }
   ],
   "obtain": "",
@@ -6578,7 +6578,7 @@
     "stationRu": "Наполняющий стол",
     "ingredients": [
      {
-      "ru": "Бутылка с водой",
+      "ru": "Вода в бутылке",
       "en": "Bottled Water",
       "count": 1
      },
@@ -6606,7 +6606,7 @@
     "stationRu": "Наполняющий стол",
     "ingredients": [
      {
-      "ru": "Бутылка с водой",
+      "ru": "Вода в бутылке",
       "en": "Bottled Water",
       "count": 1
      },
