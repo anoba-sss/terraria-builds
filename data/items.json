@@ -1492,7 +1492,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Magic_Power_Potion",
   "recipes": [
    {
-    "station": "Alchemy Table (или Placed Bottle / Alchemy Flask)",
+    "station": "Alchemy Table (или Placed Bottle)",
     "ingredients": [
      {
       "en": "Bottled Water",
@@ -1515,7 +1515,7 @@
       "ru": "Упавшая звезда"
      }
     ],
-    "stationRu": "Алхимический стол (или размещённая банка / алхимическая колба)"
+    "stationRu": "Алхимический стол (или размещённая банка)"
    }
   ],
   "drops": [
@@ -1629,10 +1629,37 @@
  "Зелье регенерации маны": {
   "en": "Mana Regeneration Potion",
   "wiki": "https://terraria.wiki.gg/wiki/Mana_Regeneration_Potion",
-  "recipes": [],
+  "recipes": [
+   {
+    "station": "Alchemy Table (или Placed Bottle)",
+    "stationRu": "Алхимический стол (или размещённая банка)",
+    "ingredients": [
+     {
+      "ru": "Бутылка с водой",
+      "en": "Bottled Water",
+      "count": 1
+     },
+     {
+      "ru": "цветок дня",
+      "en": "Daybloom",
+      "count": 1
+     },
+     {
+      "ru": "лунное сияние",
+      "en": "Moonglow",
+      "count": 1
+     },
+     {
+      "ru": "упавшая звезда",
+      "en": "Fallen Star",
+      "count": 1
+     }
+    ]
+   }
+  ],
   "drops": [],
   "obtain": "",
-  "status": "partial",
+  "status": "ok",
   "issue": "",
   "hasDrop": false
  },
