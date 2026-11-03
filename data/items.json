@@ -1912,7 +1912,7 @@
   "hasDrop": false,
   "isSet": true
  },
- "Искромётные Терра Ботинки": {
+ "Терраискромётные Ботинки": {
   "en": "Terraspark Boots",
   "wiki": "https://terraria.wiki.gg/wiki/Terraspark_Boots",
   "recipes": [
@@ -1939,7 +1939,7 @@
   "issue": "",
   "hasDrop": false
  },
- "Искромётные ботинки": {
+ "Терраискромётные ботинки": {
   "en": "Terraspark Boots",
   "wiki": "https://terraria.wiki.gg/wiki/Terraspark_Boots",
   "recipes": [
@@ -1949,12 +1949,12 @@
      {
       "en": "Frostspark Boots",
       "count": 1,
-      "ru": "Ботинки морозной искры"
+      "ru": "Искрометные морозные ботинки"
      },
      {
       "en": "Lava Waders",
       "count": 1,
-      "ru": "Лавовые сапоги"
+      "ru": "Ботинки хождения по лаве"
      }
     ],
     "stationRu": "Мастерская инженера"
