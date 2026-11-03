@@ -3726,11 +3726,53 @@
   "issue": "",
   "hasDrop": false
  },
- "Пальто из флинкса": {
+ "Шуба флинкса": {
   "en": "Flinx Fur Coat",
   "wiki": "https://terraria.wiki.gg/wiki/Flinx_Fur_Coat",
-  "pieces": [],
-  "recipes": [],
+  "recipes": [
+   {
+    "station": "Loom",
+    "stationRu": "Ткацкий станок",
+    "ingredients": [
+     {
+      "ru": "Шёлк",
+      "en": "Silk",
+      "count": 10
+     },
+     {
+      "ru": "Мех флинкса",
+      "en": "Flinx Fur",
+      "count": 8
+     },
+     {
+      "ru": "Золотой слиток",
+      "en": "Gold Bar",
+      "count": 8
+     }
+    ]
+   },
+   {
+    "station": "Loom",
+    "stationRu": "Ткацкий станок",
+    "ingredients": [
+     {
+      "ru": "Шёлк",
+      "en": "Silk",
+      "count": 10
+     },
+     {
+      "ru": "Мех флинкса",
+      "en": "Flinx Fur",
+      "count": 8
+     },
+     {
+      "ru": "Платиновый слиток",
+      "en": "Platinum Bar",
+      "count": 8
+     }
+    ]
+   }
+  ],
   "drops": [],
   "obtain": "",
   "status": "ok",
@@ -4250,7 +4292,7 @@
   "issue": "",
   "hasDrop": true
  },
- "Посох сангвиников": {
+ "Кровавый посох": {
   "en": "Sanguine Staff",
   "wiki": "https://terraria.wiki.gg/wiki/Sanguine_Staff",
   "recipes": [],
@@ -5167,7 +5209,7 @@
   "issue": "",
   "hasDrop": true
  },
- "Спинной хлыст": {
+ "Люмбальная пункция": {
   "en": "Spinal Tap",
   "wiki": "https://terraria.wiki.gg/wiki/Spinal_Tap",
   "recipes": [
@@ -7041,6 +7083,29 @@
       "ru": "Гнилые останки",
       "en": "Putrid Scent",
       "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Паучий посох": {
+  "en": "Spider Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Spider_Staff",
+  "recipes": [
+   {
+    "station": "Mythril Anvil or Orichalcum Anvil",
+    "stationRu": "Мифриловая или орихалковая наковальня",
+    "ingredients": [
+     {
+      "ru": "Паучий клык",
+      "en": "Spider Fang",
+      "count": 16
      }
     ]
    }
