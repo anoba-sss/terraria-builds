@@ -653,7 +653,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Magical_Harp",
   "recipes": [
    {
-    "station": "Mythril Anvil",
+    "station": "Mythril Anvil or Orichalcum Anvil",
     "ingredients": [
      {
       "en": "Harp",
@@ -676,7 +676,7 @@
       "ru": "Эссенция прозрения"
      }
     ],
-    "stationRu": "Мифриловая наковальня"
+    "stationRu": "Мифриловая или орихалковая наковальня"
    }
   ],
   "drops": [],
@@ -5092,7 +5092,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Spectre_armor",
   "pieces": [
    {
-    "ru": "Призрачная маска",
+    "ru": "Спектральная маска",
     "en": "Spectre Mask",
     "recipes": [
      {
@@ -5101,7 +5101,7 @@
        {
         "en": "Spectre Bar",
         "count": 12,
-        "ru": "Призрачный слиток"
+        "ru": "Спектральный слиток"
        }
       ],
       "stationRu": "Мифриловая или орихалковая наковальня"
@@ -5109,7 +5109,7 @@
     ]
    },
    {
-    "ru": "Призрачная мантия",
+    "ru": "Спектральная мантия",
     "en": "Spectre Robe",
     "recipes": [
      {
@@ -5118,7 +5118,7 @@
        {
         "en": "Spectre Bar",
         "count": 24,
-        "ru": "Призрачный слиток"
+        "ru": "Спектральный слиток"
        }
       ],
       "stationRu": "Мифриловая или орихалковая наковальня"
@@ -5126,7 +5126,7 @@
     ]
    },
    {
-    "ru": "Призрачные штаны",
+    "ru": "Спектральные штаны",
     "en": "Spectre Pants",
     "recipes": [
      {
@@ -5135,7 +5135,7 @@
        {
         "en": "Spectre Bar",
         "count": 18,
-        "ru": "Призрачный слиток"
+        "ru": "Спектральный слиток"
        }
       ],
       "stationRu": "Мифриловая или орихалковая наковальня"
