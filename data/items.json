@@ -1049,7 +1049,7 @@
      {
       "en": "Hallowed Bar",
       "count": 12,
-      "ru": "Освящённый слиток"
+      "ru": "Святой слиток"
      }
     ],
     "stationRu": "Мифриловая/орихалковая наковальня"
@@ -1088,7 +1088,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Ballista_Rod",
   "recipes": [],
   "drops": [],
-  "obtain": "Покупается у Трактирщика за 5 медалей защитника. Также получается трансмутацией шиммера из посоха огненного взрыва.",
+  "obtain": "Покупается у Трактирщика за 5 медалей защитника",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -1102,14 +1102,15 @@
     "en": "Spooky Helmet",
     "recipes": [
      {
-      "station": "",
+      "station": "Work Bench",
       "ingredients": [
        {
         "en": "Spooky Wood",
         "count": 200,
         "ru": "Жуткая древесина"
        }
-      ]
+      ],
+      "stationRu": "Верстак"
      }
     ]
    },
@@ -1135,14 +1136,15 @@
     "en": "Spooky Leggings",
     "recipes": [
      {
-      "station": "",
+      "station": "Work Bench",
       "ingredients": [
        {
         "en": "Spooky Wood",
         "count": 250,
         "ru": "Жуткая древесина"
        }
-      ]
+      ],
+      "stationRu": "Верстак"
      }
     ]
    }
@@ -2063,7 +2065,7 @@
   "drops": [
    {
     "source": "Empress of Light",
-    "chance": "",
+    "chance": "25%",
     "ru": "Императрица света"
    }
   ],
@@ -3020,12 +3022,12 @@
      {
       "en": "Soul of Light",
       "count": 8,
-      "ru": "Душа света"
+      "ru": "Эссенция света"
      },
      {
       "en": "Soul of Night",
       "count": 8,
-      "ru": "Душа ночи"
+      "ru": "Эссенция ночи"
      },
      {
       "en": "Frost Core",
@@ -3682,12 +3684,12 @@
      {
       "en": "Hallowed Bar",
       "count": 12,
-      "ru": "Освящённый слиток"
+      "ru": "Святой слиток"
      },
      {
       "en": "Soul of Sight",
       "count": 20,
-      "ru": "Душа зрения"
+      "ru": "Эссенция прозрения"
      }
     ],
     "stationRu": "Мифриловая или орихалковая наковальня"
@@ -4329,7 +4331,7 @@
   "wiki": "https://terraria.wiki.gg/wiki/Desert_Tiger_Staff",
   "recipes": [],
   "drops": [],
-  "obtain": "Лежит в сундуке пустыни в Подземелье (100%); сундук открывается ключом пустыни после победы над Плантерой",
+  "obtain": "Лежит в сундуке пустыни в Подземелье Скелетрона (100%); сундук открывается ключом пустыни после победы над Плантерой",
   "status": "ok",
   "issue": "",
   "hasDrop": false
