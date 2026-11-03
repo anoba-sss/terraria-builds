@@ -508,7 +508,7 @@
   "hasDrop": false,
   "isSet": true
  },
- "Броня некроманта": {
+ "броня некроманта": {
   "en": "Necro armor",
   "wiki": "https://terraria.wiki.gg/wiki/Necro_armor",
   "pieces": [
@@ -517,7 +517,7 @@
     "en": "Necro Helmet",
     "recipes": [
      {
-      "station": "",
+      "station": "Work Bench",
       "ingredients": [
        {
         "en": "Bone",
@@ -529,12 +529,13 @@
         "count": 40,
         "ru": "Паутина"
        }
-      ]
+      ],
+      "stationRu": "Верстак"
      }
     ]
    },
    {
-    "ru": "Нагрудник некроманта",
+    "ru": "Нагрудник Некроманта",
     "en": "Necro Breastplate",
     "recipes": [
      {
@@ -560,7 +561,7 @@
     "en": "Necro Greaves",
     "recipes": [
      {
-      "station": "",
+      "station": "Work Bench",
       "ingredients": [
        {
         "en": "Bone",
@@ -572,7 +573,8 @@
         "count": 45,
         "ru": "Паутина"
        }
-      ]
+      ],
+      "stationRu": "Верстак"
      }
     ]
    }
@@ -7118,5 +7120,197 @@
   "status": "ok",
   "issue": "",
   "hasDrop": false
+ },
+ "Адамантитовая броня(С)": {
+  "en": "Adamantite armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Adamantite_armor",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false,
+  "pieces": [
+   {
+    "ru": "Адамантитовая маска",
+    "en": "Adamantite musk",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Адамантитовый слиток",
+        "en": "Adamantite bar",
+        "count": 12
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Адамантитовый нагрудник",
+    "en": "Adamantite Breastplate",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Адамантитовый слиток",
+        "en": "Adamantite bar",
+        "count": 24
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Адамантитовые ботинки",
+    "en": "Adamantite Leggings",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Адамантитовый слиток",
+        "en": "Adamantite bar",
+        "count": 18
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "Титановая броня(С)": {
+  "en": "Titanium armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Titanium_armor",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false,
+  "pieces": [
+   {
+    "ru": "Титановый шлем",
+    "en": "Titanium Helmet",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Титановый слиток",
+        "en": "Titanium Bar",
+        "count": 13
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Титановый нагрудник",
+    "en": "Titanium Breastplate",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Титановый слиток",
+        "en": "Titanium Bar",
+        "count": 26
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Титановые ботинки",
+    "en": "Titanium Leggings",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Титановый слиток",
+        "en": "Titanium Bar",
+        "count": 20
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "Святая броня(С)": {
+  "en": "Hallowed armor",
+  "wiki": "https://terraria.wiki.gg/wiki/Hallowed_armor",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false,
+  "pieces": [
+   {
+    "ru": "Святой шлем",
+    "en": "Hallowed Helmet",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Святой слиток",
+        "en": "Hallowed Bar",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Святой нагрудник",
+    "en": "Hallowed Plate Mail",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Святой слиток",
+        "en": "Hallowed Bar",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "ru": "Святые ботинки",
+    "en": "Hallowed Greaves",
+    "recipes": [
+     {
+      "station": "Mythril Anvil or Orichalcum Anvil",
+      "stationRu": "Мифриловая или орихалковая наковальня",
+      "ingredients": [
+       {
+        "ru": "Святой слиток",
+        "en": "Hallowed Bar",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   }
+  ]
  }
 }
