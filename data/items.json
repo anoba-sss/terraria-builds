@@ -6095,11 +6095,17 @@
   "en": "Sorcerer Emblem",
   "wiki": "https://terraria.wiki.gg/wiki/Sorcerer_Emblem",
   "recipes": [],
-  "drops": [],
+  "drops": [
+   {
+    "source": "Wall of flesh",
+    "ru": "Стена плота ",
+    "chance": "25%"
+   }
+  ],
   "obtain": "",
-  "status": "partial",
+  "status": "ok",
   "issue": "Предположительно Sorcerer Emblem (Эмблема мага); рецепт и источник не найдены",
-  "hasDrop": false
+  "hasDrop": true
  },
  "Эмблема мстителя": {
   "en": "Avenger Emblem",
@@ -6979,6 +6985,34 @@
      {
       "ru": "Браслет регенерации",
       "en": "Band of Regeneration",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Загадочный цветок": {
+  "en": "Arcane Flower",
+  "wiki": "https://terraria.wiki.gg/wiki/Arcane_Flower",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "stationRu": "Мастерская изобретателя",
+    "ingredients": [
+     {
+      "ru": "Цветок маны",
+      "en": "Mana Flower",
+      "count": 1
+     },
+     {
+      "ru": "Гнилые останки",
+      "en": "Putrid Scent",
       "count": 1
      }
     ]
