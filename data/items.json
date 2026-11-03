@@ -61,7 +61,8 @@
   "status": "ok",
   "issue": "Станция крафта для головных уборов, маски и ботинок на странице не указана. Русские названия деталей не сверены с ru-вики.",
   "hasDrop": false,
-  "isSet": true
+  "isSet": true,
+  "img": "images/sprites/armor/terraria%20-%20Adamantite%20armorV.png"
  },
  "Адский трезубец": {
   "en": "Inferno Fork",
@@ -432,7 +433,8 @@
   "status": "ok",
   "issue": "Станция крафта для нагрудника, панциря и ботинок на странице не указана. Русские названия деталей не сверены с ru-вики.",
   "hasDrop": false,
-  "isSet": true
+  "isSet": true,
+  "img": "images/sprites/armor/terraria%20-%20Beetle%20armor-.png"
  },
  "Броня джунглей": {
   "en": "Jungle armor",
@@ -1823,7 +1825,8 @@
   "status": "ok",
   "issue": "Станция крафта для шлема и ботинок на странице не указана. Русские названия деталей не сверены с ru-вики.",
   "hasDrop": false,
-  "isSet": true
+  "isSet": true,
+  "img": "images/sprites/armor/terraria%20-%20Gold%20armor.png"
  },
  "Золотой душ": {
   "en": "Golden Shower",
@@ -2535,7 +2538,8 @@
   "status": "ok",
   "issue": "Станция крафта для шлема и ботинок на странице не указана. Русские названия деталей не сверены с ru-вики.",
   "hasDrop": false,
-  "isSet": true
+  "isSet": true,
+  "img": "images/sprites/armor/terraria%20-%20Molten%20armor.png"
  },
  "Литая ярость": {
   "en": "Molten Fury",
@@ -4052,7 +4056,8 @@
   "status": "ok",
   "issue": "На вики нет рецептов по отдельным частям; весь набор крафтится за 75 Platinum Bar на Iron Anvil или Lead Anvil.",
   "hasDrop": false,
-  "isSet": true
+  "isSet": true,
+  "img": "images/sprites/armor/terraria%20-%20Platinum%20armor.png"
  },
  "Платиновый лук": {
   "en": "Platinum Bow",
@@ -4904,7 +4909,8 @@
   "status": "ok",
   "issue": "Станция крафта для масок, шлемов, головного убора, капюшона и нагрудника на вики не указана.",
   "hasDrop": false,
-  "isSet": true
+  "isSet": true,
+  "img": "images/sprites/armor/terraria%20-%20Hallowed%20armorV.png"
  },
  "Святой диск": {
   "en": "Light Disc",
@@ -5512,7 +5518,8 @@
   "status": "ok",
   "issue": "Станция крафта для масок, шлема, головного убора и ботинок на вики не указана.",
   "hasDrop": false,
-  "isSet": true
+  "isSet": true,
+  "img": "images/sprites/armor/terraria%20-%20Titanium%20armorV.png"
  },
  "Точильный станок": {
   "en": "Sharpening Station",
@@ -6040,7 +6047,8 @@
   "status": "ok",
   "issue": "На вики не указано точное количество Turtle Shell в рецептах частей; рецепты не подтверждены, поле пусто.",
   "hasDrop": false,
-  "isSet": true
+  "isSet": true,
+  "img": "images/sprites/armor/terraria%20-%20Turtle%20armor.png"
  },
  "Шарф подмастерья": {
   "en": "Apprentice's Scarf",
@@ -6446,7 +6454,8 @@
      }
     ]
    }
-  ]
+  ],
+  "img": "images/sprites/armor/terraria%20-%20Beetle%20armor%2B.png"
  },
  "Экскалибур": {
   "en": "Excalibur",
