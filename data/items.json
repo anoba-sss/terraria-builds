@@ -5795,7 +5795,7 @@
   "issue": "",
   "hasDrop": false
  },
- "Цветок магии": {
+ "Цветок маны": {
   "en": "Mana Flower",
   "wiki": "https://terraria.wiki.gg/wiki/Mana_Flower",
   "recipes": [
@@ -6934,5 +6934,61 @@
     ]
    }
   ]
+ },
+ "магические наручники": {
+  "en": "Magic Cuffs",
+  "wiki": "https://terraria.wiki.gg/wiki/Magic_Cuffs",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "stationRu": "Мастерская изобретателя",
+    "ingredients": [
+     {
+      "ru": "Браслет звёздной силы",
+      "en": "Band of Starpower",
+      "count": 1
+     },
+     {
+      "ru": "Кандалы",
+      "en": "Shackle",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Браслет восстановления маны": {
+  "en": "Mana Regeneration Band",
+  "wiki": "https://terraria.wiki.gg/wiki/Mana_Regeneration_Band",
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "stationRu": "Мастерская изобретателя",
+    "ingredients": [
+     {
+      "ru": "Браслет звёздной силы",
+      "en": "Band of Starpower",
+      "count": 1
+     },
+     {
+      "ru": "Браслет регенерации",
+      "en": "Band of Regeneration",
+      "count": 1
+     }
+    ]
+   }
+  ],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
  }
 }
