@@ -876,14 +876,15 @@
     "en": "Shroomite Headgear",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Shroomite Bar",
         "count": 12,
-        "ru": "Грибнитовый слиток"
+        "ru": "Грибной слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -892,14 +893,15 @@
     "en": "Shroomite Mask",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Shroomite Bar",
         "count": 12,
-        "ru": "Грибнитовый слиток"
+        "ru": "Грибной слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    },
@@ -913,7 +915,7 @@
        {
         "en": "Shroomite Bar",
         "count": 24,
-        "ru": "Грибнитовый слиток"
+        "ru": "Грибной слиток"
        }
       ],
       "stationRu": "Мифриловая или орихалковая наковальня"
@@ -925,14 +927,15 @@
     "en": "Shroomite Leggings",
     "recipes": [
      {
-      "station": "",
+      "station": "Mythril Anvil or Orichalcum Anvil",
       "ingredients": [
        {
         "en": "Shroomite Bar",
         "count": 18,
-        "ru": "Грибнитовый слиток"
+        "ru": "Грибной слиток"
        }
-      ]
+      ],
+      "stationRu": "Мифриловая или орихалковая наковальня"
      }
     ]
    }
@@ -1178,7 +1181,8 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "description": ""
  },
  "Замороженный щит": {
   "en": "Frozen Shield",
@@ -1474,7 +1478,7 @@
      {
       "en": "Daybloom",
       "count": 1,
-      "ru": "Дневной цветок"
+      "ru": "Цветок дня"
      },
      {
       "en": "Lens",
@@ -1745,7 +1749,7 @@
      {
       "en": "Moonglow",
       "count": 1,
-      "ru": "Лунное свечение"
+      "ru": "Лунное сияние"
      }
     ],
     "stationRu": "Алхимический стол"
@@ -3248,8 +3252,8 @@
   "wiki": "https://terraria.wiki.gg/wiki/Boomstick",
   "recipes": [],
   "drops": [],
-  "obtain": "",
-  "status": "partial",
+  "obtain": "Можно найти в подземных джунглях в джунглевых сундуках",
+  "status": "ok",
   "issue": "Предмет Sawed-Off Shotgun в Terraria не найден; соответствие с Boomstick предположительное.",
   "hasDrop": false
  },
@@ -4624,7 +4628,7 @@
      {
       "en": "Putrid Scent",
       "count": 1,
-      "ru": "Гнилой аромат"
+      "ru": "Гнилые останки"
      }
     ],
     "stationRu": "Мастерская инженера"
@@ -4969,9 +4973,26 @@
  "Снайперский прицел": {
   "en": "Sniper Scope",
   "wiki": "https://terraria.wiki.gg/wiki/Sniper_Scope",
-  "recipes": [],
+  "recipes": [
+   {
+    "station": "Tinkerer's Workshop",
+    "stationRu": "Мастерская изобретателя",
+    "ingredients": [
+     {
+      "ru": "оптический прицел",
+      "en": "Rifle Scope",
+      "count": 1
+     },
+     {
+      "ru": "эмблема уничтожителя",
+      "en": "Destroyer Emblem",
+      "count": 1
+     }
+    ]
+   }
+  ],
   "drops": [],
-  "obtain": "На вики не указаны ни рецепт, ни источник получения",
+  "obtain": "",
   "status": "ok",
   "issue": "",
   "hasDrop": false
@@ -7312,5 +7333,27 @@
     ]
    }
   ]
+ },
+ "Мушкет": {
+  "en": " Musket",
+  "wiki": "https://terraria.wiki.gg/wiki/_Musket",
+  "recipes": [],
+  "drops": [],
+  "obtain": "можно найти разбив теневую сферу в порче ",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Гробовщик": {
+  "en": " The Undertaker",
+  "wiki": "https://terraria.wiki.gg/wiki/_The_Undertaker",
+  "recipes": [],
+  "drops": [],
+  "obtain": "можно найти разбив багровое сердце в багрянце",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
  }
 }
