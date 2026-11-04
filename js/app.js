@@ -62,6 +62,7 @@
     'Comfortaa': { w: [400, 500, 600, 700], f: 'sans-serif' },
     'Russo One': { w: [], f: 'sans-serif' },
     'Press Start 2P': { w: [], f: 'monospace' },
+    'Pixelify Sans': { w: [400, 500, 600, 700], f: 'sans-serif' },
     'Merriweather': { w: [400, 700], f: 'serif' },
     'PT Serif': { w: [400, 700], f: 'serif' },
     'Lora': { w: [400, 500, 600, 700], f: 'serif' },
@@ -108,6 +109,8 @@
   addSpec('layout.navShape', { t: 'enum', opts: ['pill', 'round', 'square'], def: 'pill' });
   addSpec('layout.stageColor', { t: 'enum', opts: ['default', 'class'], def: 'default' });
   addSpec('layout.sticky', { t: 'bool', def: true });
+  addSpec('layout.pixel', { t: 'bool', def: true });        // пиксельные рамки и ячейки как в инвентаре
+  addSpec('layout.classTheme', { t: 'bool', def: true });   // цветовая тема под выбранный класс
   addSpec('bg.mode', { t: 'enum', opts: ['default', 'plain', 'gradient', 'pattern', 'image'], def: 'default' });
   addSpec('bg.c1', { t: 'hex' });
   addSpec('bg.c2', { t: 'hex' });
@@ -118,7 +121,7 @@
   addSpec('bg.url', { t: 'url' });
   addSpec('bg.overlay', { t: 'num', min: 0, max: 95, step: 5, def: 40, unit: '%' });
   addSpec('bg.fixed', { t: 'bool', def: true });
-  ['hero', 'heroGlow', 'eyebrow', 'legend', 'bossChips', 'counts', 'statusDots', 'notes', 'stageNum', 'panelHint', 'footer', 'brandMark', 'brandTag']
+  ['hero', 'heroGlow', 'eyebrow', 'legend', 'bossChips', 'counts', 'statusDots', 'notes', 'stageNum', 'stageIcons', 'panelHint', 'footer', 'brandMark', 'brandTag']
     .forEach(k => addSpec('show.' + k, { t: 'bool', def: true }));
   addSpec('show.imgSlot', { t: 'enum', opts: ['always', 'withimg', 'never'], def: 'always' });
   addSpec('anim.enabled', { t: 'bool', def: true });
@@ -138,6 +141,11 @@
   ORDER.forEach(k => { addSpec(`texts.classes.${k}.name`, { t: 'text', max: 60 }); addSpec(`texts.classes.${k}.blurb`, { t: 'text', max: 400 }); });
   Object.keys(BOSS_NAMES).forEach(id => addSpec('texts.bosses.' + id, { t: 'text', max: 80 }));
   Object.keys(STATUS_DEFAULT).forEach(k => addSpec('texts.status.' + k, { t: 'text', max: 80 }));
+  ['all', ...Object.keys(BOSS_NAMES)].forEach(id => {
+    ['main', 'detail', 'bg', 'band'].forEach(k => addSpec(`flags.${id}.${k}`, { t: 'hex' }));
+    addSpec(`flags.${id}.pix`, { t: 'pix' });
+    addSpec(`flags.${id}.img`, { t: 'url' });
+  });
   addSpec('css', { t: 'css' });
 
   function getPath(o, p) {
@@ -202,6 +210,7 @@
       }
       case 'font': return typeof val === 'string' && fontStack(val) ? val : undefined;
       case 'css': return typeof val === 'string' && val.trim() ? val.slice(0, 20000) : undefined;
+      case 'pix': return typeof val === 'string' && /^[.#o]{64}$/.test(val) ? val : undefined;
     }
     return undefined;
   }
@@ -227,6 +236,8 @@
     COLOR_KEYS.forEach(k => put(COLOR_VARS[k], g('colors.' + k)));
     const fb = fontStack(g('fonts.body')), fh = fontStack(g('fonts.head')), ft = fontStack(g('fonts.title'));
     put('--font-body', fb); put('--font-head', fh); put('--font-title', ft);
+    if (fh) put('--font-px', fh);
+    if (ft) put('--font-px-title', ft);
     put('--fs-base', px('type.size'));
     put('--lh', typeof g('type.lineHeight') === 'number' ? g('type.lineHeight') : null);
     put('--head-weight', g('type.headWeight'));
@@ -249,7 +260,10 @@
       put('--radius-sm', Math.round(r * 0.7) + 'px');
     }
     const sh = g('layout.shadow');
-    if (typeof sh === 'number') put('--shadow', sh === 0 ? 'none' : '0 10px 30px rgba(0,0,0,' + (sh / 100).toFixed(2) + ')');
+    if (typeof sh === 'number') {
+      put('--shadow', sh === 0 ? 'none' : '0 10px 30px rgba(0,0,0,' + (sh / 100).toFixed(2) + ')');
+      put('--px-shadow', sh === 0 ? '0 0 0 0 transparent' : '0 4px 0 rgba(0,0,0,' + Math.min(0.8, sh / 100 * 0.9).toFixed(2) + ')');
+    }
     if (g('layout.navShape') === 'round') put('--nav-radius', 'var(--radius-sm)');
     if (g('layout.navShape') === 'square') put('--nav-radius', '0');
 
@@ -289,13 +303,27 @@
     hide('bossChips', '.boss-chips'); hide('counts', '.build-tab .count'); hide('statusDots', '.item-btn .status-dot');
     hide('notes', '.item-note'); hide('panelHint', '.build-panel-title'); hide('footer', '.footer');
     hide('brandMark', '.brand-mark'); hide('brandTag', '.brand-text small');
-    if (g('show.stageNum') === false) rules.push('.stage-num{display:none!important}.stage-head{grid-template-columns:1fr!important}');
+    const pxStyle = !SAFE && g('layout.pixel') !== false;
+    const numsOff = g('show.stageNum') === false, iconsOff = g('show.stageIcons') === false;
+    if (!pxStyle) {
+      if (numsOff) rules.push('.stage-num{display:none!important}.stage-head{grid-template-columns:1fr!important}');
+    } else {
+      if (numsOff) rules.push('.stage-num{display:none!important}');
+      if (iconsOff) rules.push('.stage-banners{display:none!important}');
+      if (numsOff && iconsOff) rules.push('.stage-lead{display:none!important}.stage-head{grid-template-columns:1fr!important}');
+    }
     const slot = g('show.imgSlot');
     if (slot === 'never') rules.push('.img-slot{display:none!important}');
     else if (slot === 'withimg') rules.push('.img-slot:not(.has-img){display:none!important}');
     if (g('anim.enabled') === false) rules.push('*,*::before,*::after{transition:none!important;animation:none!important}');
     if (g('anim.lift') === false) rules.push('.item-btn:hover{transform:none!important}');
     if (g('layout.sticky') === false) rules.push('.topbar{position:static!important}');
+    ['all', ...Object.keys(BOSS_NAMES)].forEach(id => {
+      const d = [];
+      [['main', '--fm'], ['detail', '--fd'], ['bg', '--fb'], ['band', '--fband']].forEach(([k, v]) => { const c = g(`flags.${id}.${k}`); if (c) d.push(v + ':' + c); });
+      if (!d.length) return;
+      rules.push((id === 'all' ? '.stage-banner,.dz-pix' : `.stage-banner[data-boss="${id}"],.dz-pix[data-boss="${id}"]`) + '{' + d.join(';') + '}');
+    });
     if (g('css')) rules.push(g('css'));
     return rules.join('\n');
   }
@@ -431,6 +459,7 @@
     } else if (link) {
       link.remove();
     }
+    applyBodyTheme();
     let st = document.getElementById('site-style');
     if (!st) { st = document.createElement('style'); st.id = 'site-style'; document.head.append(st); }
     const css = buildCss(ES);
@@ -438,13 +467,119 @@
     applyChrome();
   }
 
+  // ---------- пиксельный стиль, темы классов, значки боссов ----------
+  const pxOn = () => document.body.classList.contains('px');
+  const ctOn = () => document.body.classList.contains('ct');
+  function themeIsDark() {
+    if (ES.theme === 'light') return false;
+    if (ES.theme === 'dark') return true;
+    return !(window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches);
+  }
+  function applyBodyTheme() {
+    const b = document.body;
+    if (!b) return;
+    b.classList.toggle('px', !SAFE && getPath(ES, 'layout.pixel') !== false);
+    b.classList.toggle('ct', !SAFE && getPath(ES, 'layout.classTheme') !== false && themeIsDark());
+    b.setAttribute('data-class', currentClass());
+  }
+  // когда включена тема класса, цвет берётся из CSS (body[data-class]) — иначе, как раньше, из настроек
+  const clsStyle = (color) => (ctOn() ? null : `--cls:${color}`);
+
+  // Редкость предметов Terraria (поле rarity в items.json, необязательное)
+  const RARITIES = [[-1, 'Серая (−1)'], [0, 'Белая (0)'], [1, 'Синяя (1)'], [2, 'Зелёная (2)'], [3, 'Оранжевая (3)'], [4, 'Светло-красная (4)'],
+    [5, 'Розовая (5)'], [6, 'Светло-фиолетовая (6)'], [7, 'Лаймовая (7)'], [8, 'Жёлтая (8)'], [9, 'Бирюзовая (9)'], [10, 'Красная (10)'], [11, 'Фиолетовая (11)']];
+  const rarityOf = (d) => (d && Number.isInteger(d.rarity) && d.rarity >= -1 && d.rarity <= 11 ? String(d.rarity) : null);
+  const initialOf = (name) => { const ch = [...String(name || '').trim()][0]; return ch ? ch.toUpperCase() : ''; };
+
+  // Если положишь картинку босса в images/bosses/, впиши её сюда, например: eye: 'images/bosses/eye.png'
+  const BOSS_IMG = {};
+  // Простые значки 8×8 (# — основной цвет, o — тёмная деталь). Это условные символы, а не спрайты игры.
+  const GLYPHS = {
+    eye: ['........', '..####..', '.######.', '###oo###', '###oo###', '.######.', '..####..', '........'],
+    slime: ['........', '..####..', '.######.', '.#o##o#.', '########', '########', '.######.', '........'],
+    worm: ['........', '##......', '##.##...', '..####..', '...##.##', '......##', '........', '........'],
+    brain: ['..####..', '.######.', '##o##o##', '########', '##o##o##', '.######.', '..####..', '........'],
+    bee: ['..o..o..', '.o.##.o.', '..####..', '.#o##o#.', '..####..', '.#o##o#.', '...##...', '........'],
+    skull: ['.######.', '########', '#oo##oo#', '#oo##oo#', '########', '.##oo##.', '..#..#..', '........'],
+    flesh: ['########', '#oo##oo#', '#oo##oo#', '########', '##oooo##', '#o#oo#o#', '########', '........'],
+    gear: ['...##...', '.#.##.#.', '..####..', '###oo###', '###oo###', '..####..', '.#.##.#.', '...##...'],
+    twins: ['........', '.##..##.', '#oo##oo#', '#oo##oo#', '.##..##.', '........', '........', '........'],
+    flower: ['...##...', '.######.', '########', '###oo###', '########', '.######.', '...##...', '...##...'],
+    fish: ['........', '..####.#', '.#######', '##o#####', '.#######', '..####.#', '........', '........'],
+    golem: ['########', '#oo##oo#', '#oo##oo#', '########', '#o####o#', '#oooooo#', '########', '........'],
+    sun: ['#..##..#', '.#.##.#.', '..####..', '########', '########', '..####..', '.#.##.#.', '#..##..#'],
+    hood: ['..####..', '.######.', '##oooo##', '##o##o##', '##oooo##', '########', '########', '.######.'],
+    moon: ['..####..', '.###....', '###.....', '###.....', '###.....', '.###....', '..####..', '........'],
+    star: ['...##...', '...##...', '########', '.######.', '..####..', '.##..##.', '##....##', '........']
+  };
+  const BOSS_GLYPH = {
+    ks: 'slime', eye: 'eye', eow: 'worm', boc: 'brain', 'queen-bee': 'bee', skeletron: 'skull', wof: 'flesh',
+    'queen-slime': 'slime', destroyer: 'worm', twins: 'twins', 'skeletron-prime': 'gear', plantera: 'flower',
+    duke: 'fish', golem: 'golem', empress: 'sun', lunatic: 'hood', 'moon-lord': 'moon'
+  };
+  function glyphSvg(kind, pix) {
+    const NS = 'http://www.w3.org/2000/svg';
+    const rows = (typeof pix === 'string' && pix.length === 64) ? pix.match(/.{8}/g) : (GLYPHS[kind] || GLYPHS.star);
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('viewBox', '0 0 8 8');
+    svg.setAttribute('shape-rendering', 'crispEdges');
+    svg.setAttribute('aria-hidden', 'true');
+    rows.forEach((row, y) => [...row].forEach((ch, x) => {
+      if (ch !== '#' && ch !== 'o') return;
+      const r = document.createElementNS(NS, 'rect');
+      r.setAttribute('x', x); r.setAttribute('y', y); r.setAttribute('width', 1); r.setAttribute('height', 1);
+      r.setAttribute('class', ch === '#' ? 'g1' : 'g2');
+      svg.append(r);
+    }));
+    return svg;
+  }
+  function bannerEl(id) {
+    const own = getPath(ES, `flags.${id}.pix`), img = getPath(ES, `flags.${id}.img`) || BOSS_IMG[id];
+    const glyph = () => glyphSvg(BOSS_GLYPH[id], own);
+    let art;
+    if (img && okImgUrl(img)) {
+      art = el('img', { src: img, alt: '', loading: 'lazy' });
+      art.addEventListener('error', () => art.replaceWith(glyph()));
+    } else {
+      art = glyph();
+    }
+    return el('span', { class: 'stage-banner', 'data-boss': id, title: bossName(id), role: 'img', 'aria-label': bossName(id) }, [el('span', { class: 'stage-banner-in' }, [art])]);
+  }
+  // флаги этапа: по умолчанию — боссы этапа; если владелец менял флаги, список хранится в stage.flags
+  function stageBanners(stage) {
+    const ids = (Array.isArray(stage.flags) ? stage.flags : (stage.bosses || [])).filter(Boolean);
+    if (!EDIT) return ids.length ? el('div', { class: 'stage-banners' }, ids.map(bannerEl)) : null;
+    const setFlags = (list) => { stage.flags = list; markDirty(); renderAll(); };
+    const items = ids.map(id => el('span', { class: 'flag-wrap' }, [
+      bannerEl(id),
+      el('button', { class: 'flag-x', type: 'button', title: 'Убрать флаг с этого этапа', 'aria-label': 'Убрать флаг: ' + bossName(id), text: '×', onclick: () => setFlags(ids.filter(x => x !== id)) })
+    ]));
+    const missing = Object.keys(BOSS_NAMES).filter(id => !ids.includes(id));
+    const sel = el('select', { class: 'flag-add', 'aria-label': 'Добавить флаг на этап' }, [
+      el('option', { value: '', text: '+ флаг' }), ...missing.map(id => el('option', { value: id, text: bossName(id) }))
+    ]);
+    sel.addEventListener('change', () => { if (sel.value) setFlags([...ids, sel.value]); });
+    const reset = Array.isArray(stage.flags)
+      ? el('button', { class: 'flag-reset', type: 'button', title: 'Вернуть флаги по умолчанию (по боссам этапа)', 'aria-label': 'Вернуть флаги по умолчанию', text: '↺', onclick: () => { delete stage.flags; markDirty(); renderAll(); } })
+      : null;
+    return el('div', { class: 'stage-banners' }, [...items, sel, reset]);
+  }
+
+  // положение картинки предмета в ячейке: imgFit = { z: масштаб %, x, y: сдвиг % }
+  const fitTf = (d) => {
+    const f = d && d.imgFit;
+    if (!f || ![f.z, f.x, f.y].every(Number.isFinite)) return null;
+    const z = Math.min(300, Math.max(30, f.z)), x = Math.min(100, Math.max(-100, f.x)), y = Math.min(100, Math.max(-100, f.y));
+    return `translate(${x}%, ${y}%) scale(${z / 100})`;
+  };
+
   // ---------- build rendering ----------
   function renderClassNav(active) {
     $('#class-nav').replaceChildren(...ORDER.map(key => {
       const c = CLASSES[key];
       return el('button', {
         class: 'class-btn', type: 'button', 'aria-current': key === active ? 'page' : null,
-        style: `--cls:${c.color}`, onclick: () => { location.hash = key; }
+        'data-cls': key, style: clsStyle(c.color), onclick: () => { location.hash = key; }
       }, [el('span', { class: 'class-dot' }), c.name]);
     }));
   }
@@ -452,13 +587,15 @@
   function itemButton(name, note, onRemove, alt) {
     const d = itemData(name);
     const slot = el('span', { class: 'img-slot', 'aria-hidden': 'true' });
+    if (pxOn()) slot.setAttribute('data-ph', initialOf(name));
     if (d.img) {
       const im = el('img', { src: d.img, alt: '', loading: 'lazy' });
+      const tf = fitTf(d); if (tf) im.style.transform = tf;
       im.addEventListener('error', () => { im.remove(); slot.classList.remove('has-img'); });
       slot.classList.add('has-img');
       slot.append(im);
     }
-    const btn = el('button', { class: 'item-btn', type: 'button', 'data-item': name, onclick: () => openItem(name, alt) }, [
+    const btn = el('button', { class: 'item-btn', type: 'button', 'data-item': name, 'data-rarity': rarityOf(d), onclick: () => openItem(name, alt) }, [
       slot,
       el('span', {}, [
         el('span', { class: 'item-name' }, [name]),
@@ -514,8 +651,9 @@
       el('p', { class: 'build-panel-title', text: T('hint', TEXT_DEFAULTS.hint).split('{cat}').join(catLabel(CATS.find(c => c.id === active))) }),
       renderCategory(stage, active)
     ]);
+    const numEl = el('div', { class: 'stage-num', text: String(index + 1) });
     const head = el('div', { class: 'stage-head' }, [
-      el('div', { class: 'stage-num', text: String(index + 1) }),
+      pxOn() ? el('div', { class: 'stage-lead' }, [stageBanners(stage), numEl]) : numEl,
       el('div', {}, [
         el('div', { class: 'stage-title-row' }, [el('h2', { class: 'stage-title', text: stage.title }), EDIT ? titleEditBtn(stage) : null]),
         el('div', { class: 'boss-chips' }, stage.bosses.map(b => el('span', { class: 'boss-chip', text: bossName(b) })))
@@ -528,7 +666,7 @@
   function renderClass(key) {
     const c = CLASSES[key];
     const stages = DATA.builds[key] || [];
-    const hero = el('section', { class: 'hero', style: `--cls:${c.color}` }, [
+    const hero = el('section', { class: 'hero', style: clsStyle(c.color) }, [
       el('p', { class: 'eyebrow', text: T('eyebrow', TEXT_DEFAULTS.eyebrow) }),
       el('h1', { text: c.name }),
       el('p', { text: c.blurb }),
@@ -549,6 +687,7 @@
 
   function renderAll() {
     const key = currentClass();
+    applyBodyTheme();
     renderClassNav(key);
     renderClass(key);
     renderDatalist();
@@ -691,7 +830,7 @@
     if (d.issue && d.status !== 'ok') body.push(el('div', { class: 'source-block', text: d.issue }));
     if (d.wiki) body.push(el('div', { class: 'source-block' }, ['Источник: ', el('a', { href: d.wiki, target: '_blank', rel: 'noopener noreferrer', text: d.wiki })]));
 
-    showModal(el('div', { class: 'modal', role: 'dialog', 'aria-modal': 'true', 'aria-label': name, style: `--cls:${c.color}` }, [
+    showModal(el('div', { class: 'modal', role: 'dialog', 'aria-modal': 'true', 'aria-label': name, style: clsStyle(c.color) }, [
       el('div', { class: 'modal-head' }, [
         el('div', {}, [
           el('h2', { text: name }),
@@ -786,6 +925,66 @@
     const statusSel = el('select', { class: 'ed-input' }, Object.keys(STATUS_DEFAULT).map(v =>
       el('option', { value: v, selected: v === draft.status ? true : null, text: statusText(v) })));
     statusSel.value = draft.status;
+    const raritySel = el('select', { class: 'ed-input' }, [
+      el('option', { value: '', text: 'Не указана (рамка цвета класса)' }),
+      ...RARITIES.map(([v, l]) => el('option', { value: String(v), text: l }))
+    ]);
+    raritySel.value = rarityOf(draft) || '';
+
+    // положение картинки: приблизить, сдвинуть, одной кнопкой поставить по центру
+    const FIT0 = { z: 100, x: 0, y: 0 };
+    const getFit = () => Object.assign({}, FIT0, draft.imgFit || {});
+    const fitInputs = {};
+    const setFit = (f) => {
+      const n = { z: Math.round(f.z), x: Math.round(f.x * 10) / 10, y: Math.round(f.y * 10) / 10 };
+      if (n.z === 100 && n.x === 0 && n.y === 0) delete draft.imgFit; else draft.imgFit = n;
+      Object.entries(fitInputs).forEach(([k, [inp, out]]) => { inp.value = n[k]; out.textContent = n[k] + (k === 'z' ? '%' : ''); });
+      refreshPreview();
+    };
+    const mkFit = (key, label, min, max, step) => {
+      const inp = el('input', { type: 'range', class: 'ed-range', min, max, step, 'aria-label': label });
+      const out = el('output', { class: 'ed-label' });
+      fitInputs[key] = [inp, out];
+      inp.addEventListener('input', () => { const f = getFit(); f[key] = Number(inp.value); setFit(f); });
+      return el('label', { class: 'ed-field' }, [el('span', { class: 'ed-label', text: label }), el('div', { class: 'ed-fitrow' }, [inp, out])]);
+    };
+    const autoCenter = () => {
+      const u = (draft.img || '').trim();
+      if (!u || !okImgUrl(u)) { toast('Сначала укажи ссылку на картинку'); return; }
+      const im = new Image();
+      if (/^https?:/i.test(u)) im.crossOrigin = 'anonymous';
+      im.onerror = () => toast('Картинка не загрузилась');
+      im.onload = () => {
+        try {
+          const W = im.naturalWidth, H = im.naturalHeight;
+          const sc = Math.min(1, 256 / Math.max(W, H)), cw = Math.max(1, Math.round(W * sc)), ch = Math.max(1, Math.round(H * sc));
+          const cv = document.createElement('canvas'); cv.width = cw; cv.height = ch;
+          const cx2 = cv.getContext('2d'); cx2.drawImage(im, 0, 0, cw, ch);
+          const px = cx2.getImageData(0, 0, cw, ch).data;
+          let x0 = cw, y0 = ch, x1 = -1, y1 = -1;
+          for (let y = 0; y < ch; y++) for (let x = 0; x < cw; x++) if (px[(y * cw + x) * 4 + 3] > 20) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+          if (x1 < 0) { x0 = 0; y0 = 0; x1 = cw - 1; y1 = ch - 1; }
+          const bw = (x1 - x0 + 1) / sc, bh = (y1 - y0 + 1) / sc;
+          const mx = (x0 + x1 + 1) / 2 / sc, my = (y0 + y1 + 1) / 2 / sc;
+          const m = Math.min(1 / W, 1 / H);
+          const z = Math.min(3, Math.max(0.3, 0.9 / Math.max(bw * m, bh * m)));
+          setFit({ z: z * 100, x: -z * (mx - W / 2) * m * 100, y: -z * (my - H / 2) * m * 100 });
+        } catch (e) {
+          setFit(FIT0);
+          toast('Не удалось измерить картинку (чужой сайт не разрешает). Подвинь ползунками вручную.');
+        }
+      };
+      im.src = u;
+    };
+    const fitBox = el('div', { class: 'ed-fit' }, [
+      el('span', { class: 'ed-label', text: 'Положение картинки в ячейке' }),
+      el('div', { class: 'ed-row' }, [
+        el('button', { class: 'ed-btn primary', type: 'button', text: '⊙ По центру (авто)', onclick: autoCenter }),
+        el('button', { class: 'ed-btn', type: 'button', text: 'Сбросить', onclick: () => setFit(FIT0) })
+      ]),
+      mkFit('z', 'Масштаб', 30, 300, 1), mkFit('x', 'Сдвиг влево / вправо', -100, 100, 0.5), mkFit('y', 'Сдвиг вверх / вниз', -100, 100, 0.5)
+    ]);
+    Object.entries(fitInputs).forEach(([k, [inp, out]]) => { const v = getFit()[k]; inp.value = v; out.textContent = v + (k === 'z' ? '%' : ''); });
 
     // живой предпросмотр карточки
     const pvName = el('span', { class: 'item-name' });
@@ -800,15 +999,20 @@
       pvSlot.replaceChildren();
       pvSlot.classList.remove('has-img');
       pvDot.className = `status-dot ${draft.status}`;
+      const rr = rarityOf(draft);
+      if (rr) preview.setAttribute('data-rarity', rr); else preview.removeAttribute('data-rarity');
+      if (pxOn()) pvSlot.setAttribute('data-ph', initialOf(newName));
       const u = (draft.img || '').trim();
       if (u && okImgUrl(u)) {
         const im = el('img', { src: u, alt: '' });
+        const tf = fitTf(draft); if (tf) im.style.transform = tf;
         im.addEventListener('error', () => { im.remove(); pvSlot.classList.remove('has-img'); });
         pvSlot.classList.add('has-img');
         pvSlot.append(im);
       }
     };
     statusSel.addEventListener('change', () => { draft.status = statusSel.value; refreshPreview(); });
+    raritySel.addEventListener('change', () => { if (raritySel.value === '') delete draft.rarity; else draft.rarity = Number(raritySel.value); refreshPreview(); });
 
     // переключатель: один предмет (рецепт) или набор из деталей (броня и т.п.)
     const recipeSection = el('section', { class: 'modal-section' });
@@ -850,6 +1054,7 @@
           field('Название предмета', name, v => { newName = v; refreshPreview(); }, { ph: 'Например: Пальто из флинкса' }),
           alt ? field('Примечание под названием (пусто = без примечания)', noteVal, v => { noteVal = v; refreshPreview(); }, { multiline: true, ph: 'Например: гибридный комплект: платиновый/золотой шлем…' }) : null,
           field('Картинка предмета — ссылка (необязательно)', draft.img || '', v => { draft.img = v.trim(); refreshPreview(); }, { ph: 'https://…/item.png' }),
+          fitBox,
           preview
         ])
       ]),
@@ -857,7 +1062,8 @@
       el('div', { class: 'ed-grid' }, [
         field('Английское название (вики)', draft.en, v => { draft.en = v; }, { ph: 'Shroomite Bar' }),
         field('Ссылка на вики (необязательно)', draft.wiki, v => { draft.wiki = v; }, { ph: 'https://terraria.wiki.gg/wiki/…' }),
-        el('label', { class: 'ed-field' }, [el('span', { class: 'ed-label', text: 'Статус данных' }), statusSel])
+        el('label', { class: 'ed-field' }, [el('span', { class: 'ed-label', text: 'Статус данных' }), statusSel]),
+        el('label', { class: 'ed-field' }, [el('span', { class: 'ed-label', text: 'Редкость (цвет рамки при наведении)' }), raritySel])
       ]),
       field('Описание', draft.description, v => { draft.description = v; }, { multiline: true, ph: 'Краткое описание предмета' }),
       field('Получение (если не крафтится и не падает)', draft.obtain, v => { draft.obtain = v; }, { ph: 'Покупается у Торговца…' }),
@@ -889,7 +1095,7 @@
       ])
     ]);
     refreshPreview();
-    showModal(el('div', { class: 'modal wide', role: 'dialog', 'aria-modal': 'true', 'aria-label': name, style: `--cls:${c.color}` }, [
+    showModal(el('div', { class: 'modal wide', role: 'dialog', 'aria-modal': 'true', 'aria-label': name, style: clsStyle(c.color) }, [
       el('div', { class: 'modal-head' }, [
         el('div', {}, [el('h2', { text: name }), el('div', { class: 'sub', text: 'Режим редактирования' })]),
         el('button', { class: 'modal-close', type: 'button', 'aria-label': 'Закрыть', text: '×', onclick: closeModal })
@@ -1184,7 +1390,7 @@
 
   // ---------- appearance designer (owner only) ----------
   const DZ = { open: false, tab: 'themes', el: null };
-  const DZ_TABS = [['themes', 'Темы'], ['colors', 'Цвета'], ['fonts', 'Шрифты'], ['layout', 'Макет'], ['bg', 'Фон'], ['texts', 'Тексты'], ['show', 'Показ'], ['css', 'CSS'], ['file', 'Файл']];
+  const DZ_TABS = [['themes', 'Темы'], ['colors', 'Цвета'], ['fonts', 'Шрифты'], ['layout', 'Макет'], ['bg', 'Фон'], ['texts', 'Тексты'], ['show', 'Показ'], ['flags', 'Флаги'], ['css', 'CSS'], ['file', 'Файл']];
   const mk = (name, theme, c) => ({ id: name, name, theme, colors: c });
   const PRESETS = [
     { id: 'default', name: 'Стандартная', theme: null, colors: null, swatch: ['#15110e', '#211a15', '#e9b44c', '#f1e7d6'] },
@@ -1232,7 +1438,7 @@
   function onSite(path) {
     markDirty();
     applySite();
-    if (/^(texts|classColors|layout\.stageColor)/.test(path || '')) renderAll();
+    if (/^(texts|classColors|theme|layout\.(stageColor|pixel|classTheme)|show\.stageIcons|flags\.[^.]+\.(pix|img))/.test(path || '')) renderAll();
     updateContrast();
   }
   function setS(path, val) {
@@ -1322,6 +1528,7 @@
       setPath(SITE, 'theme', p.theme);
     }
     onSite('colors');
+    renderAll();
     renderDesigner();
     toast(`Тема «${p.name}» применена`);
   }
@@ -1341,6 +1548,7 @@
     const names = { bg: 'Фон страницы', panel: 'Панели этапов, окна', panel2: 'Карточки, вкладки, шапки', line: 'Линии и рамки', text: 'Основной текст', muted: 'Приглушённый текст', accent: 'Ссылки и акценты', cls: 'Выделение (номера этапов, вкладки)', ok: 'Статус «проверено»', warn: 'Статус «частично»' };
     return [
       dzH('Палитра сайта'),
+      dzHint('Пока включена «Цветовая тема под выбранный класс» (вкладка «Макет»), цвета берутся из темы класса. Эта палитра и цвета классов работают, когда тема класса выключена.'),
       ...COLOR_KEYS.map(k => dzColor(names[k], 'colors.' + k, () => cleanVal({ t: 'hex' }, readVar(COLOR_VARS[k])) || '#000000')),
       dzH('Цвета классов'),
       dzHint('Цвет кнопки класса, рамки при наведении и шапки раздела.'),
@@ -1377,6 +1585,9 @@
       dzRange('Расстояние между этапами', 'layout.stageGap'),
       dzRange('Отступ внутри шапки раздела', 'layout.heroPad'),
       dzH('Форма и стиль'),
+      dzToggle('Пиксельный стиль (рамки и ячейки как в инвентаре)', 'layout.pixel'),
+      dzToggle('Цветовая тема под выбранный класс', 'layout.classTheme'),
+      dzHint('Выключи оба пункта — сайт вернётся к прежнему виду. Тема класса работает только в тёмном режиме.'),
       dzRange('Скругление углов', 'layout.radius'),
       dzRange('Толщина рамок', 'layout.border'),
       dzRange('Сила тени', 'layout.shadow'),
@@ -1459,6 +1670,7 @@
       dzToggle('Надпись над названием класса', 'show.eyebrow'),
       dzToggle('Легенда статусов', 'show.legend'),
       dzToggle('Номера этапов', 'show.stageNum'),
+      dzToggle('Значки боссов слева от номера этапа', 'show.stageIcons'),
       dzToggle('Названия боссов под заголовком этапа', 'show.bossChips'),
       dzToggle('Счётчики на вкладках', 'show.counts'),
       dzToggle('Подсказка над списком предметов', 'show.panelHint'),
@@ -1470,6 +1682,86 @@
       dzSelect('Место под картинку предмета', 'show.imgSlot', [['always', 'Всегда (пустая рамка, если картинки нет)'], ['withimg', 'Только у предметов с картинкой'], ['never', 'Не показывать']])
     ];
   }
+  // --- редактор флагов: рисунок 8×8 и цвета каждого флага отдельно ---
+  let FLAG_SEL = 'eye', FLAG_TOOL = '#';
+  function cssHex(name, fallback) {
+    const v = getComputedStyle(document.body).getPropertyValue(name).trim();
+    const h = cleanVal({ t: 'hex' }, v);
+    if (h) return h;
+    const m = /rgba?\(\s*(\d+)[ ,]+(\d+)[ ,]+(\d+)/.exec(v);
+    return m ? '#' + [m[1], m[2], m[3]].map(n => Number(n).toString(16).padStart(2, '0')).join('') : fallback;
+  }
+  const flagPixels = (id) => {
+    const own = getPath(SITE, `flags.${id}.pix`);
+    return typeof own === 'string' && own.length === 64 ? own : (GLYPHS[BOSS_GLYPH[id]] || GLYPHS.star).join('');
+  };
+  function flagColors(prefix, title) {
+    return [
+      dzColor(title + ': цвет рисунка', `flags.${prefix}.main`, () => cssHex('--cls', '#e8a23a')),
+      dzColor(title + ': тёмные детали', `flags.${prefix}.detail`, () => '#0a0806'),
+      dzColor(title + ': фон флага', `flags.${prefix}.bg`, () => '#1a1410'),
+      dzColor(title + ': верхняя полоса', `flags.${prefix}.band`, () => cssHex('--cls', '#e8a23a'))
+    ];
+  }
+  function tabFlags() {
+    const id = FLAG_SEL;
+    const nodes = [
+      dzH('Флаги боссов'),
+      dzHint('Флаг — значок босса слева от номера этапа. Выбери флаг ниже: его можно перерисовать по клеточкам и покрасить отдельно. Убрать флаг с этапа или поставить другой можно прямо на странице: у каждого флага есть ×, а рядом выпадающий список «+ флаг».')
+    ];
+    if (!pxOn()) nodes.push(el('p', { class: 'dz-hint dz-warn', text: 'Сейчас выключен «Пиксельный стиль» (🎨 → Макет), поэтому на сайте флаги не показываются.' }));
+    nodes.push(el('div', { class: 'dz-flags' }, FLAG_IDS_ALL().map(fid => el('button', {
+      class: 'dz-flag' + (fid === id ? ' on' : ''), type: 'button', title: bossName(fid), 'aria-label': bossName(fid),
+      onclick: () => { FLAG_SEL = fid; renderDesigner(); }
+    }, [bannerEl(fid)]))));
+
+    nodes.push(dzH('Выбран: ' + bossName(id)));
+    const big = el('div', { class: 'dz-flag-big' });
+    const refreshBig = () => big.replaceChildren(bannerEl(id));
+    refreshBig();
+    const cells = [];
+    const grid = el('div', { class: 'dz-pix', 'data-boss': id, role: 'group', 'aria-label': 'Рисунок флага 8 на 8' });
+    const draw = () => { const px = flagPixels(id); cells.forEach((c, i) => { c.className = 'dz-cell ' + ({ '#': 'm', o: 'd' }[px[i]] || 'e'); }); };
+    const paint = (i) => {
+      const px = [...flagPixels(id)];
+      if (px[i] === FLAG_TOOL) return;
+      px[i] = FLAG_TOOL;
+      setS(`flags.${id}.pix`, px.join(''));
+      draw(); refreshBig();
+    };
+    let painting = false;
+    for (let i = 0; i < 64; i++) {
+      const c = el('div', { class: 'dz-cell e' });
+      c.addEventListener('pointerdown', (e) => { e.preventDefault(); painting = true; paint(i); });
+      cells.push(c); grid.append(c);
+    }
+    grid.addEventListener('pointermove', (e) => {
+      if (!painting) return;
+      const i = cells.indexOf(document.elementFromPoint(e.clientX, e.clientY));
+      if (i >= 0) paint(i);
+    });
+    window.addEventListener('pointerup', () => { painting = false; }, { once: false });
+    draw();
+
+    const toolBtns = [['#', 'Цвет рисунка'], ['o', 'Тёмная деталь'], ['.', 'Стереть']].map(([t, label]) => {
+      const b = el('button', { class: 'dz-btn' + (FLAG_TOOL === t ? ' primary' : ''), type: 'button', text: label, onclick: () => {
+        FLAG_TOOL = t; toolBtns.forEach(([bt, tt]) => bt.classList.toggle('primary', tt === FLAG_TOOL));
+      } });
+      return [b, t];
+    });
+    nodes.push(el('div', { class: 'dz-flag-edit' }, [big, grid]));
+    nodes.push(el('div', { class: 'dz-row' }, toolBtns.map(([b]) => b)));
+    nodes.push(el('div', { class: 'dz-row' }, [
+      el('button', { class: 'dz-btn', type: 'button', text: 'Очистить', onclick: () => { setS(`flags.${id}.pix`, '.'.repeat(64)); draw(); refreshBig(); } }),
+      el('button', { class: 'dz-btn', type: 'button', text: 'Вернуть рисунок', onclick: () => { delPath(SITE, `flags.${id}.pix`); onSite(`flags.${id}.pix`); renderDesigner(); } }),
+      el('button', { class: 'dz-btn danger', type: 'button', text: 'Сбросить флаг', onclick: () => { delPath(SITE, `flags.${id}`); onSite(`flags.${id}.pix`); renderDesigner(); } })
+    ]));
+    nodes.push(dzH('Цвета этого флага'), ...flagColors(id, bossName(id)));
+    nodes.push(dzText('Своя картинка вместо рисунка (необязательно)', `flags.${id}.img`, 'images/bosses/eye.png'));
+    nodes.push(dzH('Для всех флагов сразу'), dzHint('Действует на флаги, у которых свой цвет не задан.'), ...flagColors('all', 'Все флаги'));
+    return nodes;
+  }
+  const FLAG_IDS_ALL = () => Object.keys(BOSS_NAMES);
   function tabCss() {
     const ta = el('textarea', { class: 'dz-input dz-css', spellcheck: 'false', rows: 12, 'aria-label': 'Свой CSS', placeholder: '.item-btn { border-width: 2px; }' });
     ta.value = getPath(SITE, 'css') || '';
@@ -1565,7 +1857,7 @@
       class: 'dz-tab', type: 'button', role: 'tab', 'aria-selected': id === DZ.tab ? 'true' : 'false', text: label,
       onclick: () => { DZ.tab = id; renderDesigner(); body.scrollTop = 0; }
     })));
-    const builders = { themes: tabThemes, colors: tabColors, fonts: tabFonts, layout: tabLayout, bg: tabBg, texts: tabTexts, show: tabShow, css: tabCss, file: tabFile };
+    const builders = { themes: tabThemes, colors: tabColors, fonts: tabFonts, layout: tabLayout, bg: tabBg, texts: tabTexts, show: tabShow, flags: tabFlags, css: tabCss, file: tabFile };
     const nodes = (builders[DZ.tab] || tabThemes)();
     if (SAFE) nodes.unshift(el('p', { class: 'dz-hint dz-warn', text: 'Безопасный режим (?safe=1): цвета, фон, макет и свой CSS на этой странице не применяются. Настройки можно менять и сохранять, но результат смотри на обычном адресе сайта.' }));
     body.replaceChildren(...nodes);
