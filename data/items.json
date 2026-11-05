@@ -994,50 +994,7 @@
  "Дар природы": {
   "en": "Nature's Gift",
   "wiki": "https://terraria.wiki.gg/wiki/Nature's_Gift",
-  "recipes": [
-   {
-    "station": "Tinkerer's Workshop",
-    "ingredients": [
-     {
-      "en": "Nature's Gift",
-      "count": 1,
-      "ru": "Дар природы"
-     },
-     {
-      "en": "Mana Potion",
-      "count": 1,
-      "ru": "Зелье маны"
-     }
-    ],
-    "stationRu": "Мастерская инженера"
-   },
-   {
-    "station": "Iron Anvil or Lead Anvil",
-    "ingredients": [
-     {
-      "en": "Nature's Gift",
-      "count": 1,
-      "ru": "Дар природы"
-     },
-     {
-      "en": "Moonglow",
-      "count": 2,
-      "ru": "Лунное свечение"
-     },
-     {
-      "en": "Vine",
-      "count": 3,
-      "ru": "Лоза"
-     },
-     {
-      "en": "Rich Mahogany",
-      "count": 7,
-      "ru": "Красная древесина"
-     }
-    ],
-    "stationRu": "Железная или свинцовая наковальня"
-   }
-  ],
+  "recipes": [],
   "drops": [],
   "obtain": "Не крафтится и не выпадает. Срывается с редкого цветка, растущего на траве в Подземных джунглях, любым оружием или инструментом.",
   "status": "ok",
@@ -2454,8 +2411,8 @@
   "hasDrop": false
  },
  "Ксенопосох": {
-  "en": "Xenopopper",
-  "wiki": "https://terraria.wiki.gg/wiki/Xenopopper",
+  "en": "Xeno Staff",
+  "wiki": "https://terraria.wiki.gg/wiki/Xeno_Staff",
   "recipes": [],
   "drops": [
    {
@@ -2832,12 +2789,12 @@
   "hasDrop": true
  },
  "Мегаакула": {
-  "en": "",
-  "wiki": "",
+  "en": "Megashark",
+  "wiki": "https://terraria.wiki.gg/wiki/Megashark",
   "recipes": [],
   "drops": [],
   "obtain": "",
-  "status": "none",
+  "status": "ok",
   "issue": "Предмет с таким названием не найден в Terraria, возможно, название ошибочное",
   "hasDrop": false
  },
@@ -6315,8 +6272,8 @@
   "hasDrop": true
  },
  "Шипохват": {
-  "en": "Thorn Hook",
-  "wiki": "https://terraria.wiki.gg/wiki/Thorn_Hook",
+  "en": "Snapthorn",
+  "wiki": "https://terraria.wiki.gg/wiki/Snapthorn",
   "recipes": [],
   "drops": [
    {
@@ -7610,6 +7567,50 @@
   "recipes": [],
   "drops": [],
   "obtain": "можно найти разбив багровое сердце в багрянце",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "любой аксессуар на ваш выбор": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "none",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Колчан сталкера": {
+  "en": "Stalker's Quiver",
+  "wiki": "https://terraria.wiki.gg/wiki/Stalker's_Quiver",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "ok",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Расплавленный колчан": {
+  "en": "",
+  "wiki": "",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
+  "description": "",
+  "status": "none",
+  "issue": "",
+  "hasDrop": false
+ },
+ "Колчан феникса": {
+  "en": "Phoenix Quiver",
+  "wiki": "https://terraria.wiki.gg/wiki/Phoenix_Quiver",
+  "recipes": [],
+  "drops": [],
+  "obtain": "",
   "description": "",
   "status": "ok",
   "issue": "",
