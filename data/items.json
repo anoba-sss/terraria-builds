@@ -884,23 +884,6 @@
   "wiki": "https://terraria.wiki.gg/wiki/Shroomite_armor",
   "pieces": [
    {
-    "ru": "Грибной шлем",
-    "en": "Shroomite Headgear",
-    "recipes": [
-     {
-      "station": "Mythril Anvil or Orichalcum Anvil",
-      "ingredients": [
-       {
-        "en": "Shroomite Bar",
-        "count": 12,
-        "ru": "Грибной слиток"
-       }
-      ],
-      "stationRu": "Мифриловая или орихалковая наковальня"
-     }
-    ]
-   },
-   {
     "ru": "Грибная маска",
     "en": "Shroomite Mask",
     "recipes": [
