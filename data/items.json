@@ -521,7 +521,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Jungle%20armor.png",
   "imgFit": {
-   "z": 130,
+   "z": 140,
    "x": 0,
    "y": 0
   }
@@ -603,7 +603,13 @@
   "status": "ok",
   "issue": "Станция крафта для шлема и ботинок на странице не указана. Русские названия деталей не сверены с ru-вики.",
   "hasDrop": false,
-  "isSet": true
+  "isSet": true,
+  "img": "images/sprites/armor/terraria%20-%20Necro%20armor.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Булавочный посох": {
   "en": "Pygmy Staff",
@@ -947,7 +953,13 @@
   "status": "ok",
   "issue": "Станция крафта для шлема, маски и ботинок на странице не указана. Русские названия деталей не сверены с ru-вики.",
   "hasDrop": false,
-  "isSet": true
+  "isSet": true,
+  "img": "images/sprites/armor/terraria%20-%20Shroomite%20armor.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Дар природы": {
   "en": "Nature's Gift",
@@ -1164,7 +1176,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Spooky%20armor.png",
   "imgFit": {
-   "z": 130,
+   "z": 140,
    "x": 0,
    "y": 0
   }
@@ -1958,7 +1970,13 @@
   "status": "ok",
   "issue": "Станция крафта для шлема и панциря на странице не указана. Русские названия деталей не сверены с ru-вики.",
   "hasDrop": false,
-  "isSet": true
+  "isSet": true,
+  "img": "images/sprites/armor/terraria%20-%20Fossil%20armor.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Терраискромётные Ботинки": {
   "en": "Terraspark Boots",
@@ -2828,7 +2846,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Meteor%20armor.png",
   "imgFit": {
-   "z": 130,
+   "z": 140,
    "x": 0,
    "y": 0
   }
@@ -3440,7 +3458,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Obsidian%20armor.png",
   "imgFit": {
-   "z": 130,
+   "z": 140,
    "x": 0,
    "y": 0
   }
@@ -3820,7 +3838,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Flinx%20Fur%20Coat.png",
   "imgFit": {
-   "z": 130,
+   "z": 140,
    "x": 0,
    "y": 0
   }
@@ -3910,7 +3928,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Spider%20armor.png",
   "imgFit": {
-   "z": 130,
+   "z": 141,
    "x": 0,
    "y": 0
   }
@@ -5274,7 +5292,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Spectre%20armor.png",
   "imgFit": {
-   "z": 171,
+   "z": 180,
    "x": 43,
    "y": 0
   }
@@ -6993,7 +7011,7 @@
   ],
   "img": "images/sprites/armor/terraria%20-%20Titanium%20armorM.png",
   "imgFit": {
-   "z": 130,
+   "z": 140,
    "x": 0,
    "y": 0
   }
@@ -7063,7 +7081,7 @@
   ],
   "img": "images/sprites/armor/terraria%20-%20Adamantite%20armorM.png",
   "imgFit": {
-   "z": 130,
+   "z": 140,
    "x": 0,
    "y": 0
   }
@@ -7133,7 +7151,7 @@
   ],
   "img": "images/sprites/armor/terraria%20-%20Hallowed%20armorM.png",
   "imgFit": {
-   "z": 130,
+   "z": 140,
    "x": 0,
    "y": 0
   }
@@ -7307,7 +7325,13 @@
      }
     ]
    }
-  ]
+  ],
+  "img": "images/sprites/armor/terraria%20-%20Adamantite%20armorS.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Титановая броня(С)": {
   "en": "Titanium armor",
@@ -7371,7 +7395,13 @@
      }
     ]
    }
-  ]
+  ],
+  "img": "images/sprites/armor/terraria%20-%20Titanium%20armorS.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Святая броня(С)": {
   "en": "Hallowed armor",
@@ -7435,7 +7465,13 @@
      }
     ]
    }
-  ]
+  ],
+  "img": "images/sprites/armor/terraria%20-%20Hallowed%20armorS.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Мушкет": {
   "en": " Musket",
