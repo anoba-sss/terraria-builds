@@ -163,7 +163,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Amazon.png",
+  "imgFit": {
+   "z": 135,
+   "x": 0,
+   "y": 0
+  }
  },
  "Анкх-щит": {
   "en": "Ankh Shield",
@@ -228,7 +234,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/v/terraria%20-%20Bananarang.png",
+  "imgFit": {
+   "z": 135,
+   "x": 0,
+   "y": 0
+  }
  },
  "Бластер феникса": {
   "en": "Phoenix Blaster",
@@ -640,7 +652,13 @@
   "obtain": "Лежит в багровом сундуке в Подземелье скелетрона , открывается багровым ключом после победы над Плантерой",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Vampire%20Knives.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Водная стрела": {
   "en": "Water Bolt",
@@ -763,7 +781,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Volcano.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Гильотины на цепях": {
   "en": "Chain Guillotines",
@@ -889,7 +913,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Количества ингредиентов на вики не указаны, принято 1 для каждого.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Night%20Edge.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Грибная броня": {
   "en": "Shroomite armor",
@@ -1295,7 +1325,13 @@
   "obtain": "можно найти в структуре «Святыня зачарованного меча», где нужно сломать объект «меч в камне», либо открывая «Титановый ящик» или «Золотой ящик»",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/v/terraria%20-%20Enchanted%20Sword.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Звериные когти": {
   "en": "Feral Claws",
@@ -1374,7 +1410,13 @@
   "obtain": "Меч, который можно найти только на парящих островах в Заоблачном сундуке или при открытии Небесного ящика",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/v/terraria%20-%20Starfury.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Звёздный свет": {
   "en": "Starlight",
@@ -2093,7 +2135,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20True%20Night%20Edge.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Калейдоскоп": {
   "en": "Kaleidoscope",
@@ -2125,7 +2173,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/v/terraria%20-%20Shadowflame%20Knife.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Книга мёртвых": {
   "en": "Book of Skulls",
@@ -2210,7 +2264,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Thorn%20Chakram.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Коса Смерти": {
   "en": "Death Sickle",
@@ -3059,7 +3119,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/v/terraria%20-%20Paladin%20Hammer.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Морозный хлыст": {
   "en": "Cool Whip",
@@ -3617,7 +3683,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Flamarang.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Ожерелье Пигмеев": {
   "en": "Pygmy Necklace",
@@ -4743,7 +4815,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Daybreak.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Рубиновый посох": {
   "en": "Ruby Staff",
@@ -5009,7 +5087,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Предположительно Light Disc (Святой диск)",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Light%20Disc.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Серый заринатор": {
   "en": "Gray Zapinator",
@@ -5225,7 +5309,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Solar%20Eruption.png",
+  "imgFit": {
+   "z": 115,
+   "x": 0,
+   "y": 0
+  }
  },
  "Спектральная броня": {
   "en": "Spectre armor",
@@ -5511,7 +5601,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Terra%20Blade.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Террапризма": {
   "en": "Terraprisma",
@@ -5639,7 +5735,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Blade%20of%20Grass.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Тёмная пика": {
   "en": "Dark Lance",
@@ -5649,7 +5751,13 @@
   "obtain": "Можно найти только в теневых сундуках в Аду ",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Dark%20Lance.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "УЗИ": {
   "en": "Uzi",
@@ -6566,7 +6674,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/v/terraria%20-%20Excalibur.png",
+  "imgFit": {
+   "z": 120,
+   "x": 0,
+   "y": 0
+  }
  },
  "Летающий дракон": {
   "en": "Flying Dragon",
@@ -6583,7 +6697,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/v/terraria%20-%20Flying%20Dragon.png",
+  "imgFit": {
+   "z": 140,
+   "x": 0,
+   "y": 0
+  }
  },
  "Спектральные ботинки": {
   "en": "Spectre Boots",
