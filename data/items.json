@@ -64,7 +64,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Adamantite%20armorV.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -83,7 +83,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/m/terraria%20-%20Inferno%20Fork.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Алмазный посох": {
   "en": "Diamond Staff",
@@ -126,7 +132,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/m/terraria%20-%20Diamond%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Амазония": {
   "en": "Amazon",
@@ -166,7 +178,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20Amazon.png",
   "imgFit": {
-   "z": 135,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -237,7 +249,7 @@
   "hasDrop": true,
   "img": "images/sprites/weapon/v/terraria%20-%20Bananarang.png",
   "imgFit": {
-   "z": 135,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -267,7 +279,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Количество Handgun на странице не указано, принято 1.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/s/terraria%20-%20Phoenix%20Blaster.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Блестящий красный шарик": {
   "en": "Shiny Red Balloon",
@@ -293,7 +311,13 @@
   "obtain": "Можно найти только на парящих островах в Заоблачном сундуке или при открытии Небесного ящика",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Shiny%20Red%20Balloon.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Боевой стол": {
   "en": "War Table",
@@ -334,7 +358,13 @@
   "obtain": "Находится в золотых сундуках под землёй , не крафтится.",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Hermes%20Boots.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Ботинки амфибии": {
   "en": "Amphibian Boots",
@@ -371,7 +401,13 @@
   "obtain": "Находится в золотых сундуках под землёй , не крафтится.",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Band%20of%20Regeneration.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Броня Жука (урон)": {
   "en": "Beetle armor",
@@ -453,7 +489,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Beetle%20armor-.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -655,7 +691,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20Vampire%20Knives.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -727,7 +763,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/m/terraria%20-%20Magical%20Harp.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Волшебный стол": {
   "en": "Bewitching Table",
@@ -737,7 +779,13 @@
   "obtain": "Продаётся у Шамана за 10 золота в хардмоде (при наличии Волшебника); также встречается в Подземелье",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Bewitching%20Table.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Пламя туманности": {
   "en": "Nebula Blaze",
@@ -759,7 +807,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/m/terraria%20-%20Nebula%20Blaze.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Вулкан": {
   "en": "Volcano",
@@ -784,7 +838,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20Volcano.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -916,7 +970,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20Night%20Edge.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -999,7 +1053,13 @@
   "obtain": "Не крафтится и не выпадает. Срывается с редкого цветка, растущего на траве в Подземных джунглях, любым оружием или инструментом.",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Nature%27s%20Gift.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Демоническая коса": {
   "en": "Demon Scythe",
@@ -1020,7 +1080,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/m/terraria%20-%20Demon%20Scythe.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Демонический лук": {
   "en": "Demon Bow",
@@ -1064,7 +1130,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/p/terraria%20-%20Durendal.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Жезл ауры": {
   "en": "Lightning Aura Rod",
@@ -1096,7 +1168,13 @@
   "obtain": "Покупается у Трактирщика за 5 медалей защитника",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/p/terraria%20-%20Ballista%20Rod.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Жуткая броня": {
   "en": "Spooky armor",
@@ -1188,7 +1266,13 @@
   "status": "ok",
   "issue": "",
   "hasDrop": true,
-  "description": ""
+  "description": "",
+  "img": "images/sprites/weapon/s/terraria%20-%20Clockwork%20Assault%20Rifle.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Замороженный щит": {
   "en": "Frozen Shield",
@@ -1215,7 +1299,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Frozen%20Shield.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Заряженная пушка бластера": {
   "en": "Charged Blaster Cannon",
@@ -1285,7 +1375,7 @@
   "hasDrop": true,
   "img": "images/sprites/weapon/v/terraria%20-%20Enchanted%20Sword.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -1298,7 +1388,13 @@
   "obtain": "можно найти в Плющевом(Джунглевом) сундуке в джунглевых пещерах ",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Feral%20Claws.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Звёздный мотив": {
   "en": "Stellar Tune",
@@ -1314,7 +1410,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/m/terraria%20-%20Stellar%20Tune.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Звёздная пушка": {
   "en": "Star Cannon",
@@ -1370,7 +1472,7 @@
   "hasDrop": true,
   "img": "images/sprites/weapon/v/terraria%20-%20Starfury.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -1426,7 +1528,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Endurance%20Potion.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Зелье железной кожи": {
   "en": "Ironskin Potion",
@@ -1479,7 +1587,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Станция и количества на странице не указаны, приняты по умолчанию.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Ironskin%20Potion.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Зелье лучника": {
   "en": "Archery Potion",
@@ -1511,7 +1625,13 @@
   "obtain": "Выпадает из горшков и золотых сундуков (под землей около 9,5%, в пещерах около 11%)",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Archery%20Potion.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Зелье магической силы": {
   "en": "Magic Power Potion",
@@ -1559,7 +1679,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/bufs/terraria%20-%20Magic%20Power%20Potion.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Зелье маны": {
   "en": "Mana Potion",
@@ -1618,7 +1744,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Summoning%20Potion.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Зелье регенерации": {
   "en": "Regeneration",
@@ -1650,7 +1782,13 @@
   "obtain": "Из золотых сундуков в подземных слоях (около 9.52%), также из горшков и сундуков",
   "status": "ok",
   "issue": "Количества ингредиентов на вики не указаны, принято 1.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Regeneration%20Potion.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Зелье регенерации маны": {
   "en": "Mana Regeneration Potion",
@@ -1687,7 +1825,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Mana%20Regeneration%20Potion.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Зелье скорости": {
   "en": "Swiftness Potion",
@@ -1745,7 +1889,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/bufs/terraria%20-%20Swiftness%20Potion.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Зелье экономии боеприпасов": {
   "en": "Ammo Reservation Potion",
@@ -1777,7 +1927,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Станция и количества на странице не указаны, приняты по умолчанию.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Ammo%20Reservation%20Potion.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Золотая броня": {
   "en": "Gold armor",
@@ -1844,7 +2000,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Gold%20armor.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -2002,7 +2158,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Terraspark%20Boots.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Терраискромётные ботинки": {
   "en": "Terraspark Boots",
@@ -2029,7 +2191,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Terraspark%20Boots.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Истинная Грань Ночи": {
   "en": "True Night's Edge",
@@ -2095,7 +2263,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20True%20Night%20Edge.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -2114,7 +2282,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/p/terraria%20-%20Kaleidoscope.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Кинжал теневого пламени": {
   "en": "Shadowflame Knife",
@@ -2224,7 +2398,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20Thorn%20Chakram.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -2265,7 +2439,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/m/terraria%20-%20Space%20Gun.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Кристальный змей": {
   "en": "Crystal Serpent",
@@ -2285,7 +2465,13 @@
   "obtain": "Покупается у Волшебника за 10 золота",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Crystal%20Ball.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Крылья Рыброна": {
   "en": "Fishron Wings",
@@ -2301,7 +2487,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Fishron%20Wings.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Крылья бабочки": {
   "en": "Wings",
@@ -2328,7 +2520,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Butterfly%20Wings.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Крылья императрицы": {
   "en": "Empress Wings",
@@ -2371,7 +2569,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Bat%20Wings.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Крылья стимпанка": {
   "en": "Steampunk Wings",
@@ -2408,7 +2612,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Fairy%20Wings.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Ксенопосох": {
   "en": "Xeno Staff",
@@ -2424,7 +2634,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/p/terraria%20-%20Xeno%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Ксенопушка": {
   "en": "Xenopopper",
@@ -2440,7 +2656,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/s/terraria%20-%20Xenopopper.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Лазерная пушка": {
   "en": "Laser Rifle",
@@ -2519,7 +2741,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Frozen%20Wings.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Литая броня": {
   "en": "Molten armor",
@@ -2586,7 +2814,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Molten%20armor.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -2627,7 +2855,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/s/terraria%20-%20Daedalus%20Stormbow.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Лука плоти": {
   "en": "",
@@ -2749,7 +2983,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Magiluminescence.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Магический колчан": {
   "en": "Magic Quiver",
@@ -2765,7 +3005,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Magic%20Quiver.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Магический снаряд": {
   "en": "Magic Missile",
@@ -2796,7 +3042,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Предмет с таким названием не найден в Terraria, возможно, название ошибочное",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/s/terraria%20-%20Megashark.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Метеоритная броня": {
   "en": "Meteor armor",
@@ -2898,7 +3150,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/m/terraria%20-%20Meteor%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Механическая перчатка": {
   "en": "Mechanical Glove",
@@ -2918,7 +3176,13 @@
   "obtain": "Покупается у Оружейника за 35 золота",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/s/terraria%20-%20Minishark.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Мифриловая броня": {
   "en": "Mythril armor",
@@ -3028,7 +3292,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Brain%20of%20Confusion.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Молниеносные ботинки": {
   "en": "Lightning Boots",
@@ -3060,7 +3330,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Lightning%20Boots.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Молот Паладина": {
   "en": "Paladin's Hammer",
@@ -3079,7 +3355,7 @@
   "hasDrop": true,
   "img": "images/sprites/weapon/v/terraria%20-%20Paladin%20Hammer.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -3114,7 +3390,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/p/terraria%20-%20Cold%20Whip.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Морозный щит": {
   "en": "Frozen Shield",
@@ -3141,7 +3423,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Количества на странице не указаны, приняты 1.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Frozen%20Shield.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Небесная ракушка": {
   "en": "Celestial Shell",
@@ -3168,7 +3456,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Celestial%20Shell.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Небесная эмблема": {
   "en": "Celestial Emblem",
@@ -3195,7 +3489,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Celestial%20Emblem.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Небесные наручники": {
   "en": "Celestial Cuffs",
@@ -3222,7 +3522,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Celestial%20Cuffs.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Небесный магнит": {
   "en": "Celestial Magnet",
@@ -3280,7 +3586,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/m/terraria%20-%20Sky%20Fracture.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Ночное сияние": {
   "en": "Nightglow",
@@ -3311,7 +3623,13 @@
   "obtain": "Находится в золотых сундуках под землёй , не крафтится.",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Cloud%20in%20a%20Bottle.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Обрез": {
   "en": "Boomstick",
@@ -3321,7 +3639,13 @@
   "obtain": "Можно найти в подземных джунглях в джунглевых сундуках",
   "status": "ok",
   "issue": "Предмет Sawed-Off Shotgun в Terraria не найден; соответствие с Boomstick предположительное.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/s/terraria%20-%20Boomstick.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Обсидиановая броня": {
   "en": "Obsidian armor",
@@ -3511,7 +3835,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Obsidian%20Shield.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Огнемёт": {
   "en": "Flamethrower",
@@ -3543,7 +3873,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/s/terraria%20-%20Flamethrower.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Огненная рукавица": {
   "en": "Fire Gauntlet",
@@ -3570,7 +3906,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Количества на вики не указаны, принято 1.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Fire%20Gauntlet.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Огненный лук": {
   "en": "Molten Fury",
@@ -3643,7 +3985,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20Flamarang.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -3683,7 +4025,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Количества на вики не указаны, принято 1.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Stinger%20Necklace.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Ожерелье из акульих зубов": {
   "en": "Shark Tooth Necklace",
@@ -3704,7 +4052,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Shark%20Tooth%20Necklace.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Ожерелье тики": {
   "en": " Pygmy Necklace",
@@ -3714,7 +4068,13 @@
   "obtain": "Можно купить у Знахаря ночью за 20 золотых монет",
   "status": "ok",
   "issue": "Ожерелье с таким названием в Terraria не найдено; на странице Tiki есть Tiki Totem и Tiki armor, но не ожерелье",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Pygmy%20Necklace.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Ониксовый бластер": {
   "en": "Onyx Blaster",
@@ -3746,7 +4106,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/s/terraria%20-%20Onyx%20Blaster.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Оптический посох": {
   "en": "Optic Staff",
@@ -3783,7 +4149,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/p/terraria%20-%20Optic%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Очарование мифов": {
   "en": "Charm of Myths",
@@ -3810,7 +4182,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Charm%20of%20Myths.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Шуба флинкса": {
   "en": "Flinx Fur Coat",
@@ -3987,7 +4365,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Berserker%27s%20Glove.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Песчаная буря в бутылке": {
   "en": "Sandstorm in a Bottle",
@@ -4051,7 +4435,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/p/terraria%20-%20Firecracker.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Плавниковые ботинки": {
   "en": "Amphibian Boots",
@@ -4145,7 +4535,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Platinum%20armor.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -4249,7 +4639,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/m/terraria%20-%20Vilethorn.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Посох баллисты": {
   "en": "Ballista Rod",
@@ -4293,7 +4689,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/p/terraria%20-%20Imp%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Посох вампира-лягушки": {
   "en": "Vampire Frog Staff",
@@ -4330,7 +4732,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/p/terraria%20-%20Raven%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Посох заморозки": {
   "en": "Frost Staff",
@@ -4373,7 +4781,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/p/terraria%20-%20Stardust%20Dragon%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Посох кинжалов": {
   "en": "Blade Staff",
@@ -4410,7 +4824,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/p/terraria%20-%20Sanguine%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Посох теневого луча": {
   "en": "Shadowbeam Staff",
@@ -4436,7 +4856,13 @@
   "obtain": "Лежит в сундуке пустыни в Подземелье Скелетрона (100%); сундук открывается ключом пустыни после победы над Плантерой",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/p/terraria%20-%20Desert%20Tiger%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Посох туч": {
   "en": "Tempest Staff",
@@ -4506,7 +4932,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/p/terraria%20-%20Flinx%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Посох цеплятеля": {
   "en": "",
@@ -4558,7 +4990,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/s/terraria%20-%20Chain%20Gun.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Пурпурный дождь": {
   "en": "",
@@ -4590,7 +5028,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/s/terraria%20-%20Vortex%20Beater.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Пчеломёт": {
   "en": "Bee Gun",
@@ -4611,7 +5055,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/m/terraria%20-%20Bee%20Gun.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Пчелиный лук": {
   "en": "The Bee's Knees",
@@ -4627,7 +5077,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/s/terraria%20-%20The%20Bee%27s%20Knees.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Пчелонаты": {
   "en": "Beenade",
@@ -4707,7 +5163,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/m/terraria%20-%20Rainbow%20Rod.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Разведывательный прицел": {
   "en": "Recon Scope",
@@ -4734,7 +5196,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Количества на странице не указаны, приняты 1.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Recon%20Scope.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Ракетница снеговика": {
   "en": "Snowman Cannon",
@@ -4805,7 +5273,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/m/terraria%20-%20Ruby%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Рюкзак-улей": {
   "en": "Hive Pack",
@@ -4821,7 +5295,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Hive%20Pack.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Сапоги Гермеса": {
   "en": "Hermes Boots",
@@ -4852,7 +5332,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Hermes%20Boots.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Светящийся огонёк": {
   "en": "",
@@ -4878,7 +5364,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Necromantic%20Scroll.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Свиток скарабея": {
   "en": "Papyrus Scarab",
@@ -4905,7 +5397,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Papyrus%20Scarab.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Связка шаров с подковой": {
   "en": "Bundle of Horseshoe Balloons",
@@ -4942,7 +5440,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Количества на вики не указаны (принято 1); вариантов рецепта несколько, показаны три.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Bundle%20of%20Horseshoe%20Balloons.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Святая броня(В)": {
   "en": "Hallowed armor",
@@ -5009,7 +5513,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Hallowed%20armorV.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -5066,7 +5570,13 @@
   "obtain": "Покупается у Странствующего торговца за 17 золота после победы над одним из боссов (Король слизней, Глаз Ктулху, Пожиратель миров, Мозг Ктулху, Королева пчёл, Циклоп-олень, Скелетрон)",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/m/terraria%20-%20Gray%20Zapinator.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Снайперская винтовка": {
   "en": "Sniper Rifle",
@@ -5109,7 +5619,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Sniper%20Scope.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Снаряжение лягушки": {
   "en": "Frog Gear",
@@ -5178,7 +5694,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Master%20Ninja%20Gear.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Снежковая пушка": {
   "en": "Snowball Launcher",
@@ -5269,7 +5791,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20Solar%20Eruption.png",
   "imgFit": {
-   "z": 115,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -5358,7 +5880,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/m/terraria%20-%20Spectre%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Люмбальная пункция": {
   "en": "Spinal Tap",
@@ -5474,7 +6002,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Предмет с таким названием в Terraria Wiki не найден",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/m/terraria%20-%20Razorblade%20Typhoon.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Тактический дробовик": {
   "en": "Tactical Shotgun",
@@ -5490,7 +6024,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/s/terraria%20-%20Tactical%20Shotgun.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Темная винтовка": {
   "en": "",
@@ -5516,7 +6056,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/p/terraria%20-%20Dark%20Harvest.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Темный пистолет": {
   "en": "",
@@ -5561,7 +6107,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20Terra%20Blade.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -5580,7 +6126,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/p/terraria%20-%20Terraprisma.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Титановая броня(В)": {
   "en": "Titanium armor",
@@ -5647,7 +6199,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Titanium%20armorV.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -5660,7 +6212,13 @@
   "obtain": "Встречается в подземных разрушенных домах ; в хардмоде продаётся Торговцем за 10 золота",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Sharpening%20Station.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Травяной клинок": {
   "en": "Blade of Grass",
@@ -5695,7 +6253,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20Blade%20of%20Grass.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -5711,7 +6269,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20Dark%20Lance.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -5730,7 +6288,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/s/terraria%20-%20Uzi.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Удар молнии": {
   "en": "Lightning Strike",
@@ -5788,7 +6352,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/p/terraria%20-%20Morning%20Star.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Фантазм": {
   "en": "Phantasm",
@@ -5810,7 +6380,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/s/terraria%20-%20Phantasm.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Флаконы ихора": {
   "en": "Flask of Ichor",
@@ -5837,7 +6413,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Во входных данных два предмета (Флакон ихора и Флакон проклятого пламени); здесь описан только Флакон ихора. Количество воды на вики не указано, принято 1.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Flask%20of%20Ichor.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Флаконы огня": {
   "en": "Flasks",
@@ -5864,7 +6446,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Flask%20of%20Fire.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Фокспаркс": {
   "en": "Foxparks",
@@ -5874,7 +6462,13 @@
   "obtain": "Не выпадает из врагов: редкий 'истощённый' Foxparks появляется днём на поверхностной траве, в джунглях или на снегу (вне Кладбища) рядом с двумя Goblin Archer; подойдите к нему после их убийства",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/p/terraria%20-%20Foxparks.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Фолиант бесконечной мудрости": {
   "en": "Tome of Infinite Wisdom",
@@ -6027,7 +6621,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/s/terraria%20-%20Chlorophyte%20Shotbow.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Цветок Эбигейла": {
   "en": "Abigail's Flower",
@@ -6037,7 +6637,13 @@
   "obtain": "Растёт на траве рядом с установленным надгробием; не выпадает и не крафтится.",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/p/terraria%20-%20Abigail%27s%20Flower.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Цветок маны": {
   "en": "Mana Flower",
@@ -6111,7 +6717,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/s/terraria%20-%20Tsunami.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Черепашья броня": {
   "en": "Turtle armor",
@@ -6193,7 +6805,7 @@
   "isSet": true,
   "img": "images/sprites/armor/terraria%20-%20Turtle%20armor.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -6233,7 +6845,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Worm%20Scarf.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Шипастый шар": {
   "en": "Spiky Ball",
@@ -6285,7 +6903,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/p/terraria%20-%20Snapthorn.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Щит Ктулху": {
   "en": "Shield of Cthulhu",
@@ -6301,7 +6925,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Shield%20of%20Cthulhu.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Щит оруженосца": {
   "en": "Squire's Shield",
@@ -6339,7 +6969,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Warrior%20Emblem.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Эмблема мага": {
   "en": "Sorcerer Emblem",
@@ -6355,7 +6991,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "Предположительно Sorcerer Emblem (Эмблема мага); рецепт и источник не найдены",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Sorcerer%20Emblem.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Эмблема мстителя": {
   "en": "Avenger Emblem",
@@ -6444,7 +7086,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "На странице 4 варианта рецепта, указаны первые 3.",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Avenger%20Emblem.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Эмблема призывателя": {
   "en": "Summoner Emblem",
@@ -6465,7 +7113,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Summoner%20Emblem.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Эмблема стрелка": {
   "en": "Ranger Emblem",
@@ -6486,7 +7140,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/accessories/terraria%20-%20Ranger%20Emblem.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Посох яда": {
   "en": "Venom Staff",
@@ -6513,7 +7173,13 @@
   "obtain": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/m/terraria%20-%20Venom%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Ящик с боеприпасами": {
   "en": "Ammo Box",
@@ -6523,7 +7189,13 @@
   "obtain": "Покупается у Оружейника за 10 золота в хардмоде",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Ammo%20Box.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Броня Жука (броня)": {
   "en": "Beetle armor",
@@ -6605,7 +7277,7 @@
   ],
   "img": "images/sprites/armor/terraria%20-%20Beetle%20armor%2B.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -6634,7 +7306,7 @@
   "hasDrop": false,
   "img": "images/sprites/weapon/v/terraria%20-%20Excalibur.png",
   "imgFit": {
-   "z": 120,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -6657,7 +7329,7 @@
   "hasDrop": true,
   "img": "images/sprites/weapon/v/terraria%20-%20Flying%20Dragon.png",
   "imgFit": {
-   "z": 140,
+   "z": 130,
    "x": 0,
    "y": 0
   }
@@ -6736,7 +7408,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Spectre%20Boots.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Облако в шарике": {
   "en": "Cloud in a Balloon",
@@ -6764,7 +7442,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Cloud%20in%20a%20Balloon.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Флакон Яда": {
   "en": "Flask of Poison",
@@ -6792,7 +7476,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Flask%20of%20Poison.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "флакон проклятого пламени": {
   "en": "Flask of Cursed Flames",
@@ -6820,7 +7510,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/bufs/terraria%20-%20Flask%20of%20Cursed%20Flames.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Любая роба": {
   "en": "Any robe",
@@ -7010,7 +7706,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": true
+  "hasDrop": true,
+  "img": "images/sprites/weapon/m/terraria%20-%20Crimson%20Rod.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Огнеплеть": {
   "en": "Flamelash",
@@ -7021,7 +7723,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/m/terraria%20-%20Flamelash.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Титановая броня(М)": {
   "en": "",
@@ -7259,7 +7967,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Magic%20Cuffs.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Браслет восстановления маны": {
   "en": "Mana Regeneration Band",
@@ -7287,7 +8001,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Mana%20Regeneration%20Band.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Загадочный цветок": {
   "en": "Arcane Flower",
@@ -7315,7 +8035,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Arcane%20Flower.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Паучий посох": {
   "en": "Spider Staff",
@@ -7338,7 +8064,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/p/terraria%20-%20Spider%20Staff.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Адамантитовая броня(С)": {
   "en": "Adamantite armor",
@@ -7559,7 +8291,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/s/terraria%20-%20Musket.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Гробовщик": {
   "en": " The Undertaker",
@@ -7570,7 +8308,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/weapon/s/terraria%20-%20The%20Undertaker.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "любой аксессуар на ваш выбор": {
   "en": "",
@@ -7592,7 +8336,13 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Stalker%27s%20Quiver.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  },
  "Расплавленный колчан": {
   "en": "",
@@ -7614,6 +8364,12 @@
   "description": "",
   "status": "ok",
   "issue": "",
-  "hasDrop": false
+  "hasDrop": false,
+  "img": "images/sprites/accessories/terraria%20-%20Phoenix%20Quiver.png",
+  "imgFit": {
+   "z": 130,
+   "x": 0,
+   "y": 0
+  }
  }
 }
