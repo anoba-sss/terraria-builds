@@ -1,0 +1,15 @@
+# Terraria Builds
+
+> Справочник билдов для подготовки к боссам Terraria: броня, оружие, аксессуары и баффы по классам (воин, маг, призыватель, стрелок), с рецептами и информацией о дропе. Фанатский проект, не связан с Re-Logic.
+
+Основная страница: https://anoba-sss.github.io/terraria-builds/
+
+## Разделы
+
+- [Билды по классам](https://anoba-sss.github.io/terraria-builds/): выбор класса, босса и предметов для подготовки.
+- [Исходный код и данные](https://github.com/anoba-sss/terraria-builds): данные в формате JSON (builds.json, items.json).
+
+## Источники
+
+- [Terraria Wiki (wiki.gg)](https://terraria.wiki.gg/ru/): основные данные и рецепты.
+- [Террария вики (Fandom)](https://terraria-game.fandom.com/ru/wiki/): русские названия и дополнительные сведения.

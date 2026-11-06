@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anoba-sss.github.io/terraria-builds/sitemap.xml
