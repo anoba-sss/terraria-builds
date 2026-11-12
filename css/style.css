@@ -703,3 +703,8 @@ body.px .modal-head, body.px .modal-body { background: transparent; }
   border: 2px dashed var(--line); border-radius: 0; padding: 4px; cursor: pointer;
 }
 .flag-add:hover { border-color: var(--cls); }
+
+/* Текст для поисковых роботов и на время загрузки скриптов (заменяется приложением) */
+.seo-fallback { max-width: 760px; margin: 24px auto; padding: 0 16px; line-height: 1.6; }
+.seo-fallback h1 { font-size: 1.6rem; margin: 0 0 12px; }
+.seo-fallback ul { padding-left: 1.2em; }
