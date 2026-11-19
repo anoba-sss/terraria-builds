@@ -1921,6 +1921,7 @@
   }
   $('#design-btn').addEventListener('click', () => { if (DZ.open) closeDesigner(); else openDesigner(); });
   $('#design-btn').hidden = !EDIT;
+  window.tbMod = { reload: () => loadAll().then(() => { DIRTY = false; renderSaveBar(); }), dirty: () => DIRTY };
   applySite();   // сразу применяем сохранённое в браузере оформление, чтобы страница не мигала
   loadAll().catch(err => {
     $('#app').replaceChildren(el('p', { class: 'empty', text: 'Не удалось загрузить данные. Открой сайт через локальный сервер или GitHub Pages.' }));
